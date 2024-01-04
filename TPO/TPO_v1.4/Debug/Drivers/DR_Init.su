@@ -1,0 +1,3 @@
+../Drivers/DR_Init.c:7:6:InitHw	8	static
+../Drivers/DR_Init.c:18:6:InitGPIO	8	static
+../Drivers/DR_Init.c:32:6:InitPLL	8	static

@@ -1,0 +1,8 @@
+JustDanceMDE_func.c:14:9:Puntaje	32	static
+JustDanceMDE_func.c:47:6:Puntaje_restar	8	static
+JustDanceMDE_func.c:58:6:EnviarStart	64	static
+JustDanceMDE_func.c:80:6:EnviarDatos	136	static
+JustDanceMDE_func.c:142:6:my_revstr	32	static
+JustDanceMDE_func.c:161:6:my_strcat	24	static
+JustDanceMDE_func.c:179:9:my_strlen	24	static
+JustDanceMDE_func.c:190:6:InitArchivoMusica	16	static

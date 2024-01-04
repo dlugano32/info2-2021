@@ -1,0 +1,16 @@
+valor=0xFEDCBA21;
+
+op1
+resultado=valor & 0xFFFF; -->resultado=0xBA21
+
+op2
+resultado=valor | 0xFFFF; -->resultado=0xFFFF
+
+op3
+resultado=valor>>4;	-->resultado=0xFFF
+
+op4
+resultado|= (1<<2);	--> resultado=0xFFF
+
+op5
+resultado&= ~(1<<2);	-->resultado=0xFF1011=0xFFB

@@ -1,0 +1,4 @@
+PR_UART.c:9:6:TxSerie0	24	static
+PR_UART.c:18:9:RxSerie0	8	static
+PR_UART.c:23:9:RxSerie1	8	static
+PR_UART.c:29:6:TxSerie1	24	static

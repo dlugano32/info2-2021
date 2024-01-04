@@ -1,0 +1,3 @@
+Systick.c:6:6:SysTick_Handler	8	static
+Systick.c:11:6:AnalizarTimers	16	static
+Systick.c:32:6:InitSystick	8	static

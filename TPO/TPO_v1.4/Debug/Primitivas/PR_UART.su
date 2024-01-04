@@ -1,0 +1,3 @@
+../Primitivas/PR_UART.c:9:9:RxSerie1	8	static
+../Primitivas/PR_UART.c:14:6:LimpiarBufferRx1	16	static
+../Primitivas/PR_UART.c:25:6:TxSerie1	24	static

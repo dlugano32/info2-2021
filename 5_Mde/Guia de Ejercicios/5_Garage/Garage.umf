@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<proyecto>
+    <general>
+        <nombre>Garage</nombre>
+        <autores/>
+        <creacion>20-07-2021 15:03:33</creacion>
+        <modificacion>21-07-2021 18:09:04</modificacion>
+        <carpeta>/home/d_lugano/infoII/5_Mde/Guia de Ejercicios/5_Garage</carpeta>
+    </general>
+    <configuracion>
+        <hardware/>
+        <target/>
+    </configuracion>
+    <recursos>
+        <archivosC/>
+        <archivosH/>
+    </recursos>
+    <maquinas>
+        <maquina0>
+            <nombre>GarageMde</nombre>
+            <estadoInicial>
+                <pos_x>-1188</pos_x>
+                <pos_y>-526.5</pos_y>
+                <idAcciones>auto = 0,stage = 0</idAcciones>
+                <idProxEstado>estado0</idProxEstado>
+                <midPos>-1047,-479</midPos>
+                <textPos>-220,-41</textPos>
+            </estadoInicial>
+            <estado0>
+                <diagrama>
+                    <nombre>StandBy</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-935</pos_x>
+                    <pos_y>-479</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>s_SensorEntrada &amp;&amp; !s_SensorSalida</idEvento>
+                        <idAcciones>stage += 1</idAcciones>
+                        <idProxEstado>estado1</idProxEstado>
+                        <midPos>-969,-683</midPos>
+                        <textPos>-154.25,-28</textPos>
+                    </tr0>
+                    <tr1>
+                        <idEvento>!s_SensorEntrada &amp;&amp; s_SensorSalida</idEvento>
+                        <idAcciones>stage -= 1</idAcciones>
+                        <idProxEstado>estado3</idProxEstado>
+                        <midPos>-919,-390</midPos>
+                        <textPos>10,-42</textPos>
+                    </tr1>
+                </transiciones>
+            </estado0>
+            <estado1>
+                <diagrama>
+                    <nombre>Obst_entrada</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-693</pos_x>
+                    <pos_y>-586</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>s_SensorEntrada &amp;&amp; s_SensorSalida</idEvento>
+                        <idAcciones>stage += 1</idAcciones>
+                        <idProxEstado>estado2</idProxEstado>
+                        <midPos>-407,-656</midPos>
+                        <textPos>-136,-39</textPos>
+                    </tr0>
+                    <tr1>
+                        <idEvento>!s_SensorEntrada &amp;&amp; !s_SensorSalida &amp;&amp; stage == -3</idEvento>
+                        <idAcciones>auto -= 1,stage = 0</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-879,-585</midPos>
+                        <textPos>-332,-48</textPos>
+                    </tr1>
+                </transiciones>
+            </estado1>
+            <estado2>
+                <diagrama>
+                    <nombre>Obstruccion</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-478</pos_x>
+                    <pos_y>-486</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>s_SensorSalida &amp;&amp; !s_SensorEntrada</idEvento>
+                        <idAcciones>stage += 1</idAcciones>
+                        <idProxEstado>estado3</idProxEstado>
+                        <midPos>-392,-322</midPos>
+                        <textPos>-77,-51</textPos>
+                    </tr0>
+                    <tr1>
+                        <idEvento>s_SensorEntrada &amp;&amp; !s_SensorSalida</idEvento>
+                        <idAcciones>stage -= 1</idAcciones>
+                        <idProxEstado>estado1</idProxEstado>
+                        <midPos>-527,-565</midPos>
+                        <textPos>-44.6875,-53</textPos>
+                    </tr1>
+                </transiciones>
+            </estado2>
+            <estado3>
+                <diagrama>
+                    <nombre>obst_salida</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-701</pos_x>
+                    <pos_y>-357</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>!s_SensorEntrada &amp;&amp; !s_SensorSalida &amp;&amp; stage == 3</idEvento>
+                        <idAcciones>auto += 1,stage = 0</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-1041,-320</midPos>
+                        <textPos>-189.5,8</textPos>
+                    </tr0>
+                    <tr1>
+                        <idEvento>s_SensorEntrada &amp;&amp; s_SensorSalida</idEvento>
+                        <idAcciones>stage -= 1</idAcciones>
+                        <idProxEstado>estado2</idProxEstado>
+                        <midPos>-510,-381</midPos>
+                        <textPos>-64.875,-55</textPos>
+                    </tr1>
+                </transiciones>
+            </estado3>
+        </maquina0>
+        <maquina1>
+            <nombre>AlarmaMde</nombre>
+            <estadoInicial>
+                <pos_x>-904</pos_x>
+                <pos_y>-173.5</pos_y>
+                <idAcciones>m_SirenaOff(),m_StopT0()</idAcciones>
+                <idProxEstado>estado1</idProxEstado>
+                <midPos>-852,-186</midPos>
+                <textPos>13,-10</textPos>
+            </estadoInicial>
+            <estado0>
+                <diagrama>
+                    <nombre>Encendida</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-814</pos_x>
+                    <pos_y>-568</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>s_libre</idEvento>
+                        <idAcciones>m_IniciarT0_10s()</idAcciones>
+                        <idProxEstado>estado2</idProxEstado>
+                        <midPos>-668.5,-526.9</midPos>
+                        <textPos>0,-42</textPos>
+                    </tr0>
+                </transiciones>
+            </estado0>
+            <estado1>
+                <diagrama>
+                    <nombre>Apagada</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-815</pos_x>
+                    <pos_y>-260</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>s_obstruccion</idEvento>
+                        <idAcciones>m_SirenaON()</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-882,-414</midPos>
+                        <textPos>-139.75,-12</textPos>
+                    </tr0>
+                </transiciones>
+            </estado1>
+            <estado2>
+                <diagrama>
+                    <nombre>Apagandose</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-625</pos_x>
+                    <pos_y>-436</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>flagT0 == 1</idEvento>
+                        <idAcciones>flagT0 = 0,m_SirenaOff()</idAcciones>
+                        <idProxEstado>estado1</idProxEstado>
+                        <midPos>-665.2,-320</midPos>
+                        <textPos>0,0</textPos>
+                    </tr0>
+                </transiciones>
+            </estado2>
+        </maquina1>
+    </maquinas>
+    <eventos>
+        <ev0>s_SensorEntrada</ev0>
+        <ev1>s_SensorSalida</ev1>
+        <ev2>s_libre</ev2>
+        <ev3>s_obstruccion</ev3>
+    </eventos>
+    <acciones>
+        <acc0>m_AlarmaMde()</acc0>
+        <acc1>m_SirenaON()</acc1>
+        <acc2>m_SirenaOff()</acc2>
+        <acc3>m_IniciarT0_10s()</acc3>
+        <acc4>m_StopT0()</acc4>
+    </acciones>
+    <variables>
+        <var0>auto</var0>
+        <var1>flagT0</var1>
+        <var2>stage</var2>
+    </variables>
+    <constantes>
+        <cons0>TRUE,1</cons0>
+        <cons1>FALSE,0</cons1>
+        <cons2>ON,1</cons2>
+        <cons3>OFF,0</cons3>
+    </constantes>
+    <comentarios/>
+</proyecto>

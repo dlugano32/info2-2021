@@ -1,0 +1,4 @@
+PR_Leds.c:12:6:LED_OFF	16	static
+PR_Leds.c:17:6:LED_ON	16	static
+PR_Leds.c:22:6:SwapEstadoLed	16	static
+PR_Leds.c:31:6:Leds	16	static

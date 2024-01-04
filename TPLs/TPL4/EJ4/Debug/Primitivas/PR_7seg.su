@@ -1,0 +1,3 @@
+PR_7seg.c:12:6:Display	32	static
+PR_7seg.c:40:6:Display_mas	16	static
+PR_7seg.c:52:6:Display_menos	16	static

@@ -1,0 +1,12 @@
+DR_UART.c:27:6:InitUART0	8	static
+DR_UART.c:64:6:InitUART1	8	static
+DR_UART.c:103:6:UART0_IRQHandler	16	static
+DR_UART.c:126:6:UART1_IRQHandler	16	static
+DR_UART.c:150:6:PushRx0	16	static
+DR_UART.c:157:9:PopRx0	16	static
+DR_UART.c:171:6:PushTx0	16	static
+DR_UART.c:180:9:PopTx0	16	static
+DR_UART.c:194:6:PushTx1	16	static
+DR_UART.c:203:9:PopTx1	16	static
+DR_UART.c:217:6:PushRx1	16	static
+DR_UART.c:224:9:PopRx1	16	static

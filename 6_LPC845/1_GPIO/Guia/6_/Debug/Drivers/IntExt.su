@@ -1,0 +1,2 @@
+IntExt.c:12:6:InitIntExt	8	static
+IntExt.c:28:6:PININT0_IRQHandler	8	static

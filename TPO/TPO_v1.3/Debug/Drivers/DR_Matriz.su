@@ -1,0 +1,12 @@
+DR_Matriz.c:9:6:pinsConfig	8	static
+DR_Matriz.c:28:6:CLK_Up	8	static
+DR_Matriz.c:32:6:CLK_Down	8	static
+DR_Matriz.c:36:6:LOAD_Up	8	static
+DR_Matriz.c:40:6:LOAD_Down	8	static
+DR_Matriz.c:45:6:matrixInit	16	static
+DR_Matriz.c:92:6:test1	16	static
+DR_Matriz.c:105:6:test2	16	static
+DR_Matriz.c:123:6:cleanAll	16	static
+DR_Matriz.c:139:6:showAll	16	static
+DR_Matriz.c:156:6:sendAddress	24	static
+DR_Matriz.c:187:6:sendData	24	static

@@ -1,0 +1,2 @@
+PR_USART.c:11:6:TxSerie	32	static
+PR_USART.c:21:6:EnviarTrama	24	static

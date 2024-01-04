@@ -1,0 +1,663 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                              ./Aplicacion/cr_startup_lpc84x.o (__main)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc ./Primitivas/Leds.o
+ .group         0x0000000000000000        0xc ./Primitivas/Leds.o
+ .group         0x0000000000000000        0xc ./Primitivas/Leds.o
+ .text          0x0000000000000000        0x0 ./Primitivas/Leds.o
+ .data          0x0000000000000000        0x0 ./Primitivas/Leds.o
+ .bss           0x0000000000000000        0x0 ./Primitivas/Leds.o
+ .text.SwapEstadoLed
+                0x0000000000000000       0x32 ./Primitivas/Leds.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .text          0x0000000000000000        0x0 ./Primitivas/TImer.o
+ .data          0x0000000000000000        0x0 ./Primitivas/TImer.o
+ .bss           0x0000000000000000        0x0 ./Primitivas/TImer.o
+ .bss.flagT2    0x0000000000000000        0x1 ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000000      0xa96 ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000000      0x25f ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/Tecla.o
+ .group         0x0000000000000000        0xc ./Primitivas/Tecla.o
+ .text          0x0000000000000000        0x0 ./Primitivas/Tecla.o
+ .data          0x0000000000000000        0x0 ./Primitivas/Tecla.o
+ .bss           0x0000000000000000        0x0 ./Primitivas/Tecla.o
+ .text.getKey   0x0000000000000000       0x20 ./Primitivas/Tecla.o
+ .debug_info    0x0000000000000000       0x86 ./Primitivas/Tecla.o
+ .debug_abbrev  0x0000000000000000       0x69 ./Primitivas/Tecla.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./Primitivas/Tecla.o
+ .debug_ranges  0x0000000000000000       0x10 ./Primitivas/Tecla.o
+ .debug_macro   0x0000000000000000       0x38 ./Primitivas/Tecla.o
+ .debug_macro   0x0000000000000000      0xa96 ./Primitivas/Tecla.o
+ .debug_macro   0x0000000000000000      0x25f ./Primitivas/Tecla.o
+ .debug_line    0x0000000000000000       0xa1 ./Primitivas/Tecla.o
+ .debug_str     0x0000000000000000     0x3631 ./Primitivas/Tecla.o
+ .comment       0x0000000000000000       0x4d ./Primitivas/Tecla.o
+ .debug_frame   0x0000000000000000       0x30 ./Primitivas/Tecla.o
+ .ARM.attributes
+                0x0000000000000000       0x2c ./Primitivas/Tecla.o
+ .group         0x0000000000000000        0xc ./Driver/DR_Init.o
+ .group         0x0000000000000000        0xc ./Driver/DR_Init.o
+ .group         0x0000000000000000        0xc ./Driver/DR_Init.o
+ .group         0x0000000000000000        0xc ./Driver/DR_Init.o
+ .group         0x0000000000000000        0xc ./Driver/DR_Init.o
+ .group         0x0000000000000000        0xc ./Driver/DR_Init.o
+ .group         0x0000000000000000        0xc ./Driver/DR_Init.o
+ .text          0x0000000000000000        0x0 ./Driver/DR_Init.o
+ .data          0x0000000000000000        0x0 ./Driver/DR_Init.o
+ .bss           0x0000000000000000        0x0 ./Driver/DR_Init.o
+ .debug_macro   0x0000000000000000      0xa96 ./Driver/DR_Init.o
+ .debug_macro   0x0000000000000000      0x25f ./Driver/DR_Init.o
+ .debug_macro   0x0000000000000000       0x34 ./Driver/DR_Init.o
+ .debug_macro   0x0000000000000000       0x1c ./Driver/DR_Init.o
+ .group         0x0000000000000000        0xc ./Driver/IntExt.o
+ .group         0x0000000000000000        0xc ./Driver/IntExt.o
+ .group         0x0000000000000000        0xc ./Driver/IntExt.o
+ .text          0x0000000000000000        0x0 ./Driver/IntExt.o
+ .data          0x0000000000000000        0x0 ./Driver/IntExt.o
+ .bss           0x0000000000000000        0x0 ./Driver/IntExt.o
+ .debug_macro   0x0000000000000000      0xa96 ./Driver/IntExt.o
+ .debug_macro   0x0000000000000000      0x25f ./Driver/IntExt.o
+ .debug_macro   0x0000000000000000       0x10 ./Driver/IntExt.o
+ .group         0x0000000000000000        0xc ./Driver/Systick.o
+ .group         0x0000000000000000        0xc ./Driver/Systick.o
+ .text          0x0000000000000000        0x0 ./Driver/Systick.o
+ .data          0x0000000000000000        0x0 ./Driver/Systick.o
+ .bss           0x0000000000000000        0x0 ./Driver/Systick.o
+ .debug_macro   0x0000000000000000      0xa96 ./Driver/Systick.o
+ .debug_macro   0x0000000000000000      0x25f ./Driver/Systick.o
+ .group         0x0000000000000000        0xc ./Driver/gpio.o
+ .group         0x0000000000000000        0xc ./Driver/gpio.o
+ .text          0x0000000000000000        0x0 ./Driver/gpio.o
+ .data          0x0000000000000000        0x0 ./Driver/gpio.o
+ .bss           0x0000000000000000        0x0 ./Driver/gpio.o
+ .debug_macro   0x0000000000000000      0xa96 ./Driver/gpio.o
+ .debug_macro   0x0000000000000000      0x25f ./Driver/gpio.o
+ .group         0x0000000000000000        0xc ./Aplicacion/cr_startup_lpc84x.o
+ .text          0x0000000000000000        0x0 ./Aplicacion/cr_startup_lpc84x.o
+ .data          0x0000000000000000        0x0 ./Aplicacion/cr_startup_lpc84x.o
+ .bss           0x0000000000000000        0x0 ./Aplicacion/cr_startup_lpc84x.o
+ .debug_macro   0x0000000000000000      0xa96 ./Aplicacion/cr_startup_lpc84x.o
+ .group         0x0000000000000000        0xc ./Aplicacion/crp.o
+ .group         0x0000000000000000        0xc ./Aplicacion/crp.o
+ .text          0x0000000000000000        0x0 ./Aplicacion/crp.o
+ .data          0x0000000000000000        0x0 ./Aplicacion/crp.o
+ .bss           0x0000000000000000        0x0 ./Aplicacion/crp.o
+ .debug_macro   0x0000000000000000      0xa96 ./Aplicacion/crp.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .text          0x0000000000000000        0x0 ./Aplicacion/main.o
+ .data          0x0000000000000000        0x0 ./Aplicacion/main.o
+ .bss           0x0000000000000000        0x0 ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000      0xa96 ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000      0x25f ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000       0x34 ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000       0x1c ./Aplicacion/main.o
+ .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash64         0x0000000000000000 0x0000000000010000 xr
+RamLoc16         0x0000000010000000 0x0000000000004000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./Primitivas/Leds.o
+LOAD ./Primitivas/TImer.o
+LOAD ./Primitivas/Tecla.o
+LOAD ./Driver/DR_Init.o
+LOAD ./Driver/IntExt.o
+LOAD ./Driver/Systick.o
+LOAD ./Driver/gpio.o
+LOAD ./Aplicacion/cr_startup_lpc84x.o
+LOAD ./Aplicacion/crp.o
+LOAD ./Aplicacion/main.o
+START GROUP
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a
+END GROUP
+                0x0000000000000000                __base_MFlash64 = 0x0
+                0x0000000000000000                __base_Flash = 0x0
+                0x0000000000010000                __top_MFlash64 = 0x10000
+                0x0000000000010000                __top_Flash = 0x10000
+                0x0000000010000000                __base_RamLoc16 = 0x10000000
+                0x0000000010000000                __base_RAM = 0x10000000
+                0x0000000010004000                __top_RamLoc16 = 0x10004000
+                0x0000000010004000                __top_RAM = 0x10004000
+
+.text           0x0000000000000000      0xa48
+ FILL mask 0xff
+                0x0000000000000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0xc0 ./Aplicacion/cr_startup_lpc84x.o
+                0x0000000000000000                g_pfnVectors
+                0x00000000000000c0                . = ALIGN (0x4)
+                0x00000000000000c0                __section_table_start = .
+                0x00000000000000c0                __data_section_table = .
+                0x00000000000000c0        0x4 LONG 0xa48 LOADADDR (.data)
+                0x00000000000000c4        0x4 LONG 0x10000000 ADDR (.data)
+                0x00000000000000c8        0x4 LONG 0x8 SIZEOF (.data)
+                0x00000000000000cc                __data_section_table_end = .
+                0x00000000000000cc                __bss_section_table = .
+                0x00000000000000cc        0x4 LONG 0x10000008 ADDR (.bss)
+                0x00000000000000d0        0x4 LONG 0xa0 SIZEOF (.bss)
+                0x00000000000000d4                __bss_section_table_end = .
+                0x00000000000000d4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x00000000000000d4      0x144 ./Aplicacion/cr_startup_lpc84x.o
+                0x00000000000000d4                data_init
+                0x0000000000000116                bss_init
+                0x000000000000014c                ResetISR
+                0x00000000000001f4                NMI_Handler
+                0x00000000000001fa                HardFault_Handler
+                0x0000000000000200                SVC_Handler
+                0x0000000000000206                PendSV_Handler
+                0x0000000000000212                CMP_IRQHandler
+                0x0000000000000212                PININT7_IRQHandler
+                0x0000000000000212                I2C0_IRQHandler
+                0x0000000000000212                WKT_IRQHandler
+                0x0000000000000212                PININT2_IRQHandler
+                0x0000000000000212                MRT_IRQHandler
+                0x0000000000000212                I2C1_IRQHandler
+                0x0000000000000212                UART1_IRQHandler
+                0x0000000000000212                ADC_SEQB_IRQHandler
+                0x0000000000000212                UART0_IRQHandler
+                0x0000000000000212                SPI1_IRQHandler
+                0x0000000000000212                IntDefaultHandler
+                0x0000000000000212                ADC_OVR_IRQHandler
+                0x0000000000000212                I2C2_IRQHandler
+                0x0000000000000212                PININT3_IRQHandler
+                0x0000000000000212                UART2_IRQHandler
+                0x0000000000000212                PININT5_IRQHandler
+                0x0000000000000212                PININT4_IRQHandler
+                0x0000000000000212                ADC_THCMP_IRQHandler
+                0x0000000000000212                BOD_IRQHandler
+                0x0000000000000212                I2C3_IRQHandler
+                0x0000000000000212                SCT_IRQHandler
+                0x0000000000000212                WDT_IRQHandler
+                0x0000000000000212                ADC_SEQA_IRQHandler
+                0x0000000000000212                FAIM_IRQHandler
+                0x0000000000000212                DAC0_IRQHandler
+                0x0000000000000212                PININT6_IRQHandler
+                0x0000000000000212                SPI0_IRQHandler
+                0x0000000000000212                DMA_IRQHandler
+                0x0000000000000212                FLASH_IRQHandler
+                0x0000000000000212                CTIMER0_IRQHandler
+                0x00000000000002fc                . = 0x2fc
+ *fill*         0x0000000000000218       0xe4 ff
+                0x00000000000002fc                PROVIDE (__CRP_WORD_START__ = .)
+ *(.crp)
+ .crp           0x00000000000002fc        0x4 ./Aplicacion/crp.o
+                0x00000000000002fc                CRP_WORD
+                0x0000000000000300                PROVIDE (__CRP_WORD_END__ = .)
+                0x0000000000000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.LED_OFF  0x0000000000000300       0x1c ./Primitivas/Leds.o
+                0x0000000000000300                LED_OFF
+ .text.LED_ON   0x000000000000031c       0x1c ./Primitivas/Leds.o
+                0x000000000000031c                LED_ON
+ .text.TimerStart
+                0x0000000000000338       0x50 ./Primitivas/TImer.o
+                0x0000000000000338                TimerStart
+ .text.TimerStop
+                0x0000000000000388       0x34 ./Primitivas/TImer.o
+                0x0000000000000388                TimerStop
+ .text.TimerEvent
+                0x00000000000003bc       0x5c ./Primitivas/TImer.o
+                0x00000000000003bc                TimerEvent
+ .text.handlerT0
+                0x0000000000000418       0x14 ./Primitivas/TImer.o
+                0x0000000000000418                handlerT0
+ .text.handlerT1
+                0x000000000000042c       0x14 ./Primitivas/TImer.o
+                0x000000000000042c                handlerT1
+ .text.handlerT2
+                0x0000000000000440       0x2c ./Primitivas/TImer.o
+                0x0000000000000440                handlerT2
+ .text.InitHw   0x000000000000046c       0x1a ./Driver/DR_Init.o
+                0x000000000000046c                InitHw
+ *fill*         0x0000000000000486        0x2 ff
+ .text.InitGPIO
+                0x0000000000000488       0x8c ./Driver/DR_Init.o
+                0x0000000000000488                InitGPIO
+ .text.InitPLL  0x0000000000000514       0x88 ./Driver/DR_Init.o
+                0x0000000000000514                InitPLL
+ .text.InitIntExt
+                0x000000000000059c       0xb8 ./Driver/IntExt.o
+                0x000000000000059c                InitIntExt
+ .text.PININT0_IRQHandler
+                0x0000000000000654       0x38 ./Driver/IntExt.o
+                0x0000000000000654                PININT0_IRQHandler
+ .text.PININT1_IRQHandler
+                0x000000000000068c       0x58 ./Driver/IntExt.o
+                0x000000000000068c                PININT1_IRQHandler
+ .text.SysTick_Handler
+                0x00000000000006e4       0x7c ./Driver/Systick.o
+                0x00000000000006e4                SysTick_Handler
+ .text.InitSystick
+                0x0000000000000760       0x28 ./Driver/Systick.o
+                0x0000000000000760                InitSystick
+ .text.SetDIR   0x0000000000000788       0x7e ./Driver/gpio.o
+                0x0000000000000788                SetDIR
+ .text.SetPIN   0x0000000000000806       0x7e ./Driver/gpio.o
+                0x0000000000000806                SetPIN
+ .text.GetPIN   0x0000000000000884       0x3a ./Driver/gpio.o
+                0x0000000000000884                GetPIN
+ *fill*         0x00000000000008be        0x2 ff
+ .text.SetPINMODE_IN
+                0x00000000000008c0       0x34 ./Driver/gpio.o
+                0x00000000000008c0                SetPINMODE_IN
+ .text.SetPINMODE_OUT
+                0x00000000000008f4       0x4c ./Driver/gpio.o
+                0x00000000000008f4                SetPINMODE_OUT
+ .text.main     0x0000000000000940      0x100 ./Aplicacion/main.o
+                0x0000000000000940                main
+ .text.__weak_main
+                0x0000000000000a40        0x8 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                0x0000000000000a40                __main
+                0x0000000000000a40                __weak_main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x0000000000000a48                . = ALIGN (0x4)
+
+.glue_7         0x0000000000000a48        0x0
+ .glue_7        0x0000000000000a48        0x0 linker stubs
+
+.glue_7t        0x0000000000000a48        0x0
+ .glue_7t       0x0000000000000a48        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000a48        0x0
+ .vfp11_veneer  0x0000000000000a48        0x0 linker stubs
+
+.v4_bx          0x0000000000000a48        0x0
+ .v4_bx         0x0000000000000a48        0x0 linker stubs
+
+.iplt           0x0000000000000a48        0x0
+ .iplt          0x0000000000000a48        0x0 ./Primitivas/Leds.o
+
+.rel.dyn        0x0000000000000a48        0x0
+ .rel.iplt      0x0000000000000a48        0x0 ./Primitivas/Leds.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx      0x0000000000000a48        0x0
+                0x0000000000000a48                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000000000a48                __exidx_end = .
+                0x0000000000000a48                _etext = .
+
+.mtb_buffer_default
+ *(.mtb*)
+
+.uninit_RESERVED
+                0x0000000010000000        0x0
+                0x0000000010000000                _start_uninit_RESERVED = .
+ *(.bss.$RESERVED*)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _end_uninit_RESERVED = .
+
+.data           0x0000000010000000        0x8 load address 0x0000000000000a48
+ FILL mask 0xff
+                0x0000000010000000                _data = .
+                [!provide]                        PROVIDE (__start_data_RAM = .)
+                [!provide]                        PROVIDE (__start_data_RamLoc16 = .)
+ *(vtable)
+ *(.ramfunc*)
+ *(CodeQuickAccess)
+ *(DataQuickAccess)
+ *(RamFunction)
+ *(.data*)
+ .data.fro_set_frec
+                0x0000000010000000        0x4 ./Driver/DR_Init.o
+                0x0000000010000000                fro_set_frec
+ .data.i        0x0000000010000004        0x1 ./Driver/IntExt.o
+                0x0000000010000004                i
+                0x0000000010000008                . = ALIGN (0x4)
+ *fill*         0x0000000010000005        0x3 ff
+                0x0000000010000008                _edata = .
+                [!provide]                        PROVIDE (__end_data_RAM = .)
+                [!provide]                        PROVIDE (__end_data_RamLoc16 = .)
+
+.igot.plt       0x0000000010000008        0x0 load address 0x0000000000000a50
+ .igot.plt      0x0000000010000008        0x0 ./Primitivas/Leds.o
+
+.bss            0x0000000010000008       0xa0
+                0x0000000010000008                _bss = .
+                [!provide]                        PROVIDE (__start_bss_RAM = .)
+                [!provide]                        PROVIDE (__start_bss_RamLoc16 = .)
+ *(.bss*)
+ .bss.flagT0    0x0000000010000008        0x1 ./Primitivas/TImer.o
+                0x0000000010000008                flagT0
+ .bss.flagT1    0x0000000010000009        0x1 ./Primitivas/TImer.o
+                0x0000000010000009                flagT1
+ .bss.contador  0x000000001000000a        0x1 ./Primitivas/TImer.o
+                0x000000001000000a                contador
+ *fill*         0x000000001000000b        0x1 
+ .bss.HandlersTimer
+                0x000000001000000c       0x40 ./Primitivas/TImer.o
+                0x000000001000000c                HandlersTimer
+ .bss.flagAscendente
+                0x000000001000004c        0x1 ./Driver/IntExt.o
+                0x000000001000004c                flagAscendente
+ .bss.flagDescendente
+                0x000000001000004d        0x1 ./Driver/IntExt.o
+                0x000000001000004d                flagDescendente
+ *fill*         0x000000001000004e        0x2 
+ .bss.flagsT    0x0000000010000050       0x10 ./Driver/Systick.o
+                0x0000000010000050                flagsT
+ .bss.timers    0x0000000010000060       0x40 ./Driver/Systick.o
+                0x0000000010000060                timers
+ .bss.pDivRom_idiv
+                0x00000000100000a0        0x4 ./Aplicacion/cr_startup_lpc84x.o
+                0x00000000100000a0                pDivRom_idiv
+ .bss.pDivRom_uidiv
+                0x00000000100000a4        0x4 ./Aplicacion/cr_startup_lpc84x.o
+                0x00000000100000a4                pDivRom_uidiv
+ *(COMMON)
+                0x00000000100000a8                . = ALIGN (0x4)
+                0x00000000100000a8                _ebss = .
+                [!provide]                        PROVIDE (__end_bss_RAM = .)
+                [!provide]                        PROVIDE (__end_bss_RamLoc16 = .)
+                [!provide]                        PROVIDE (end = .)
+
+.noinit         0x00000000100000a8        0x0
+                0x00000000100000a8                _noinit = .
+                [!provide]                        PROVIDE (__start_noinit_RAM = .)
+                [!provide]                        PROVIDE (__start_noinit_RamLoc16 = .)
+ *(.noinit*)
+                0x00000000100000a8                . = ALIGN (0x4)
+                0x00000000100000a8                _end_noinit = .
+                [!provide]                        PROVIDE (__end_noinit_RAM = .)
+                [!provide]                        PROVIDE (__end_noinit_RamLoc16 = .)
+                [!provide]                        PROVIDE (_pvHeapStart = DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x0000000010004000                PROVIDE (_vStackTop = DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc16 - 0x0))
+                0xffffffffefffbac3                PROVIDE (__valid_user_code_checksum = (0x0 - (((_vStackTop + (ResetISR + 0x1)) + (DEFINED (NMI_Handler)?NMI_Handler:M0_NMI_Handler + 0x1)) + (DEFINED (HardFault_Handler)?HardFault_Handler:M0_HardFault_Handler + 0x1))))
+                0x0000000000000000                _image_start = LOADADDR (.text)
+                0x0000000000000a50                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x0000000000000a50                _image_size = (_image_end - _image_start)
+OUTPUT(Ejercicio4_5.axf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000     0x1815
+ .debug_info    0x0000000000000000       0xce ./Primitivas/Leds.o
+ .debug_info    0x00000000000000ce      0x210 ./Primitivas/TImer.o
+ .debug_info    0x00000000000002de      0x5e8 ./Driver/DR_Init.o
+ .debug_info    0x00000000000008c6      0x659 ./Driver/IntExt.o
+ .debug_info    0x0000000000000f1f      0x185 ./Driver/Systick.o
+ .debug_info    0x00000000000010a4      0x3b4 ./Driver/gpio.o
+ .debug_info    0x0000000000001458      0x255 ./Aplicacion/cr_startup_lpc84x.o
+ .debug_info    0x00000000000016ad       0x40 ./Aplicacion/crp.o
+ .debug_info    0x00000000000016ed      0x128 ./Aplicacion/main.o
+
+.debug_abbrev   0x0000000000000000      0x885
+ .debug_abbrev  0x0000000000000000       0x83 ./Primitivas/Leds.o
+ .debug_abbrev  0x0000000000000083      0x13b ./Primitivas/TImer.o
+ .debug_abbrev  0x00000000000001be      0x122 ./Driver/DR_Init.o
+ .debug_abbrev  0x00000000000002e0      0x15f ./Driver/IntExt.o
+ .debug_abbrev  0x000000000000043f       0xfc ./Driver/Systick.o
+ .debug_abbrev  0x000000000000053b      0x147 ./Driver/gpio.o
+ .debug_abbrev  0x0000000000000682      0x12a ./Aplicacion/cr_startup_lpc84x.o
+ .debug_abbrev  0x00000000000007ac       0x38 ./Aplicacion/crp.o
+ .debug_abbrev  0x00000000000007e4       0xa1 ./Aplicacion/main.o
+
+.debug_aranges  0x0000000000000000      0x1d8
+ .debug_aranges
+                0x0000000000000000       0x30 ./Primitivas/Leds.o
+ .debug_aranges
+                0x0000000000000030       0x48 ./Primitivas/TImer.o
+ .debug_aranges
+                0x0000000000000078       0x30 ./Driver/DR_Init.o
+ .debug_aranges
+                0x00000000000000a8       0x30 ./Driver/IntExt.o
+ .debug_aranges
+                0x00000000000000d8       0x28 ./Driver/Systick.o
+ .debug_aranges
+                0x0000000000000100       0x40 ./Driver/gpio.o
+ .debug_aranges
+                0x0000000000000140       0x60 ./Aplicacion/cr_startup_lpc84x.o
+ .debug_aranges
+                0x00000000000001a0       0x18 ./Aplicacion/crp.o
+ .debug_aranges
+                0x00000000000001b8       0x20 ./Aplicacion/main.o
+
+.debug_ranges   0x0000000000000000      0x140
+ .debug_ranges  0x0000000000000000       0x20 ./Primitivas/Leds.o
+ .debug_ranges  0x0000000000000020       0x38 ./Primitivas/TImer.o
+ .debug_ranges  0x0000000000000058       0x20 ./Driver/DR_Init.o
+ .debug_ranges  0x0000000000000078       0x20 ./Driver/IntExt.o
+ .debug_ranges  0x0000000000000098       0x18 ./Driver/Systick.o
+ .debug_ranges  0x00000000000000b0       0x30 ./Driver/gpio.o
+ .debug_ranges  0x00000000000000e0       0x50 ./Aplicacion/cr_startup_lpc84x.o
+ .debug_ranges  0x0000000000000130       0x10 ./Aplicacion/main.o
+
+.debug_macro    0x0000000000000000      0xfd1
+ .debug_macro   0x0000000000000000       0x37 ./Primitivas/Leds.o
+ .debug_macro   0x0000000000000037      0xa96 ./Primitivas/Leds.o
+ .debug_macro   0x0000000000000acd      0x25f ./Primitivas/Leds.o
+ .debug_macro   0x0000000000000d2c       0x34 ./Primitivas/Leds.o
+ .debug_macro   0x0000000000000d60       0x3d ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000d9d       0x1c ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000db9       0x7b ./Driver/DR_Init.o
+ .debug_macro   0x0000000000000e34       0x10 ./Driver/DR_Init.o
+ .debug_macro   0x0000000000000e44       0x10 ./Driver/DR_Init.o
+ .debug_macro   0x0000000000000e54       0x10 ./Driver/DR_Init.o
+ .debug_macro   0x0000000000000e64       0x33 ./Driver/IntExt.o
+ .debug_macro   0x0000000000000e97       0x2a ./Driver/Systick.o
+ .debug_macro   0x0000000000000ec1       0x24 ./Driver/gpio.o
+ .debug_macro   0x0000000000000ee5       0x23 ./Aplicacion/cr_startup_lpc84x.o
+ .debug_macro   0x0000000000000f08       0x1a ./Aplicacion/crp.o
+ .debug_macro   0x0000000000000f22       0x34 ./Aplicacion/crp.o
+ .debug_macro   0x0000000000000f56       0x7b ./Aplicacion/main.o
+
+.debug_line     0x0000000000000000      0x9d2
+ .debug_line    0x0000000000000000       0xd3 ./Primitivas/Leds.o
+ .debug_line    0x00000000000000d3      0x155 ./Primitivas/TImer.o
+ .debug_line    0x0000000000000228      0x177 ./Driver/DR_Init.o
+ .debug_line    0x000000000000039f       0xdd ./Driver/IntExt.o
+ .debug_line    0x000000000000047c       0xc2 ./Driver/Systick.o
+ .debug_line    0x000000000000053e      0x118 ./Driver/gpio.o
+ .debug_line    0x0000000000000656      0x154 ./Aplicacion/cr_startup_lpc84x.o
+ .debug_line    0x00000000000007aa       0xbc ./Aplicacion/crp.o
+ .debug_line    0x0000000000000866      0x16c ./Aplicacion/main.o
+
+.debug_str      0x0000000000000000     0x3f61
+ .debug_str     0x0000000000000000     0x3642 ./Primitivas/Leds.o
+                                       0x3686 (size before relaxing)
+ .debug_str     0x0000000000003642      0x102 ./Primitivas/TImer.o
+                                       0x36f2 (size before relaxing)
+ .debug_str     0x0000000000003744      0x3bd ./Driver/DR_Init.o
+                                       0x3a92 (size before relaxing)
+ .debug_str     0x0000000000003b01       0x8c ./Driver/IntExt.o
+                                       0x39ce (size before relaxing)
+ .debug_str     0x0000000000003b8d       0x4d ./Driver/Systick.o
+                                       0x367a (size before relaxing)
+ .debug_str     0x0000000000003bda       0x9e ./Driver/gpio.o
+                                       0x3719 (size before relaxing)
+ .debug_str     0x0000000000003c78      0x1d9 ./Aplicacion/cr_startup_lpc84x.o
+                                       0x2f0e (size before relaxing)
+ .debug_str     0x0000000000003e51       0xf0 ./Aplicacion/crp.o
+                                       0x2e0f (size before relaxing)
+ .debug_str     0x0000000000003f41       0x20 ./Aplicacion/main.o
+                                       0x378a (size before relaxing)
+
+.comment        0x0000000000000000       0x4c
+ .comment       0x0000000000000000       0x4c ./Primitivas/Leds.o
+                                         0x4d (size before relaxing)
+ .comment       0x000000000000004c       0x4d ./Primitivas/TImer.o
+ .comment       0x000000000000004c       0x4d ./Driver/DR_Init.o
+ .comment       0x000000000000004c       0x4d ./Driver/IntExt.o
+ .comment       0x000000000000004c       0x4d ./Driver/Systick.o
+ .comment       0x000000000000004c       0x4d ./Driver/gpio.o
+ .comment       0x000000000000004c       0x4d ./Aplicacion/cr_startup_lpc84x.o
+ .comment       0x000000000000004c       0x4d ./Aplicacion/crp.o
+ .comment       0x000000000000004c       0x4d ./Aplicacion/main.o
+ .comment       0x000000000000004c       0x4d /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x0000000000000000       0x2c
+ .ARM.attributes
+                0x0000000000000000       0x2c ./Primitivas/Leds.o
+ .ARM.attributes
+                0x000000000000002c       0x2c ./Primitivas/TImer.o
+ .ARM.attributes
+                0x0000000000000058       0x2c ./Driver/DR_Init.o
+ .ARM.attributes
+                0x0000000000000084       0x2c ./Driver/IntExt.o
+ .ARM.attributes
+                0x00000000000000b0       0x2c ./Driver/Systick.o
+ .ARM.attributes
+                0x00000000000000dc       0x2c ./Driver/gpio.o
+ .ARM.attributes
+                0x0000000000000108       0x2c ./Aplicacion/cr_startup_lpc84x.o
+ .ARM.attributes
+                0x0000000000000134       0x31 ./Aplicacion/crp.o
+ .ARM.attributes
+                0x0000000000000165       0x2c ./Aplicacion/main.o
+ .ARM.attributes
+                0x0000000000000191       0x2c /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+
+.debug_frame    0x0000000000000000      0x440
+ .debug_frame   0x0000000000000000       0x70 ./Primitivas/Leds.o
+ .debug_frame   0x0000000000000070       0xc4 ./Primitivas/TImer.o
+ .debug_frame   0x0000000000000134       0x64 ./Driver/DR_Init.o
+ .debug_frame   0x0000000000000198       0x64 ./Driver/IntExt.o
+ .debug_frame   0x00000000000001fc       0x4c ./Driver/Systick.o
+ .debug_frame   0x0000000000000248       0xb0 ./Driver/gpio.o
+ .debug_frame   0x00000000000002f8      0x118 ./Aplicacion/cr_startup_lpc84x.o
+ .debug_frame   0x0000000000000410       0x30 ./Aplicacion/main.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_OVR_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+ADC_SEQA_IRQHandler                               ./Aplicacion/cr_startup_lpc84x.o
+ADC_SEQB_IRQHandler                               ./Aplicacion/cr_startup_lpc84x.o
+ADC_THCMP_IRQHandler                              ./Aplicacion/cr_startup_lpc84x.o
+BOD_IRQHandler                                    ./Aplicacion/cr_startup_lpc84x.o
+CMP_IRQHandler                                    ./Aplicacion/cr_startup_lpc84x.o
+CRP_WORD                                          ./Aplicacion/crp.o
+CTIMER0_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+DAC0_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+DMA_IRQHandler                                    ./Aplicacion/cr_startup_lpc84x.o
+FAIM_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+FLASH_IRQHandler                                  ./Aplicacion/cr_startup_lpc84x.o
+GetPIN                                            ./Driver/gpio.o
+                                                  ./Driver/IntExt.o
+                                                  ./Primitivas/Tecla.o
+                                                  ./Primitivas/Leds.o
+HandlersTimer                                     ./Primitivas/TImer.o
+HardFault_Handler                                 ./Aplicacion/cr_startup_lpc84x.o
+I2C0_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+I2C1_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+I2C2_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+I2C3_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+InitGPIO                                          ./Driver/DR_Init.o
+InitHw                                            ./Driver/DR_Init.o
+                                                  ./Aplicacion/main.o
+InitIntExt                                        ./Driver/IntExt.o
+                                                  ./Driver/DR_Init.o
+InitPLL                                           ./Driver/DR_Init.o
+InitSystick                                       ./Driver/Systick.o
+                                                  ./Driver/DR_Init.o
+IntDefaultHandler                                 ./Aplicacion/cr_startup_lpc84x.o
+LED_OFF                                           ./Primitivas/Leds.o
+                                                  ./Aplicacion/main.o
+LED_ON                                            ./Primitivas/Leds.o
+                                                  ./Aplicacion/main.o
+MRT_IRQHandler                                    ./Aplicacion/cr_startup_lpc84x.o
+NMI_Handler                                       ./Aplicacion/cr_startup_lpc84x.o
+PININT0_IRQHandler                                ./Driver/IntExt.o
+PININT1_IRQHandler                                ./Driver/IntExt.o
+PININT2_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+PININT3_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+PININT4_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+PININT5_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+PININT6_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+PININT7_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+PendSV_Handler                                    ./Aplicacion/cr_startup_lpc84x.o
+ResetISR                                          ./Aplicacion/cr_startup_lpc84x.o
+SCT_IRQHandler                                    ./Aplicacion/cr_startup_lpc84x.o
+SPI0_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+SPI1_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+SVC_Handler                                       ./Aplicacion/cr_startup_lpc84x.o
+SetDIR                                            ./Driver/gpio.o
+                                                  ./Driver/DR_Init.o
+SetPIN                                            ./Driver/gpio.o
+                                                  ./Primitivas/Leds.o
+SetPINMODE_IN                                     ./Driver/gpio.o
+                                                  ./Driver/DR_Init.o
+SetPINMODE_OUT                                    ./Driver/gpio.o
+                                                  ./Driver/DR_Init.o
+SwapEstadoLed                                     ./Primitivas/Leds.o
+SysTick_Handler                                   ./Driver/Systick.o
+TimerEvent                                        ./Primitivas/TImer.o
+                                                  ./Aplicacion/main.o
+TimerStart                                        ./Primitivas/TImer.o
+                                                  ./Aplicacion/main.o
+TimerStop                                         ./Primitivas/TImer.o
+                                                  ./Aplicacion/main.o
+UART0_IRQHandler                                  ./Aplicacion/cr_startup_lpc84x.o
+UART1_IRQHandler                                  ./Aplicacion/cr_startup_lpc84x.o
+UART2_IRQHandler                                  ./Aplicacion/cr_startup_lpc84x.o
+WDT_IRQHandler                                    ./Aplicacion/cr_startup_lpc84x.o
+WKT_IRQHandler                                    ./Aplicacion/cr_startup_lpc84x.o
+__bss_section_table_end                           ./Aplicacion/cr_startup_lpc84x.o
+__data_section_table                              ./Aplicacion/cr_startup_lpc84x.o
+__data_section_table_end                          ./Aplicacion/cr_startup_lpc84x.o
+__main                                            /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                                                  ./Aplicacion/cr_startup_lpc84x.o
+__valid_user_code_checksum                        ./Aplicacion/cr_startup_lpc84x.o
+__weak_main                                       /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+_vStackTop                                        ./Aplicacion/cr_startup_lpc84x.o
+bss_init                                          ./Aplicacion/cr_startup_lpc84x.o
+contador                                          ./Primitivas/TImer.o
+                                                  ./Aplicacion/main.o
+data_init                                         ./Aplicacion/cr_startup_lpc84x.o
+flagAscendente                                    ./Driver/IntExt.o
+                                                  ./Aplicacion/main.o
+flagDescendente                                   ./Driver/IntExt.o
+                                                  ./Aplicacion/main.o
+flagT0                                            ./Primitivas/TImer.o
+                                                  ./Aplicacion/main.o
+flagT1                                            ./Primitivas/TImer.o
+                                                  ./Aplicacion/main.o
+flagT2                                            ./Primitivas/TImer.o
+flagsT                                            ./Driver/Systick.o
+                                                  ./Primitivas/TImer.o
+fro_set_frec                                      ./Driver/DR_Init.o
+g_pfnVectors                                      ./Aplicacion/cr_startup_lpc84x.o
+getKey                                            ./Primitivas/Tecla.o
+handlerT0                                         ./Primitivas/TImer.o
+                                                  ./Aplicacion/main.o
+handlerT1                                         ./Primitivas/TImer.o
+                                                  ./Aplicacion/main.o
+handlerT2                                         ./Primitivas/TImer.o
+                                                  ./Aplicacion/main.o
+i                                                 ./Driver/IntExt.o
+                                                  ./Aplicacion/main.o
+main                                              ./Aplicacion/main.o
+                                                  /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+pDivRom_idiv                                      ./Aplicacion/cr_startup_lpc84x.o
+pDivRom_uidiv                                     ./Aplicacion/cr_startup_lpc84x.o
+timers                                            ./Driver/Systick.o
+                                                  ./Primitivas/TImer.o

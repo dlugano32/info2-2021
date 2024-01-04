@@ -1,0 +1,3 @@
+TanqueMde.c:14:6:TanqueMde	8	static
+TanqueMde.c:55:6:init_TanqueMde	8	static
+TanqueMde.c:60:5:HayAgua	8	static

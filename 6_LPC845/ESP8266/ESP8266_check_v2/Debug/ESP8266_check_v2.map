@@ -1,0 +1,894 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                              ./App/cr_startup_lpc84x.o (__main)
+/usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+                              ./App/ESP8266_conf.o (__aeabi_uidivmod)
+/usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
+                              /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o) (__aeabi_idiv0)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc ./Primitivas/Leds.o
+ .group         0x0000000000000000        0xc ./Primitivas/Leds.o
+ .group         0x0000000000000000        0xc ./Primitivas/Leds.o
+ .text          0x0000000000000000        0x0 ./Primitivas/Leds.o
+ .data          0x0000000000000000        0x0 ./Primitivas/Leds.o
+ .bss           0x0000000000000000        0x0 ./Primitivas/Leds.o
+ .text.SwapEstadoLed
+                0x0000000000000000       0x32 ./Primitivas/Leds.o
+ .group         0x0000000000000000        0xc ./Primitivas/PR_UART.o
+ .group         0x0000000000000000        0xc ./Primitivas/PR_UART.o
+ .group         0x0000000000000000        0xc ./Primitivas/PR_UART.o
+ .text          0x0000000000000000        0x0 ./Primitivas/PR_UART.o
+ .data          0x0000000000000000        0x0 ./Primitivas/PR_UART.o
+ .bss           0x0000000000000000        0x0 ./Primitivas/PR_UART.o
+ .text.RxSerie0
+                0x0000000000000000       0x10 ./Primitivas/PR_UART.o
+ .text.Tx0Byte  0x0000000000000000       0x1e ./Primitivas/PR_UART.o
+ .debug_macro   0x0000000000000000      0xa96 ./Primitivas/PR_UART.o
+ .debug_macro   0x0000000000000000      0x352 ./Primitivas/PR_UART.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .text          0x0000000000000000        0x0 ./Primitivas/TImer.o
+ .data          0x0000000000000000        0x0 ./Primitivas/TImer.o
+ .bss           0x0000000000000000        0x0 ./Primitivas/TImer.o
+ .bss.flagT0    0x0000000000000000        0x1 ./Primitivas/TImer.o
+ .text.TimerStart
+                0x0000000000000000       0x50 ./Primitivas/TImer.o
+ .text.TimerStop
+                0x0000000000000000       0x34 ./Primitivas/TImer.o
+ .text.HandlerT0
+                0x0000000000000000       0x14 ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000000      0xa96 ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000000      0x352 ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/Tecla.o
+ .group         0x0000000000000000        0xc ./Primitivas/Tecla.o
+ .group         0x0000000000000000        0xc ./Primitivas/Tecla.o
+ .text          0x0000000000000000        0x0 ./Primitivas/Tecla.o
+ .data          0x0000000000000000        0x0 ./Primitivas/Tecla.o
+ .bss           0x0000000000000000        0x0 ./Primitivas/Tecla.o
+ .debug_macro   0x0000000000000000      0xa96 ./Primitivas/Tecla.o
+ .debug_macro   0x0000000000000000      0x352 ./Primitivas/Tecla.o
+ .debug_macro   0x0000000000000000       0x16 ./Primitivas/Tecla.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_ESP8266.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_ESP8266.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_ESP8266.o
+ .text          0x0000000000000000        0x0 ./Drivers/DR_ESP8266.o
+ .data          0x0000000000000000        0x0 ./Drivers/DR_ESP8266.o
+ .bss           0x0000000000000000        0x0 ./Drivers/DR_ESP8266.o
+ .debug_info    0x0000000000000000      0x104 ./Drivers/DR_ESP8266.o
+ .debug_abbrev  0x0000000000000000       0x5d ./Drivers/DR_ESP8266.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Drivers/DR_ESP8266.o
+ .debug_macro   0x0000000000000000       0x45 ./Drivers/DR_ESP8266.o
+ .debug_macro   0x0000000000000000      0xa96 ./Drivers/DR_ESP8266.o
+ .debug_macro   0x0000000000000000      0x352 ./Drivers/DR_ESP8266.o
+ .debug_macro   0x0000000000000000       0x2e ./Drivers/DR_ESP8266.o
+ .debug_line    0x0000000000000000       0xfd ./Drivers/DR_ESP8266.o
+ .debug_str     0x0000000000000000     0x3c03 ./Drivers/DR_ESP8266.o
+ .comment       0x0000000000000000       0x4d ./Drivers/DR_ESP8266.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./Drivers/DR_ESP8266.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .text          0x0000000000000000        0x0 ./Drivers/DR_Init.o
+ .data          0x0000000000000000        0x0 ./Drivers/DR_Init.o
+ .bss           0x0000000000000000        0x0 ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000000000      0xa96 ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000000000      0x352 ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_UART.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_UART.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_UART.o
+ .text          0x0000000000000000        0x0 ./Drivers/DR_UART.o
+ .data          0x0000000000000000        0x0 ./Drivers/DR_UART.o
+ .bss           0x0000000000000000        0x0 ./Drivers/DR_UART.o
+ .bss.out_rx    0x0000000000000000        0x4 ./Drivers/DR_UART.o
+ .text.PopRx0   0x0000000000000000       0x58 ./Drivers/DR_UART.o
+ .debug_macro   0x0000000000000000      0xa96 ./Drivers/DR_UART.o
+ .debug_macro   0x0000000000000000      0x352 ./Drivers/DR_UART.o
+ .debug_macro   0x0000000000000000       0x2e ./Drivers/DR_UART.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_teclado.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_teclado.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_teclado.o
+ .text          0x0000000000000000        0x0 ./Drivers/DR_teclado.o
+ .data          0x0000000000000000        0x0 ./Drivers/DR_teclado.o
+ .bss           0x0000000000000000        0x0 ./Drivers/DR_teclado.o
+ .debug_macro   0x0000000000000000      0xa96 ./Drivers/DR_teclado.o
+ .debug_macro   0x0000000000000000      0x352 ./Drivers/DR_teclado.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/DR_teclado.o
+ .group         0x0000000000000000        0xc ./Drivers/GPIO.o
+ .group         0x0000000000000000        0xc ./Drivers/GPIO.o
+ .text          0x0000000000000000        0x0 ./Drivers/GPIO.o
+ .data          0x0000000000000000        0x0 ./Drivers/GPIO.o
+ .bss           0x0000000000000000        0x0 ./Drivers/GPIO.o
+ .debug_macro   0x0000000000000000      0xa96 ./Drivers/GPIO.o
+ .debug_macro   0x0000000000000000      0x352 ./Drivers/GPIO.o
+ .group         0x0000000000000000        0xc ./Drivers/Systick.o
+ .group         0x0000000000000000        0xc ./Drivers/Systick.o
+ .group         0x0000000000000000        0xc ./Drivers/Systick.o
+ .text          0x0000000000000000        0x0 ./Drivers/Systick.o
+ .data          0x0000000000000000        0x0 ./Drivers/Systick.o
+ .bss           0x0000000000000000        0x0 ./Drivers/Systick.o
+ .debug_macro   0x0000000000000000      0xa96 ./Drivers/Systick.o
+ .debug_macro   0x0000000000000000      0x352 ./Drivers/Systick.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/Systick.o
+ .group         0x0000000000000000        0xc ./App/ESP8266App.o
+ .group         0x0000000000000000        0xc ./App/ESP8266App.o
+ .group         0x0000000000000000        0xc ./App/ESP8266App.o
+ .group         0x0000000000000000        0xc ./App/ESP8266App.o
+ .group         0x0000000000000000        0xc ./App/ESP8266App.o
+ .group         0x0000000000000000        0xc ./App/ESP8266App.o
+ .text          0x0000000000000000        0x0 ./App/ESP8266App.o
+ .data          0x0000000000000000        0x0 ./App/ESP8266App.o
+ .bss           0x0000000000000000        0x0 ./App/ESP8266App.o
+ .debug_macro   0x0000000000000000      0xa96 ./App/ESP8266App.o
+ .debug_macro   0x0000000000000000      0x352 ./App/ESP8266App.o
+ .debug_macro   0x0000000000000000       0x16 ./App/ESP8266App.o
+ .debug_macro   0x0000000000000000       0x34 ./App/ESP8266App.o
+ .debug_macro   0x0000000000000000       0x34 ./App/ESP8266App.o
+ .group         0x0000000000000000        0xc ./App/ESP8266_conf.o
+ .group         0x0000000000000000        0xc ./App/ESP8266_conf.o
+ .group         0x0000000000000000        0xc ./App/ESP8266_conf.o
+ .group         0x0000000000000000        0xc ./App/ESP8266_conf.o
+ .group         0x0000000000000000        0xc ./App/ESP8266_conf.o
+ .group         0x0000000000000000        0xc ./App/ESP8266_conf.o
+ .group         0x0000000000000000        0xc ./App/ESP8266_conf.o
+ .group         0x0000000000000000        0xc ./App/ESP8266_conf.o
+ .text          0x0000000000000000        0x0 ./App/ESP8266_conf.o
+ .data          0x0000000000000000        0x0 ./App/ESP8266_conf.o
+ .bss           0x0000000000000000        0x0 ./App/ESP8266_conf.o
+ .debug_macro   0x0000000000000000      0xa96 ./App/ESP8266_conf.o
+ .debug_macro   0x0000000000000000       0x10 ./App/ESP8266_conf.o
+ .debug_macro   0x0000000000000000      0x352 ./App/ESP8266_conf.o
+ .debug_macro   0x0000000000000000       0x16 ./App/ESP8266_conf.o
+ .debug_macro   0x0000000000000000       0x34 ./App/ESP8266_conf.o
+ .debug_macro   0x0000000000000000       0x34 ./App/ESP8266_conf.o
+ .debug_macro   0x0000000000000000       0x1c ./App/ESP8266_conf.o
+ .debug_macro   0x0000000000000000       0x1c ./App/ESP8266_conf.o
+ .group         0x0000000000000000        0xc ./App/cr_startup_lpc84x.o
+ .text          0x0000000000000000        0x0 ./App/cr_startup_lpc84x.o
+ .data          0x0000000000000000        0x0 ./App/cr_startup_lpc84x.o
+ .bss           0x0000000000000000        0x0 ./App/cr_startup_lpc84x.o
+ .debug_macro   0x0000000000000000      0xa96 ./App/cr_startup_lpc84x.o
+ .group         0x0000000000000000        0xc ./App/crp.o
+ .group         0x0000000000000000        0xc ./App/crp.o
+ .text          0x0000000000000000        0x0 ./App/crp.o
+ .data          0x0000000000000000        0x0 ./App/crp.o
+ .bss           0x0000000000000000        0x0 ./App/crp.o
+ .debug_macro   0x0000000000000000      0xa96 ./App/crp.o
+ .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+ .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+ .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+ .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash64         0x0000000000000000 0x0000000000010000 xr
+RamLoc16         0x0000000010000000 0x0000000000004000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./Primitivas/Leds.o
+LOAD ./Primitivas/PR_UART.o
+LOAD ./Primitivas/TImer.o
+LOAD ./Primitivas/Tecla.o
+LOAD ./Drivers/DR_ESP8266.o
+LOAD ./Drivers/DR_Init.o
+LOAD ./Drivers/DR_UART.o
+LOAD ./Drivers/DR_teclado.o
+LOAD ./Drivers/GPIO.o
+LOAD ./Drivers/Systick.o
+LOAD ./App/ESP8266App.o
+LOAD ./App/ESP8266_conf.o
+LOAD ./App/cr_startup_lpc84x.o
+LOAD ./App/crp.o
+START GROUP
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a
+END GROUP
+                0x0000000000000000                __base_MFlash64 = 0x0
+                0x0000000000000000                __base_Flash = 0x0
+                0x0000000000010000                __top_MFlash64 = 0x10000
+                0x0000000000010000                __top_Flash = 0x10000
+                0x0000000010000000                __base_RamLoc16 = 0x10000000
+                0x0000000010000000                __base_RAM = 0x10000000
+                0x0000000010004000                __top_RamLoc16 = 0x10004000
+                0x0000000010004000                __top_RAM = 0x10004000
+
+.text           0x0000000000000000      0xfe4
+ FILL mask 0xff
+                0x0000000000000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0xc0 ./App/cr_startup_lpc84x.o
+                0x0000000000000000                g_pfnVectors
+                0x00000000000000c0                . = ALIGN (0x4)
+                0x00000000000000c0                __section_table_start = .
+                0x00000000000000c0                __data_section_table = .
+                0x00000000000000c0        0x4 LONG 0xfe4 LOADADDR (.data)
+                0x00000000000000c4        0x4 LONG 0x10000000 ADDR (.data)
+                0x00000000000000c8        0x4 LONG 0x18 SIZEOF (.data)
+                0x00000000000000cc                __data_section_table_end = .
+                0x00000000000000cc                __bss_section_table = .
+                0x00000000000000cc        0x4 LONG 0x10000018 ADDR (.bss)
+                0x00000000000000d0        0x4 LONG 0x1d4 SIZEOF (.bss)
+                0x00000000000000d4                __bss_section_table_end = .
+                0x00000000000000d4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x00000000000000d4      0x144 ./App/cr_startup_lpc84x.o
+                0x00000000000000d4                data_init
+                0x0000000000000116                bss_init
+                0x000000000000014c                ResetISR
+                0x00000000000001f4                NMI_Handler
+                0x00000000000001fa                HardFault_Handler
+                0x0000000000000200                SVC_Handler
+                0x0000000000000206                PendSV_Handler
+                0x0000000000000212                CMP_IRQHandler
+                0x0000000000000212                PININT7_IRQHandler
+                0x0000000000000212                I2C0_IRQHandler
+                0x0000000000000212                WKT_IRQHandler
+                0x0000000000000212                PININT2_IRQHandler
+                0x0000000000000212                PININT1_IRQHandler
+                0x0000000000000212                MRT_IRQHandler
+                0x0000000000000212                I2C1_IRQHandler
+                0x0000000000000212                ADC_SEQB_IRQHandler
+                0x0000000000000212                SPI1_IRQHandler
+                0x0000000000000212                IntDefaultHandler
+                0x0000000000000212                ADC_OVR_IRQHandler
+                0x0000000000000212                I2C2_IRQHandler
+                0x0000000000000212                PININT3_IRQHandler
+                0x0000000000000212                UART2_IRQHandler
+                0x0000000000000212                PININT5_IRQHandler
+                0x0000000000000212                PININT4_IRQHandler
+                0x0000000000000212                ADC_THCMP_IRQHandler
+                0x0000000000000212                PININT0_IRQHandler
+                0x0000000000000212                BOD_IRQHandler
+                0x0000000000000212                I2C3_IRQHandler
+                0x0000000000000212                SCT_IRQHandler
+                0x0000000000000212                WDT_IRQHandler
+                0x0000000000000212                ADC_SEQA_IRQHandler
+                0x0000000000000212                FAIM_IRQHandler
+                0x0000000000000212                DAC0_IRQHandler
+                0x0000000000000212                PININT6_IRQHandler
+                0x0000000000000212                SPI0_IRQHandler
+                0x0000000000000212                DMA_IRQHandler
+                0x0000000000000212                FLASH_IRQHandler
+                0x0000000000000212                CTIMER0_IRQHandler
+                0x00000000000002fc                . = 0x2fc
+ *fill*         0x0000000000000218       0xe4 ff
+                0x00000000000002fc                PROVIDE (__CRP_WORD_START__ = .)
+ *(.crp)
+ .crp           0x00000000000002fc        0x4 ./App/crp.o
+                0x00000000000002fc                CRP_WORD
+                0x0000000000000300                PROVIDE (__CRP_WORD_END__ = .)
+                0x0000000000000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.LED_OFF  0x0000000000000300       0x1c ./Primitivas/Leds.o
+                0x0000000000000300                LED_OFF
+ .text.LED_ON   0x000000000000031c       0x1c ./Primitivas/Leds.o
+                0x000000000000031c                LED_ON
+ .text.TxSerie0
+                0x0000000000000338       0x3c ./Primitivas/PR_UART.o
+                0x0000000000000338                TxSerie0
+ .text.RxSerie1
+                0x0000000000000374       0x10 ./Primitivas/PR_UART.o
+                0x0000000000000374                RxSerie1
+ .text.TxSerie1
+                0x0000000000000384       0x3c ./Primitivas/PR_UART.o
+                0x0000000000000384                TxSerie1
+ .text.TimerEvent
+                0x00000000000003c0       0x5c ./Primitivas/TImer.o
+                0x00000000000003c0                TimerEvent
+ .text.getKey   0x000000000000041c       0x24 ./Primitivas/Tecla.o
+                0x000000000000041c                getKey
+ .text.InitHw   0x0000000000000440       0x1e ./Drivers/DR_Init.o
+                0x0000000000000440                InitHw
+ *fill*         0x000000000000045e        0x2 ff
+ .text.InitGPIO
+                0x0000000000000460       0x78 ./Drivers/DR_Init.o
+                0x0000000000000460                InitGPIO
+ .text.InitPLL  0x00000000000004d8       0x88 ./Drivers/DR_Init.o
+                0x00000000000004d8                InitPLL
+ .text.InitUART0
+                0x0000000000000560       0xac ./Drivers/DR_UART.o
+                0x0000000000000560                InitUART0
+ .text.InitUART1
+                0x000000000000060c       0xb0 ./Drivers/DR_UART.o
+                0x000000000000060c                InitUART1
+ .text.UART0_IRQHandler
+                0x00000000000006bc       0x50 ./Drivers/DR_UART.o
+                0x00000000000006bc                UART0_IRQHandler
+ .text.UART1_IRQHandler
+                0x000000000000070c       0x50 ./Drivers/DR_UART.o
+                0x000000000000070c                UART1_IRQHandler
+ .text.PushRx0  0x000000000000075c       0x40 ./Drivers/DR_UART.o
+                0x000000000000075c                PushRx0
+ .text.PushTx0  0x000000000000079c       0x50 ./Drivers/DR_UART.o
+                0x000000000000079c                PushTx0
+ .text.PopTx0   0x00000000000007ec       0x58 ./Drivers/DR_UART.o
+                0x00000000000007ec                PopTx0
+ .text.PushTx1  0x0000000000000844       0x50 ./Drivers/DR_UART.o
+                0x0000000000000844                PushTx1
+ .text.PopTx1   0x0000000000000894       0x58 ./Drivers/DR_UART.o
+                0x0000000000000894                PopTx1
+ .text.PushRx1  0x00000000000008ec       0x40 ./Drivers/DR_UART.o
+                0x00000000000008ec                PushRx1
+ .text.PopRx1   0x000000000000092c       0x58 ./Drivers/DR_UART.o
+                0x000000000000092c                PopRx1
+ .text.DriverTecladoSW
+                0x0000000000000984       0x68 ./Drivers/DR_teclado.o
+                0x0000000000000984                DriverTecladoSW
+ .text.SetDIR   0x00000000000009ec       0x7e ./Drivers/GPIO.o
+                0x00000000000009ec                SetDIR
+ .text.SetPIN   0x0000000000000a6a       0x7e ./Drivers/GPIO.o
+                0x0000000000000a6a                SetPIN
+ .text.GetPIN   0x0000000000000ae8       0x3a ./Drivers/GPIO.o
+                0x0000000000000ae8                GetPIN
+ *fill*         0x0000000000000b22        0x2 ff
+ .text.SetPINMODE_IN
+                0x0000000000000b24       0x34 ./Drivers/GPIO.o
+                0x0000000000000b24                SetPINMODE_IN
+ .text.SetPINMODE_OUT
+                0x0000000000000b58       0x4c ./Drivers/GPIO.o
+                0x0000000000000b58                SetPINMODE_OUT
+ .text.SysTick_Handler
+                0x0000000000000ba4       0x12 ./Drivers/Systick.o
+                0x0000000000000ba4                SysTick_Handler
+ *fill*         0x0000000000000bb6        0x2 ff
+ .text.AnalizarTimers
+                0x0000000000000bb8       0x7c ./Drivers/Systick.o
+                0x0000000000000bb8                AnalizarTimers
+ .text.InitSystick
+                0x0000000000000c34       0x28 ./Drivers/Systick.o
+                0x0000000000000c34                InitSystick
+ .text.ESP8266_check
+                0x0000000000000c5c       0x88 ./App/ESP8266App.o
+                0x0000000000000c5c                ESP8266_check
+ .text.main     0x0000000000000ce4      0x200 ./App/ESP8266_conf.o
+                0x0000000000000ce4                main
+ .text.__weak_main
+                0x0000000000000ee4        0x8 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                0x0000000000000ee4                __main
+                0x0000000000000ee4                __weak_main
+ .text.__aeabi_division_idivmod
+                0x0000000000000eec       0x78 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+                0x0000000000000eec                __aeabi_idiv
+                0x0000000000000eec                __aeabi_idivmod
+                0x0000000000000ef2                __aeabi_uidiv
+                0x0000000000000ef2                __aeabi_uidivmod
+ .text.__aeabi_division_idiv0
+                0x0000000000000f64        0x2 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
+                0x0000000000000f64                __aeabi_idiv0
+ *(.rodata .rodata.* .constdata .constdata.*)
+ *fill*         0x0000000000000f66        0x2 ff
+ .rodata.ESP8266_check.str1.4
+                0x0000000000000f68        0x5 ./App/ESP8266App.o
+ *fill*         0x0000000000000f6d        0x3 ff
+ .rodata.str1.4
+                0x0000000000000f70       0x5b ./App/ESP8266_conf.o
+ *fill*         0x0000000000000fcb        0x1 ff
+ .rodata.main   0x0000000000000fcc       0x18 ./App/ESP8266_conf.o
+                0x0000000000000fe4                . = ALIGN (0x4)
+
+.glue_7         0x0000000000000fe4        0x0
+ .glue_7        0x0000000000000fe4        0x0 linker stubs
+
+.glue_7t        0x0000000000000fe4        0x0
+ .glue_7t       0x0000000000000fe4        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000fe4        0x0
+ .vfp11_veneer  0x0000000000000fe4        0x0 linker stubs
+
+.v4_bx          0x0000000000000fe4        0x0
+ .v4_bx         0x0000000000000fe4        0x0 linker stubs
+
+.iplt           0x0000000000000fe4        0x0
+ .iplt          0x0000000000000fe4        0x0 ./Primitivas/Leds.o
+
+.rel.dyn        0x0000000000000fe4        0x0
+ .rel.iplt      0x0000000000000fe4        0x0 ./Primitivas/Leds.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx      0x0000000000000fe4        0x0
+                0x0000000000000fe4                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000000000fe4                __exidx_end = .
+                0x0000000000000fe4                _etext = .
+
+.mtb_buffer_default
+ *(.mtb*)
+
+.uninit_RESERVED
+                0x0000000010000000        0x0
+                0x0000000010000000                _start_uninit_RESERVED = .
+ *(.bss.$RESERVED*)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _end_uninit_RESERVED = .
+
+.data           0x0000000010000000       0x18 load address 0x0000000000000fe4
+ FILL mask 0xff
+                0x0000000010000000                _data = .
+                [!provide]                        PROVIDE (__start_data_RAM = .)
+                [!provide]                        PROVIDE (__start_data_RamLoc16 = .)
+ *(vtable)
+ *(.ramfunc*)
+ *(CodeQuickAccess)
+ *(DataQuickAccess)
+ *(RamFunction)
+ *(.data*)
+ .data.fro_set_frec
+                0x0000000010000000        0x4 ./Drivers/DR_Init.o
+                0x0000000010000000                fro_set_frec
+ .data.Tecla    0x0000000010000004        0x1 ./Drivers/DR_teclado.o
+                0x0000000010000004                Tecla
+ .data.estado.3862
+                0x0000000010000005        0x1 ./App/ESP8266App.o
+ *fill*         0x0000000010000006        0x2 ff
+ .data.comando  0x0000000010000008       0x10 ./App/ESP8266_conf.o
+                0x0000000010000008                comando
+                0x0000000010000018                . = ALIGN (0x4)
+                0x0000000010000018                _edata = .
+                [!provide]                        PROVIDE (__end_data_RAM = .)
+                [!provide]                        PROVIDE (__end_data_RamLoc16 = .)
+
+.igot.plt       0x0000000010000018        0x0 load address 0x0000000000000ffc
+ .igot.plt      0x0000000010000018        0x0 ./Primitivas/Leds.o
+
+.bss            0x0000000010000018      0x1d4
+                0x0000000010000018                _bss = .
+                [!provide]                        PROVIDE (__start_bss_RAM = .)
+                [!provide]                        PROVIDE (__start_bss_RamLoc16 = .)
+ *(.bss*)
+ .bss.HandlersTimer
+                0x0000000010000018       0x40 ./Primitivas/TImer.o
+                0x0000000010000018                HandlersTimer
+ .bss.in_tx     0x0000000010000058        0x4 ./Drivers/DR_UART.o
+                0x0000000010000058                in_tx
+ .bss.out_tx    0x000000001000005c        0x4 ./Drivers/DR_UART.o
+                0x000000001000005c                out_tx
+ .bss.in_rx     0x0000000010000060        0x4 ./Drivers/DR_UART.o
+                0x0000000010000060                in_rx
+ .bss.buf_tx    0x0000000010000064       0x40 ./Drivers/DR_UART.o
+                0x0000000010000064                buf_tx
+ .bss.buf_rx    0x00000000100000a4       0x40 ./Drivers/DR_UART.o
+                0x00000000100000a4                buf_rx
+ .bss.in_tx1    0x00000000100000e4        0x4 ./Drivers/DR_UART.o
+                0x00000000100000e4                in_tx1
+ .bss.out_tx1   0x00000000100000e8        0x4 ./Drivers/DR_UART.o
+                0x00000000100000e8                out_tx1
+ .bss.in_rx1    0x00000000100000ec        0x4 ./Drivers/DR_UART.o
+                0x00000000100000ec                in_rx1
+ .bss.out_rx1   0x00000000100000f0        0x4 ./Drivers/DR_UART.o
+                0x00000000100000f0                out_rx1
+ .bss.buf_tx1   0x00000000100000f4       0x40 ./Drivers/DR_UART.o
+                0x00000000100000f4                buf_tx1
+ .bss.buf_rx1   0x0000000010000134       0x40 ./Drivers/DR_UART.o
+                0x0000000010000134                buf_rx1
+ .bss.cont.3814
+                0x0000000010000174        0x1 ./Drivers/DR_teclado.o
+ *fill*         0x0000000010000175        0x3 
+ .bss.flagsT    0x0000000010000178       0x10 ./Drivers/Systick.o
+                0x0000000010000178                flagsT
+ .bss.timers    0x0000000010000188       0x40 ./Drivers/Systick.o
+                0x0000000010000188                timers
+ .bss.estado.3890
+                0x00000000100001c8        0x1 ./App/ESP8266_conf.o
+ .bss.stage.3891
+                0x00000000100001c9        0x1 ./App/ESP8266_conf.o
+ .bss.checked.3895
+                0x00000000100001ca        0x1 ./App/ESP8266_conf.o
+ .bss.cont.3897
+                0x00000000100001cb        0x1 ./App/ESP8266_conf.o
+ .bss.flag.3894
+                0x00000000100001cc        0x1 ./App/ESP8266_conf.o
+ .bss.length.3896
+                0x00000000100001cd        0x1 ./App/ESP8266_conf.o
+ .bss.pos.3893  0x00000000100001ce        0x1 ./App/ESP8266_conf.o
+ *fill*         0x00000000100001cf        0x1 
+ .bss.buffer.3892
+                0x00000000100001d0       0x14 ./App/ESP8266_conf.o
+ .bss.pDivRom_idiv
+                0x00000000100001e4        0x4 ./App/cr_startup_lpc84x.o
+                0x00000000100001e4                pDivRom_idiv
+ .bss.pDivRom_uidiv
+                0x00000000100001e8        0x4 ./App/cr_startup_lpc84x.o
+                0x00000000100001e8                pDivRom_uidiv
+ *(COMMON)
+                0x00000000100001ec                . = ALIGN (0x4)
+                0x00000000100001ec                _ebss = .
+                [!provide]                        PROVIDE (__end_bss_RAM = .)
+                [!provide]                        PROVIDE (__end_bss_RamLoc16 = .)
+                [!provide]                        PROVIDE (end = .)
+
+.noinit         0x00000000100001ec        0x0
+                0x00000000100001ec                _noinit = .
+                [!provide]                        PROVIDE (__start_noinit_RAM = .)
+                [!provide]                        PROVIDE (__start_noinit_RamLoc16 = .)
+ *(.noinit*)
+                0x00000000100001ec                . = ALIGN (0x4)
+                0x00000000100001ec                _end_noinit = .
+                [!provide]                        PROVIDE (__end_noinit_RAM = .)
+                [!provide]                        PROVIDE (__end_noinit_RamLoc16 = .)
+                [!provide]                        PROVIDE (_pvHeapStart = DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x0000000010004000                PROVIDE (_vStackTop = DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc16 - 0x0))
+                0xffffffffefffbac3                PROVIDE (__valid_user_code_checksum = (0x0 - (((_vStackTop + (ResetISR + 0x1)) + (DEFINED (NMI_Handler)?NMI_Handler:M0_NMI_Handler + 0x1)) + (DEFINED (HardFault_Handler)?HardFault_Handler:M0_HardFault_Handler + 0x1))))
+                0x0000000000000000                _image_start = LOADADDR (.text)
+                0x0000000000000ffc                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x0000000000000ffc                _image_size = (_image_end - _image_start)
+OUTPUT(ESP8266_check_v2.axf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000     0x206f
+ .debug_info    0x0000000000000000       0xce ./Primitivas/Leds.o
+ .debug_info    0x00000000000000ce      0x1d2 ./Primitivas/PR_UART.o
+ .debug_info    0x00000000000002a0      0x19e ./Primitivas/TImer.o
+ .debug_info    0x000000000000043e       0x9e ./Primitivas/Tecla.o
+ .debug_info    0x00000000000004dc      0x642 ./Drivers/DR_Init.o
+ .debug_info    0x0000000000000b1e      0x8f7 ./Drivers/DR_UART.o
+ .debug_info    0x0000000000001415       0xae ./Drivers/DR_teclado.o
+ .debug_info    0x00000000000014c3      0x3b4 ./Drivers/GPIO.o
+ .debug_info    0x0000000000001877      0x19b ./Drivers/Systick.o
+ .debug_info    0x0000000000001a12      0x16b ./App/ESP8266App.o
+ .debug_info    0x0000000000001b7d      0x25d ./App/ESP8266_conf.o
+ .debug_info    0x0000000000001dda      0x255 ./App/cr_startup_lpc84x.o
+ .debug_info    0x000000000000202f       0x40 ./App/crp.o
+
+.debug_abbrev   0x0000000000000000      0xb7d
+ .debug_abbrev  0x0000000000000000       0x83 ./Primitivas/Leds.o
+ .debug_abbrev  0x0000000000000083       0xde ./Primitivas/PR_UART.o
+ .debug_abbrev  0x0000000000000161      0x121 ./Primitivas/TImer.o
+ .debug_abbrev  0x0000000000000282       0x7c ./Primitivas/Tecla.o
+ .debug_abbrev  0x00000000000002fe      0x10f ./Drivers/DR_Init.o
+ .debug_abbrev  0x000000000000040d      0x1bb ./Drivers/DR_UART.o
+ .debug_abbrev  0x00000000000005c8       0x9a ./Drivers/DR_teclado.o
+ .debug_abbrev  0x0000000000000662      0x147 ./Drivers/GPIO.o
+ .debug_abbrev  0x00000000000007a9      0x118 ./Drivers/Systick.o
+ .debug_abbrev  0x00000000000008c1       0x9f ./App/ESP8266App.o
+ .debug_abbrev  0x0000000000000960       0xbb ./App/ESP8266_conf.o
+ .debug_abbrev  0x0000000000000a1b      0x12a ./App/cr_startup_lpc84x.o
+ .debug_abbrev  0x0000000000000b45       0x38 ./App/crp.o
+
+.debug_aranges  0x0000000000000000      0x2b8
+ .debug_aranges
+                0x0000000000000000       0x30 ./Primitivas/Leds.o
+ .debug_aranges
+                0x0000000000000030       0x40 ./Primitivas/PR_UART.o
+ .debug_aranges
+                0x0000000000000070       0x38 ./Primitivas/TImer.o
+ .debug_aranges
+                0x00000000000000a8       0x20 ./Primitivas/Tecla.o
+ .debug_aranges
+                0x00000000000000c8       0x30 ./Drivers/DR_Init.o
+ .debug_aranges
+                0x00000000000000f8       0x78 ./Drivers/DR_UART.o
+ .debug_aranges
+                0x0000000000000170       0x20 ./Drivers/DR_teclado.o
+ .debug_aranges
+                0x0000000000000190       0x40 ./Drivers/GPIO.o
+ .debug_aranges
+                0x00000000000001d0       0x30 ./Drivers/Systick.o
+ .debug_aranges
+                0x0000000000000200       0x20 ./App/ESP8266App.o
+ .debug_aranges
+                0x0000000000000220       0x20 ./App/ESP8266_conf.o
+ .debug_aranges
+                0x0000000000000240       0x60 ./App/cr_startup_lpc84x.o
+ .debug_aranges
+                0x00000000000002a0       0x18 ./App/crp.o
+
+.debug_ranges   0x0000000000000000      0x1e0
+ .debug_ranges  0x0000000000000000       0x20 ./Primitivas/Leds.o
+ .debug_ranges  0x0000000000000020       0x30 ./Primitivas/PR_UART.o
+ .debug_ranges  0x0000000000000050       0x28 ./Primitivas/TImer.o
+ .debug_ranges  0x0000000000000078       0x10 ./Primitivas/Tecla.o
+ .debug_ranges  0x0000000000000088       0x20 ./Drivers/DR_Init.o
+ .debug_ranges  0x00000000000000a8       0x68 ./Drivers/DR_UART.o
+ .debug_ranges  0x0000000000000110       0x10 ./Drivers/DR_teclado.o
+ .debug_ranges  0x0000000000000120       0x30 ./Drivers/GPIO.o
+ .debug_ranges  0x0000000000000150       0x20 ./Drivers/Systick.o
+ .debug_ranges  0x0000000000000170       0x10 ./App/ESP8266App.o
+ .debug_ranges  0x0000000000000180       0x10 ./App/ESP8266_conf.o
+ .debug_ranges  0x0000000000000190       0x50 ./App/cr_startup_lpc84x.o
+
+.debug_macro    0x0000000000000000     0x1352
+ .debug_macro   0x0000000000000000       0x37 ./Primitivas/Leds.o
+ .debug_macro   0x0000000000000037      0xa96 ./Primitivas/Leds.o
+ .debug_macro   0x0000000000000acd      0x352 ./Primitivas/Leds.o
+ .debug_macro   0x0000000000000e1f       0x34 ./Primitivas/Leds.o
+ .debug_macro   0x0000000000000e53       0x37 ./Primitivas/PR_UART.o
+ .debug_macro   0x0000000000000e8a       0x2e ./Primitivas/PR_UART.o
+ .debug_macro   0x0000000000000eb8       0x56 ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000f0e       0x16 ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000f24       0x1c ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000f40       0x47 ./Primitivas/Tecla.o
+ .debug_macro   0x0000000000000f87       0xaf ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000001036       0x10 ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000001046       0x34 ./Drivers/DR_Init.o
+ .debug_macro   0x000000000000107a       0x29 ./Drivers/DR_UART.o
+ .debug_macro   0x00000000000010a3       0x4b ./Drivers/DR_teclado.o
+ .debug_macro   0x00000000000010ee       0x24 ./Drivers/GPIO.o
+ .debug_macro   0x0000000000001112       0x43 ./Drivers/Systick.o
+ .debug_macro   0x0000000000001155       0x80 ./App/ESP8266App.o
+ .debug_macro   0x00000000000011d5       0x1c ./App/ESP8266App.o
+ .debug_macro   0x00000000000011f1       0xf0 ./App/ESP8266_conf.o
+ .debug_macro   0x00000000000012e1       0x23 ./App/cr_startup_lpc84x.o
+ .debug_macro   0x0000000000001304       0x1a ./App/crp.o
+ .debug_macro   0x000000000000131e       0x34 ./App/crp.o
+
+.debug_line     0x0000000000000000     0x1328
+ .debug_line    0x0000000000000000       0xbf ./Primitivas/Leds.o
+ .debug_line    0x00000000000000bf      0x171 ./Primitivas/PR_UART.o
+ .debug_line    0x0000000000000230      0x12a ./Primitivas/TImer.o
+ .debug_line    0x000000000000035a       0xc4 ./Primitivas/Tecla.o
+ .debug_line    0x000000000000041e      0x23a ./Drivers/DR_Init.o
+ .debug_line    0x0000000000000658      0x28c ./Drivers/DR_UART.o
+ .debug_line    0x00000000000008e4      0x14b ./Drivers/DR_teclado.o
+ .debug_line    0x0000000000000a2f      0x119 ./Drivers/GPIO.o
+ .debug_line    0x0000000000000b48       0xf5 ./Drivers/Systick.o
+ .debug_line    0x0000000000000c3d      0x1ce ./App/ESP8266App.o
+ .debug_line    0x0000000000000e0b      0x31b ./App/ESP8266_conf.o
+ .debug_line    0x0000000000001126      0x14d ./App/cr_startup_lpc84x.o
+ .debug_line    0x0000000000001273       0xb5 ./App/crp.o
+
+.debug_str      0x0000000000000000     0x46da
+ .debug_str     0x0000000000000000     0x3b51 ./Primitivas/Leds.o
+                                       0x3b95 (size before relaxing)
+ .debug_str     0x0000000000003b51      0x135 ./Primitivas/PR_UART.o
+                                       0x3c34 (size before relaxing)
+ .debug_str     0x0000000000003c86       0xfa ./Primitivas/TImer.o
+                                       0x3c0a (size before relaxing)
+ .debug_str     0x0000000000003d80       0x38 ./Primitivas/Tecla.o
+                                       0x3b7f (size before relaxing)
+ .debug_str     0x0000000000003db8      0x36a ./Drivers/DR_Init.o
+                                       0x4052 (size before relaxing)
+ .debug_str     0x0000000000004122       0xcd ./Drivers/DR_UART.o
+                                       0x3fa1 (size before relaxing)
+ .debug_str     0x00000000000041ef       0x2d ./Drivers/DR_teclado.o
+                                       0x3b86 (size before relaxing)
+ .debug_str     0x000000000000421c       0x9f ./Drivers/GPIO.o
+                                       0x3c29 (size before relaxing)
+ .debug_str     0x00000000000042bb       0x5d ./Drivers/Systick.o
+                                       0x3bcd (size before relaxing)
+ .debug_str     0x0000000000004318       0x78 ./App/ESP8266App.o
+                                       0x3d0c (size before relaxing)
+ .debug_str     0x0000000000004390       0x8f ./App/ESP8266_conf.o
+                                       0x3e27 (size before relaxing)
+ .debug_str     0x000000000000441f      0x1d2 ./App/cr_startup_lpc84x.o
+                                       0x2f19 (size before relaxing)
+ .debug_str     0x00000000000045f1       0xe9 ./App/crp.o
+                                       0x2e1a (size before relaxing)
+
+.comment        0x0000000000000000       0x4c
+ .comment       0x0000000000000000       0x4c ./Primitivas/Leds.o
+                                         0x4d (size before relaxing)
+ .comment       0x000000000000004c       0x4d ./Primitivas/PR_UART.o
+ .comment       0x000000000000004c       0x4d ./Primitivas/TImer.o
+ .comment       0x000000000000004c       0x4d ./Primitivas/Tecla.o
+ .comment       0x000000000000004c       0x4d ./Drivers/DR_Init.o
+ .comment       0x000000000000004c       0x4d ./Drivers/DR_UART.o
+ .comment       0x000000000000004c       0x4d ./Drivers/DR_teclado.o
+ .comment       0x000000000000004c       0x4d ./Drivers/GPIO.o
+ .comment       0x000000000000004c       0x4d ./Drivers/Systick.o
+ .comment       0x000000000000004c       0x4d ./App/ESP8266App.o
+ .comment       0x000000000000004c       0x4d ./App/ESP8266_conf.o
+ .comment       0x000000000000004c       0x4d ./App/cr_startup_lpc84x.o
+ .comment       0x000000000000004c       0x4d ./App/crp.o
+ .comment       0x000000000000004c       0x4d /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x0000000000000000       0x2a
+ .ARM.attributes
+                0x0000000000000000       0x2c ./Primitivas/Leds.o
+ .ARM.attributes
+                0x000000000000002c       0x2c ./Primitivas/PR_UART.o
+ .ARM.attributes
+                0x0000000000000058       0x2c ./Primitivas/TImer.o
+ .ARM.attributes
+                0x0000000000000084       0x2c ./Primitivas/Tecla.o
+ .ARM.attributes
+                0x00000000000000b0       0x2c ./Drivers/DR_Init.o
+ .ARM.attributes
+                0x00000000000000dc       0x2c ./Drivers/DR_UART.o
+ .ARM.attributes
+                0x0000000000000108       0x2c ./Drivers/DR_teclado.o
+ .ARM.attributes
+                0x0000000000000134       0x2c ./Drivers/GPIO.o
+ .ARM.attributes
+                0x0000000000000160       0x2c ./Drivers/Systick.o
+ .ARM.attributes
+                0x000000000000018c       0x2c ./App/ESP8266App.o
+ .ARM.attributes
+                0x00000000000001b8       0x2c ./App/ESP8266_conf.o
+ .ARM.attributes
+                0x00000000000001e4       0x2c ./App/cr_startup_lpc84x.o
+ .ARM.attributes
+                0x0000000000000210       0x31 ./App/crp.o
+ .ARM.attributes
+                0x0000000000000241       0x2c /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x000000000000026d       0x1c /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+ .ARM.attributes
+                0x0000000000000289       0x1c /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
+
+.debug_frame    0x0000000000000000      0x680
+ .debug_frame   0x0000000000000000       0x70 ./Primitivas/Leds.o
+ .debug_frame   0x0000000000000070       0xa8 ./Primitivas/PR_UART.o
+ .debug_frame   0x0000000000000118       0x8c ./Primitivas/TImer.o
+ .debug_frame   0x00000000000001a4       0x30 ./Primitivas/Tecla.o
+ .debug_frame   0x00000000000001d4       0x64 ./Drivers/DR_Init.o
+ .debug_frame   0x0000000000000238      0x188 ./Drivers/DR_UART.o
+ .debug_frame   0x00000000000003c0       0x30 ./Drivers/DR_teclado.o
+ .debug_frame   0x00000000000003f0       0xb0 ./Drivers/GPIO.o
+ .debug_frame   0x00000000000004a0       0x68 ./Drivers/Systick.o
+ .debug_frame   0x0000000000000508       0x30 ./App/ESP8266App.o
+ .debug_frame   0x0000000000000538       0x30 ./App/ESP8266_conf.o
+ .debug_frame   0x0000000000000568      0x118 ./App/cr_startup_lpc84x.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_OVR_IRQHandler                                ./App/cr_startup_lpc84x.o
+ADC_SEQA_IRQHandler                               ./App/cr_startup_lpc84x.o
+ADC_SEQB_IRQHandler                               ./App/cr_startup_lpc84x.o
+ADC_THCMP_IRQHandler                              ./App/cr_startup_lpc84x.o
+AnalizarTimers                                    ./Drivers/Systick.o
+BOD_IRQHandler                                    ./App/cr_startup_lpc84x.o
+CMP_IRQHandler                                    ./App/cr_startup_lpc84x.o
+CRP_WORD                                          ./App/crp.o
+CTIMER0_IRQHandler                                ./App/cr_startup_lpc84x.o
+DAC0_IRQHandler                                   ./App/cr_startup_lpc84x.o
+DMA_IRQHandler                                    ./App/cr_startup_lpc84x.o
+DriverTecladoSW                                   ./Drivers/DR_teclado.o
+                                                  ./Drivers/Systick.o
+ESP8266_check                                     ./App/ESP8266App.o
+                                                  ./App/ESP8266_conf.o
+FAIM_IRQHandler                                   ./App/cr_startup_lpc84x.o
+FLASH_IRQHandler                                  ./App/cr_startup_lpc84x.o
+GetPIN                                            ./Drivers/GPIO.o
+                                                  ./Drivers/DR_teclado.o
+                                                  ./Primitivas/Leds.o
+HandlerT0                                         ./Primitivas/TImer.o
+HandlersTimer                                     ./Primitivas/TImer.o
+HardFault_Handler                                 ./App/cr_startup_lpc84x.o
+I2C0_IRQHandler                                   ./App/cr_startup_lpc84x.o
+I2C1_IRQHandler                                   ./App/cr_startup_lpc84x.o
+I2C2_IRQHandler                                   ./App/cr_startup_lpc84x.o
+I2C3_IRQHandler                                   ./App/cr_startup_lpc84x.o
+InitGPIO                                          ./Drivers/DR_Init.o
+InitHw                                            ./Drivers/DR_Init.o
+                                                  ./App/ESP8266_conf.o
+InitPLL                                           ./Drivers/DR_Init.o
+InitSystick                                       ./Drivers/Systick.o
+                                                  ./Drivers/DR_Init.o
+InitUART0                                         ./Drivers/DR_UART.o
+                                                  ./Drivers/DR_Init.o
+InitUART1                                         ./Drivers/DR_UART.o
+                                                  ./Drivers/DR_Init.o
+IntDefaultHandler                                 ./App/cr_startup_lpc84x.o
+LED_OFF                                           ./Primitivas/Leds.o
+                                                  ./App/ESP8266_conf.o
+LED_ON                                            ./Primitivas/Leds.o
+                                                  ./App/ESP8266_conf.o
+MRT_IRQHandler                                    ./App/cr_startup_lpc84x.o
+NMI_Handler                                       ./App/cr_startup_lpc84x.o
+PININT0_IRQHandler                                ./App/cr_startup_lpc84x.o
+PININT1_IRQHandler                                ./App/cr_startup_lpc84x.o
+PININT2_IRQHandler                                ./App/cr_startup_lpc84x.o
+PININT3_IRQHandler                                ./App/cr_startup_lpc84x.o
+PININT4_IRQHandler                                ./App/cr_startup_lpc84x.o
+PININT5_IRQHandler                                ./App/cr_startup_lpc84x.o
+PININT6_IRQHandler                                ./App/cr_startup_lpc84x.o
+PININT7_IRQHandler                                ./App/cr_startup_lpc84x.o
+PendSV_Handler                                    ./App/cr_startup_lpc84x.o
+PopRx0                                            ./Drivers/DR_UART.o
+                                                  ./Primitivas/PR_UART.o
+PopRx1                                            ./Drivers/DR_UART.o
+                                                  ./Primitivas/PR_UART.o
+PopTx0                                            ./Drivers/DR_UART.o
+PopTx1                                            ./Drivers/DR_UART.o
+PushRx0                                           ./Drivers/DR_UART.o
+PushRx1                                           ./Drivers/DR_UART.o
+PushTx0                                           ./Drivers/DR_UART.o
+                                                  ./Primitivas/PR_UART.o
+PushTx1                                           ./Drivers/DR_UART.o
+                                                  ./Primitivas/PR_UART.o
+ResetISR                                          ./App/cr_startup_lpc84x.o
+RxSerie0                                          ./Primitivas/PR_UART.o
+RxSerie1                                          ./Primitivas/PR_UART.o
+                                                  ./App/ESP8266_conf.o
+                                                  ./App/ESP8266App.o
+SCT_IRQHandler                                    ./App/cr_startup_lpc84x.o
+SPI0_IRQHandler                                   ./App/cr_startup_lpc84x.o
+SPI1_IRQHandler                                   ./App/cr_startup_lpc84x.o
+SVC_Handler                                       ./App/cr_startup_lpc84x.o
+SetDIR                                            ./Drivers/GPIO.o
+                                                  ./Drivers/DR_Init.o
+SetPIN                                            ./Drivers/GPIO.o
+                                                  ./Primitivas/Leds.o
+SetPINMODE_IN                                     ./Drivers/GPIO.o
+                                                  ./Drivers/DR_Init.o
+SetPINMODE_OUT                                    ./Drivers/GPIO.o
+                                                  ./Drivers/DR_Init.o
+SwapEstadoLed                                     ./Primitivas/Leds.o
+SysTick_Handler                                   ./Drivers/Systick.o
+Tecla                                             ./Drivers/DR_teclado.o
+                                                  ./Primitivas/Tecla.o
+TimerEvent                                        ./Primitivas/TImer.o
+                                                  ./App/ESP8266_conf.o
+TimerStart                                        ./Primitivas/TImer.o
+TimerStop                                         ./Primitivas/TImer.o
+Tx0Byte                                           ./Primitivas/PR_UART.o
+TxSerie0                                          ./Primitivas/PR_UART.o
+                                                  ./App/ESP8266_conf.o
+                                                  ./App/ESP8266App.o
+TxSerie1                                          ./Primitivas/PR_UART.o
+                                                  ./App/ESP8266_conf.o
+UART0_IRQHandler                                  ./Drivers/DR_UART.o
+UART1_IRQHandler                                  ./Drivers/DR_UART.o
+UART2_IRQHandler                                  ./App/cr_startup_lpc84x.o
+WDT_IRQHandler                                    ./App/cr_startup_lpc84x.o
+WKT_IRQHandler                                    ./App/cr_startup_lpc84x.o
+__aeabi_idiv                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+__aeabi_idiv0                                     /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
+                                                  /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+__aeabi_idivmod                                   /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+__aeabi_uidiv                                     /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+__aeabi_uidivmod                                  /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+                                                  ./App/ESP8266_conf.o
+__bss_section_table_end                           ./App/cr_startup_lpc84x.o
+__data_section_table                              ./App/cr_startup_lpc84x.o
+__data_section_table_end                          ./App/cr_startup_lpc84x.o
+__main                                            /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                                                  ./App/cr_startup_lpc84x.o
+__valid_user_code_checksum                        ./App/cr_startup_lpc84x.o
+__weak_main                                       /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+_vStackTop                                        ./App/cr_startup_lpc84x.o
+bss_init                                          ./App/cr_startup_lpc84x.o
+buf_rx                                            ./Drivers/DR_UART.o
+buf_rx1                                           ./Drivers/DR_UART.o
+buf_tx                                            ./Drivers/DR_UART.o
+buf_tx1                                           ./Drivers/DR_UART.o
+comando                                           ./App/ESP8266_conf.o
+data_init                                         ./App/cr_startup_lpc84x.o
+flagT0                                            ./Primitivas/TImer.o
+flagsT                                            ./Drivers/Systick.o
+                                                  ./Primitivas/TImer.o
+fro_set_frec                                      ./Drivers/DR_Init.o
+g_pfnVectors                                      ./App/cr_startup_lpc84x.o
+getKey                                            ./Primitivas/Tecla.o
+                                                  ./App/ESP8266_conf.o
+in_rx                                             ./Drivers/DR_UART.o
+in_rx1                                            ./Drivers/DR_UART.o
+in_tx                                             ./Drivers/DR_UART.o
+in_tx1                                            ./Drivers/DR_UART.o
+main                                              ./App/ESP8266_conf.o
+                                                  /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+out_rx                                            ./Drivers/DR_UART.o
+out_rx1                                           ./Drivers/DR_UART.o
+out_tx                                            ./Drivers/DR_UART.o
+out_tx1                                           ./Drivers/DR_UART.o
+pDivRom_idiv                                      ./App/cr_startup_lpc84x.o
+pDivRom_uidiv                                     ./App/cr_startup_lpc84x.o
+timers                                            ./Drivers/Systick.o
+                                                  ./Primitivas/TImer.o

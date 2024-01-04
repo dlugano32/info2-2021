@@ -1,0 +1,4 @@
+PR_Uart.c:10:9:RxSerie1	8	static
+PR_Uart.c:15:6:TxSerie1	24	static
+PR_Uart.c:23:6:Tx1Byte	16	static
+PR_Uart.c:28:9:LecturaSerie	24	static

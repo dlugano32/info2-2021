@@ -1,0 +1,9 @@
+../Aplicacion/JustDanceMDE_func.c:20:6:Puntaje	32	static
+../Aplicacion/JustDanceMDE_func.c:46:6:Puntaje_restar	16	static
+../Aplicacion/JustDanceMDE_func.c:59:6:EnviarStart	56	static
+../Aplicacion/JustDanceMDE_func.c:73:6:EnviarSelect	56	static
+../Aplicacion/JustDanceMDE_func.c:87:6:EnviarPuntaje	136	static
+../Aplicacion/JustDanceMDE_func.c:143:6:EnviarDatos	136	static
+../Aplicacion/JustDanceMDE_func.c:193:6:InitMusica	8	static
+../Aplicacion/JustDanceMDE_func.c:206:6:InitCancion0	16	static
+../Aplicacion/JustDanceMDE_func.c:306:6:InitCancion1	16	static

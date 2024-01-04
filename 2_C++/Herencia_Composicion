@@ -1,0 +1,86 @@
+
+Composicion:
+Es cuando una clase tiene como miembro un objeto perteneciente a otra clase diferente.
+
+Al instanciar el objeto compuesto, se invoca el constructor por defecto de los
+objetos miembro A MENOS que en el constructor de la clase compuesta se
+indique otra cosa mediante una LISTA INICIALIZADORA:
+
+Por ejemplo en un constructor por defecto. siendo empleado un objeto compuesto con objeto sueldo
+
+empleado::empleado()
+{
+	salario();
+	nombre="NN"
+	....
+}
+
+Lo que estaria haciendo es llamar a los constructores mas de una vez, porque para poder igualar nombre a "NN" Primero tengo que llamar al constructor de string para que NN sea un string y luego hacer la igualacion, etc.
+
+Lo que SERIA CORRECTO
+
+empleado::empleado() :salario(), nombre("NN"), direccion()
+{
+	dni=0;
+}
+
+En este caso, al llamar al constructor de empleado solo va a tener que llamar a los constructores de  sueldo, para la variable salario,
+va a tener que llamar al constructor de string para nombre y lo mismo para direccion.
+La VENTAJA de esto, es que es mucho mas eficiente ya que tiene que llamar menos constructores.
+
+####################################################################
+
+
+Herencia: A diferencia de la composición, en la que un objeto TIENE otros objetos, en la herencia vamos a decir que el objeto ES otro objeto, con más funcionalidades
+
+Herencia - Sintaxis
+-------------------
+
+class clase_derivada : [modo_derivación] clase_base
+
+En Info II siempre heredamos como public -->class Estudiante : public Persona
+
+Si hago una herencia PUBLIC:
+
+Los miembros PUBLIC heredados pueden ser utilizados directamente por las funciones miembro, friend de la CD y las no miembro, es decir se mantienen iguales
+
+Los miembros PROTECTED heredados pueden ser utilizados solo por las funciones miembro y friend de la clase derivada. 
+
+Los miembros PRIVATE heredaedos no pueden ser accedidos por la clase derivada.
+
+
+---> Cuando heredo algo privado, no lo puedo ver despues, no lo puedo acceder. ==> tengo que llamarlo protected para poder accederlo desde la CD(clase derivada)
+
+¿Que se hereada?
+----------------
+
+Las clases derivadas heredan todos los atributos y metodos excepto:
+
+-Constructores y destructores
+-Operadores de asignacion
+
+-Constructores y destructor: Si en la CD no están definidos, se crean, como siempre, unos por defecto que no hacen nada. Por ello DEBEN DEFINIRSE
+
+-Operador de asignación: Si en la CD no está definido, se crea uno por defecto que se basa, si existe, en el operador de asig. de la CB.Por ello DEBE DEFINIRSE
+
+
+DIFERENCIA ENTRE COMPOSICION Y HERENCIA
+---------------------------------------
+
+La composición es cuando un objeto tiene otro objeto como miembro de su clase.
+X ej: -> Se dice que el objeto Persona TIENE un nombre (objeto std::string)
+
+La herencia es cuando un objeto copia todas las características de otro, y agrega nuevas.
+X ej: -> Se dice que el objeto Estudiante ES una Persona
+
+
+Constructores Clase base y derivada
+-----------------------------------
+
+Estudiante :: Estudiante (char *a, char*b, long c) : Persona(a,b) //--> siendo a y b el nombre del alumno, como son miembros de la clase persona, los {										inicializo asi paro no tener que llamar a su constructor mas de una vez
+	legajo=c
+}
+
+Herencia de operador asignacion -> ver foto
+
+	

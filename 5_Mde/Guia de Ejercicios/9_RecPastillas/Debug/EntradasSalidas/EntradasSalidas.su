@@ -1,0 +1,6 @@
+EntradasSalidas.c:9:5:OnOff	8	static
+EntradasSalidas.c:14:5:Parada	8	static
+EntradasSalidas.c:19:5:TempOK	16	static
+EntradasSalidas.c:29:6:Motor	16	static
+EntradasSalidas.c:34:6:Pistolas	16	static
+EntradasSalidas.c:39:6:Calefaccion	16	static

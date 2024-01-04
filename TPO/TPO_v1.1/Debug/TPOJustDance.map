@@ -1,0 +1,1253 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                              ./Aplicacion/cr_startup_lpc84x.o (__main)
+/usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+                              ./Primitivas/PR_7seg.o (__aeabi_uidiv)
+/usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
+                              /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o) (__aeabi_idiv0)
+/usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+                              ./Aplicacion/MDE_funciones.o (__aeabi_dmul)
+/usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+                              /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o) (__aeabi_lmul)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc ./Primitivas/Leds.o
+ .group         0x0000000000000000        0xc ./Primitivas/Leds.o
+ .group         0x0000000000000000        0xc ./Primitivas/Leds.o
+ .text          0x0000000000000000        0x0 ./Primitivas/Leds.o
+ .data          0x0000000000000000        0x0 ./Primitivas/Leds.o
+ .bss           0x0000000000000000        0x0 ./Primitivas/Leds.o
+ .text.SwapEstadoLed
+                0x0000000000000000       0x32 ./Primitivas/Leds.o
+ .group         0x0000000000000000        0xc ./Primitivas/PR_7seg.o
+ .group         0x0000000000000000        0xc ./Primitivas/PR_7seg.o
+ .group         0x0000000000000000        0xc ./Primitivas/PR_7seg.o
+ .text          0x0000000000000000        0x0 ./Primitivas/PR_7seg.o
+ .data          0x0000000000000000        0x0 ./Primitivas/PR_7seg.o
+ .bss           0x0000000000000000        0x0 ./Primitivas/PR_7seg.o
+ .text.Display_mas
+                0x0000000000000000       0x30 ./Primitivas/PR_7seg.o
+ .text.Display_menos
+                0x0000000000000000       0x30 ./Primitivas/PR_7seg.o
+ .debug_macro   0x0000000000000000      0xa96 ./Primitivas/PR_7seg.o
+ .debug_macro   0x0000000000000000      0x25f ./Primitivas/PR_7seg.o
+ .group         0x0000000000000000        0xc ./Primitivas/PR_Matriz.o
+ .group         0x0000000000000000        0xc ./Primitivas/PR_Matriz.o
+ .group         0x0000000000000000        0xc ./Primitivas/PR_Matriz.o
+ .group         0x0000000000000000        0xc ./Primitivas/PR_Matriz.o
+ .group         0x0000000000000000        0xc ./Primitivas/PR_Matriz.o
+ .group         0x0000000000000000        0xc ./Primitivas/PR_Matriz.o
+ .group         0x0000000000000000        0xc ./Primitivas/PR_Matriz.o
+ .group         0x0000000000000000        0xc ./Primitivas/PR_Matriz.o
+ .text          0x0000000000000000        0x0 ./Primitivas/PR_Matriz.o
+ .data          0x0000000000000000        0x0 ./Primitivas/PR_Matriz.o
+ .bss           0x0000000000000000        0x0 ./Primitivas/PR_Matriz.o
+ .bss.cifras    0x0000000000000000        0x4 ./Primitivas/PR_Matriz.o
+ .data.GAME     0x0000000000000000        0x4 ./Primitivas/PR_Matriz.o
+ .data.OVER     0x0000000000000000        0x4 ./Primitivas/PR_Matriz.o
+ .data.HOLA     0x0000000000000000        0x4 ./Primitivas/PR_Matriz.o
+ .data.CLEAR    0x0000000000000000        0x4 ./Primitivas/PR_Matriz.o
+ .text.separarCifras
+                0x0000000000000000       0x88 ./Primitivas/PR_Matriz.o
+ .text.print    0x0000000000000000      0x324 ./Primitivas/PR_Matriz.o
+ .rodata.print  0x0000000000000000       0x28 ./Primitivas/PR_Matriz.o
+ .text.gameOver1
+                0x0000000000000000       0x5c ./Primitivas/PR_Matriz.o
+ .text.gameOver2
+                0x0000000000000000       0xe4 ./Primitivas/PR_Matriz.o
+ .text.stop     0x0000000000000000       0x4c ./Primitivas/PR_Matriz.o
+ .text.write    0x0000000000000000       0x84 ./Primitivas/PR_Matriz.o
+ .debug_macro   0x0000000000000000      0xa96 ./Primitivas/PR_Matriz.o
+ .debug_macro   0x0000000000000000      0x25f ./Primitivas/PR_Matriz.o
+ .debug_macro   0x0000000000000000       0x34 ./Primitivas/PR_Matriz.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/TImer.o
+ .text          0x0000000000000000        0x0 ./Primitivas/TImer.o
+ .data          0x0000000000000000        0x0 ./Primitivas/TImer.o
+ .bss           0x0000000000000000        0x0 ./Primitivas/TImer.o
+ .text.TimerStart
+                0x0000000000000000       0x50 ./Primitivas/TImer.o
+ .text.handlerT0
+                0x0000000000000000       0x50 ./Primitivas/TImer.o
+ .text.handlerT1
+                0x0000000000000000       0x28 ./Primitivas/TImer.o
+ .text.handlerT2
+                0x0000000000000000       0x2c ./Primitivas/TImer.o
+ .text.handlerT3
+                0x0000000000000000       0x14 ./Primitivas/TImer.o
+ .text.handlerT4
+                0x0000000000000000       0x34 ./Primitivas/TImer.o
+ .bss.aux.3942  0x0000000000000000        0x1 ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000000      0xa96 ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000000      0x25f ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000000       0x5e ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000000       0x16 ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000000       0x34 ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000000       0x34 ./Primitivas/TImer.o
+ .debug_macro   0x0000000000000000       0x1c ./Primitivas/TImer.o
+ .group         0x0000000000000000        0xc ./Primitivas/Tecla.o
+ .group         0x0000000000000000        0xc ./Primitivas/Tecla.o
+ .group         0x0000000000000000        0xc ./Primitivas/Tecla.o
+ .text          0x0000000000000000        0x0 ./Primitivas/Tecla.o
+ .data          0x0000000000000000        0x0 ./Primitivas/Tecla.o
+ .bss           0x0000000000000000        0x0 ./Primitivas/Tecla.o
+ .debug_macro   0x0000000000000000      0xa96 ./Primitivas/Tecla.o
+ .debug_macro   0x0000000000000000      0x25f ./Primitivas/Tecla.o
+ .debug_macro   0x0000000000000000       0x64 ./Primitivas/Tecla.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_7seg.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_7seg.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_7seg.o
+ .text          0x0000000000000000        0x0 ./Drivers/DR_7seg.o
+ .data          0x0000000000000000        0x0 ./Drivers/DR_7seg.o
+ .bss           0x0000000000000000        0x0 ./Drivers/DR_7seg.o
+ .debug_macro   0x0000000000000000      0xa96 ./Drivers/DR_7seg.o
+ .debug_macro   0x0000000000000000      0x25f ./Drivers/DR_7seg.o
+ .debug_macro   0x0000000000000000       0x58 ./Drivers/DR_7seg.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Init.o
+ .text          0x0000000000000000        0x0 ./Drivers/DR_Init.o
+ .data          0x0000000000000000        0x0 ./Drivers/DR_Init.o
+ .bss           0x0000000000000000        0x0 ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000000000      0xa96 ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000000000      0x25f ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000000000       0x5e ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/DR_Init.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/DR_Init.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Matriz.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Matriz.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_Matriz.o
+ .text          0x0000000000000000        0x0 ./Drivers/DR_Matriz.o
+ .data          0x0000000000000000        0x0 ./Drivers/DR_Matriz.o
+ .bss           0x0000000000000000        0x0 ./Drivers/DR_Matriz.o
+ .text.test1    0x0000000000000000       0x3c ./Drivers/DR_Matriz.o
+ .text.test2    0x0000000000000000       0x70 ./Drivers/DR_Matriz.o
+ .text.showAll  0x0000000000000000       0x5c ./Drivers/DR_Matriz.o
+ .debug_macro   0x0000000000000000      0xa96 ./Drivers/DR_Matriz.o
+ .debug_macro   0x0000000000000000      0x25f ./Drivers/DR_Matriz.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/DR_Matriz.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_teclado.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_teclado.o
+ .group         0x0000000000000000        0xc ./Drivers/DR_teclado.o
+ .text          0x0000000000000000        0x0 ./Drivers/DR_teclado.o
+ .data          0x0000000000000000        0x0 ./Drivers/DR_teclado.o
+ .bss           0x0000000000000000        0x0 ./Drivers/DR_teclado.o
+ .debug_macro   0x0000000000000000      0xa96 ./Drivers/DR_teclado.o
+ .debug_macro   0x0000000000000000      0x25f ./Drivers/DR_teclado.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/DR_teclado.o
+ .group         0x0000000000000000        0xc ./Drivers/GPIO.o
+ .group         0x0000000000000000        0xc ./Drivers/GPIO.o
+ .text          0x0000000000000000        0x0 ./Drivers/GPIO.o
+ .data          0x0000000000000000        0x0 ./Drivers/GPIO.o
+ .bss           0x0000000000000000        0x0 ./Drivers/GPIO.o
+ .text.SetPINMODE_IN
+                0x0000000000000000       0x34 ./Drivers/GPIO.o
+ .debug_macro   0x0000000000000000      0xa96 ./Drivers/GPIO.o
+ .debug_macro   0x0000000000000000      0x25f ./Drivers/GPIO.o
+ .group         0x0000000000000000        0xc ./Drivers/Systick.o
+ .group         0x0000000000000000        0xc ./Drivers/Systick.o
+ .group         0x0000000000000000        0xc ./Drivers/Systick.o
+ .group         0x0000000000000000        0xc ./Drivers/Systick.o
+ .group         0x0000000000000000        0xc ./Drivers/Systick.o
+ .group         0x0000000000000000        0xc ./Drivers/Systick.o
+ .group         0x0000000000000000        0xc ./Drivers/Systick.o
+ .group         0x0000000000000000        0xc ./Drivers/Systick.o
+ .text          0x0000000000000000        0x0 ./Drivers/Systick.o
+ .data          0x0000000000000000        0x0 ./Drivers/Systick.o
+ .bss           0x0000000000000000        0x0 ./Drivers/Systick.o
+ .debug_macro   0x0000000000000000      0xa96 ./Drivers/Systick.o
+ .debug_macro   0x0000000000000000      0x25f ./Drivers/Systick.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/Systick.o
+ .debug_macro   0x0000000000000000       0x5e ./Drivers/Systick.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/Systick.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/Systick.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/Systick.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/Systick.o
+ .group         0x0000000000000000        0xc ./Drivers/numberIndex.o
+ .group         0x0000000000000000        0xc ./Drivers/numberIndex.o
+ .text          0x0000000000000000        0x0 ./Drivers/numberIndex.o
+ .data          0x0000000000000000        0x0 ./Drivers/numberIndex.o
+ .bss           0x0000000000000000        0x0 ./Drivers/numberIndex.o
+ .data.numbers1
+                0x0000000000000000       0x50 ./Drivers/numberIndex.o
+ .data.numbers2
+                0x0000000000000000       0x50 ./Drivers/numberIndex.o
+ .data.letters1
+                0x0000000000000000       0xd8 ./Drivers/numberIndex.o
+ .data.letters2
+                0x0000000000000000       0xd8 ./Drivers/numberIndex.o
+ .debug_info    0x0000000000000000       0xec ./Drivers/numberIndex.o
+ .debug_abbrev  0x0000000000000000       0x6c ./Drivers/numberIndex.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Drivers/numberIndex.o
+ .debug_macro   0x0000000000000000       0x24 ./Drivers/numberIndex.o
+ .debug_macro   0x0000000000000000      0xa96 ./Drivers/numberIndex.o
+ .debug_macro   0x0000000000000000      0x25f ./Drivers/numberIndex.o
+ .debug_line    0x0000000000000000       0x56 ./Drivers/numberIndex.o
+ .debug_str     0x0000000000000000     0x3639 ./Drivers/numberIndex.o
+ .comment       0x0000000000000000       0x4d ./Drivers/numberIndex.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./Drivers/numberIndex.o
+ .group         0x0000000000000000        0xc ./Aplicacion/JustDanceMDE.o
+ .group         0x0000000000000000        0xc ./Aplicacion/JustDanceMDE.o
+ .group         0x0000000000000000        0xc ./Aplicacion/JustDanceMDE.o
+ .group         0x0000000000000000        0xc ./Aplicacion/JustDanceMDE.o
+ .group         0x0000000000000000        0xc ./Aplicacion/JustDanceMDE.o
+ .group         0x0000000000000000        0xc ./Aplicacion/JustDanceMDE.o
+ .group         0x0000000000000000        0xc ./Aplicacion/JustDanceMDE.o
+ .group         0x0000000000000000        0xc ./Aplicacion/JustDanceMDE.o
+ .text          0x0000000000000000        0x0 ./Aplicacion/JustDanceMDE.o
+ .data          0x0000000000000000        0x0 ./Aplicacion/JustDanceMDE.o
+ .bss           0x0000000000000000        0x0 ./Aplicacion/JustDanceMDE.o
+ .rodata.dificultad
+                0x0000000000000000        0x8 ./Aplicacion/JustDanceMDE.o
+ .text.JustDanceMDE
+                0x0000000000000000      0x238 ./Aplicacion/JustDanceMDE.o
+ .data.key.3928
+                0x0000000000000000        0x1 ./Aplicacion/JustDanceMDE.o
+ .bss.estado.3927
+                0x0000000000000000        0x1 ./Aplicacion/JustDanceMDE.o
+ .debug_macro   0x0000000000000000      0xa96 ./Aplicacion/JustDanceMDE.o
+ .debug_macro   0x0000000000000000      0x25f ./Aplicacion/JustDanceMDE.o
+ .debug_macro   0x0000000000000000       0x34 ./Aplicacion/JustDanceMDE.o
+ .debug_macro   0x0000000000000000       0x64 ./Aplicacion/JustDanceMDE.o
+ .debug_macro   0x0000000000000000       0x5e ./Aplicacion/JustDanceMDE.o
+ .debug_macro   0x0000000000000000       0x16 ./Aplicacion/JustDanceMDE.o
+ .debug_macro   0x0000000000000000       0x1c ./Aplicacion/JustDanceMDE.o
+ .debug_macro   0x0000000000000000       0x34 ./Aplicacion/JustDanceMDE.o
+ .group         0x0000000000000000        0xc ./Aplicacion/MDE_funciones.o
+ .group         0x0000000000000000        0xc ./Aplicacion/MDE_funciones.o
+ .group         0x0000000000000000        0xc ./Aplicacion/MDE_funciones.o
+ .group         0x0000000000000000        0xc ./Aplicacion/MDE_funciones.o
+ .group         0x0000000000000000        0xc ./Aplicacion/MDE_funciones.o
+ .group         0x0000000000000000        0xc ./Aplicacion/MDE_funciones.o
+ .group         0x0000000000000000        0xc ./Aplicacion/MDE_funciones.o
+ .group         0x0000000000000000        0xc ./Aplicacion/MDE_funciones.o
+ .text          0x0000000000000000        0x0 ./Aplicacion/MDE_funciones.o
+ .data          0x0000000000000000        0x0 ./Aplicacion/MDE_funciones.o
+ .bss           0x0000000000000000        0x0 ./Aplicacion/MDE_funciones.o
+ .text.Puntaje  0x0000000000000000      0x19c ./Aplicacion/MDE_funciones.o
+ .text.Puntaje_restar
+                0x0000000000000000       0x44 ./Aplicacion/MDE_funciones.o
+ .debug_macro   0x0000000000000000      0xa96 ./Aplicacion/MDE_funciones.o
+ .debug_macro   0x0000000000000000      0x25f ./Aplicacion/MDE_funciones.o
+ .debug_macro   0x0000000000000000       0x34 ./Aplicacion/MDE_funciones.o
+ .debug_macro   0x0000000000000000       0x64 ./Aplicacion/MDE_funciones.o
+ .debug_macro   0x0000000000000000       0x5e ./Aplicacion/MDE_funciones.o
+ .debug_macro   0x0000000000000000       0x16 ./Aplicacion/MDE_funciones.o
+ .debug_macro   0x0000000000000000       0x1c ./Aplicacion/MDE_funciones.o
+ .debug_macro   0x0000000000000000       0x34 ./Aplicacion/MDE_funciones.o
+ .group         0x0000000000000000        0xc ./Aplicacion/cr_startup_lpc84x.o
+ .text          0x0000000000000000        0x0 ./Aplicacion/cr_startup_lpc84x.o
+ .data          0x0000000000000000        0x0 ./Aplicacion/cr_startup_lpc84x.o
+ .bss           0x0000000000000000        0x0 ./Aplicacion/cr_startup_lpc84x.o
+ .debug_macro   0x0000000000000000      0xa96 ./Aplicacion/cr_startup_lpc84x.o
+ .group         0x0000000000000000        0xc ./Aplicacion/crp.o
+ .group         0x0000000000000000        0xc ./Aplicacion/crp.o
+ .text          0x0000000000000000        0x0 ./Aplicacion/crp.o
+ .data          0x0000000000000000        0x0 ./Aplicacion/crp.o
+ .bss           0x0000000000000000        0x0 ./Aplicacion/crp.o
+ .debug_macro   0x0000000000000000      0xa96 ./Aplicacion/crp.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .group         0x0000000000000000        0xc ./Aplicacion/main.o
+ .text          0x0000000000000000        0x0 ./Aplicacion/main.o
+ .data          0x0000000000000000        0x0 ./Aplicacion/main.o
+ .bss           0x0000000000000000        0x0 ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000      0xa96 ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000      0x25f ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000       0x34 ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000       0x64 ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000       0x5e ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000       0x16 ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000       0x1c ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000       0x34 ./Aplicacion/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Aplicacion/main.o
+ .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+ .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+ .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+ .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
+ .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dmul
+                0x0000000000000000      0x184 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ddiv
+                0x0000000000000000      0x150 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dsub
+                0x0000000000000000      0x1e4 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dadd
+                0x0000000000000000      0x134 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_drsub
+                0x0000000000000000       0x16 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dneg
+                0x0000000000000000        0xa /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2f
+                0x0000000000000000       0x60 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2iz
+                0x0000000000000000       0x50 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2uiz
+                0x0000000000000000       0x38 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2lz
+                0x0000000000000000       0x80 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2ulz
+                0x0000000000000000       0x58 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__bhs_ui2d
+                0x0000000000000000       0x5e /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__bhs_ul2d
+                0x0000000000000000       0xac /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_i2d
+                0x0000000000000000       0x18 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ui2d
+                0x0000000000000000        0xc /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_l2d
+                0x0000000000000000       0x24 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ul2d
+                0x0000000000000000        0xc /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpeq
+                0x0000000000000000       0x30 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmplt
+                0x0000000000000000       0x60 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpgt
+                0x0000000000000000       0x5c /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmple
+                0x0000000000000000       0x60 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpge
+                0x0000000000000000       0x64 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpun
+                0x0000000000000000       0x1c /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_cdcmple
+                0x0000000000000000       0x2e /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_cdrcmple
+                0x0000000000000000       0x14 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .comment       0x0000000000000000       0x4d /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+ .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+ .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+ .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lmul
+                0x0000000000000000       0x2e /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_llsl
+                0x0000000000000000       0x18 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_llsr
+                0x0000000000000000       0x18 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lasr
+                0x0000000000000000       0x18 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lcmp
+                0x0000000000000000       0x14 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_ulcmp
+                0x0000000000000000       0x10 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+ .ARM.attributes
+                0x0000000000000000       0x1c /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash64         0x0000000000000000 0x0000000000010000 xr
+RamLoc16         0x0000000010000000 0x0000000000004000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./Primitivas/Leds.o
+LOAD ./Primitivas/PR_7seg.o
+LOAD ./Primitivas/PR_Matriz.o
+LOAD ./Primitivas/TImer.o
+LOAD ./Primitivas/Tecla.o
+LOAD ./Drivers/DR_7seg.o
+LOAD ./Drivers/DR_Init.o
+LOAD ./Drivers/DR_Matriz.o
+LOAD ./Drivers/DR_teclado.o
+LOAD ./Drivers/GPIO.o
+LOAD ./Drivers/Systick.o
+LOAD ./Drivers/numberIndex.o
+LOAD ./Aplicacion/JustDanceMDE.o
+LOAD ./Aplicacion/MDE_funciones.o
+LOAD ./Aplicacion/cr_startup_lpc84x.o
+LOAD ./Aplicacion/crp.o
+LOAD ./Aplicacion/main.o
+START GROUP
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a
+END GROUP
+                0x0000000000000000                __base_MFlash64 = 0x0
+                0x0000000000000000                __base_Flash = 0x0
+                0x0000000000010000                __top_MFlash64 = 0x10000
+                0x0000000000010000                __top_Flash = 0x10000
+                0x0000000010000000                __base_RamLoc16 = 0x10000000
+                0x0000000010000000                __base_RAM = 0x10000000
+                0x0000000010004000                __top_RamLoc16 = 0x10004000
+                0x0000000010004000                __top_RAM = 0x10004000
+
+.text           0x0000000000000000     0x10a0
+ FILL mask 0xff
+                0x0000000000000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0xc0 ./Aplicacion/cr_startup_lpc84x.o
+                0x0000000000000000                g_pfnVectors
+                0x00000000000000c0                . = ALIGN (0x4)
+                0x00000000000000c0                __section_table_start = .
+                0x00000000000000c0                __data_section_table = .
+                0x00000000000000c0        0x4 LONG 0x10a0 LOADADDR (.data)
+                0x00000000000000c4        0x4 LONG 0x10000000 ADDR (.data)
+                0x00000000000000c8        0x4 LONG 0xc SIZEOF (.data)
+                0x00000000000000cc                __data_section_table_end = .
+                0x00000000000000cc                __bss_section_table = .
+                0x00000000000000cc        0x4 LONG 0x1000000c ADDR (.bss)
+                0x00000000000000d0        0x4 LONG 0x11c SIZEOF (.bss)
+                0x00000000000000d4                __bss_section_table_end = .
+                0x00000000000000d4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x00000000000000d4      0x144 ./Aplicacion/cr_startup_lpc84x.o
+                0x00000000000000d4                data_init
+                0x0000000000000116                bss_init
+                0x000000000000014c                ResetISR
+                0x00000000000001f4                NMI_Handler
+                0x00000000000001fa                HardFault_Handler
+                0x0000000000000200                SVC_Handler
+                0x0000000000000206                PendSV_Handler
+                0x0000000000000212                CMP_IRQHandler
+                0x0000000000000212                PININT7_IRQHandler
+                0x0000000000000212                I2C0_IRQHandler
+                0x0000000000000212                WKT_IRQHandler
+                0x0000000000000212                PININT2_IRQHandler
+                0x0000000000000212                PININT1_IRQHandler
+                0x0000000000000212                MRT_IRQHandler
+                0x0000000000000212                I2C1_IRQHandler
+                0x0000000000000212                UART1_IRQHandler
+                0x0000000000000212                ADC_SEQB_IRQHandler
+                0x0000000000000212                UART0_IRQHandler
+                0x0000000000000212                SPI1_IRQHandler
+                0x0000000000000212                IntDefaultHandler
+                0x0000000000000212                ADC_OVR_IRQHandler
+                0x0000000000000212                I2C2_IRQHandler
+                0x0000000000000212                PININT3_IRQHandler
+                0x0000000000000212                UART2_IRQHandler
+                0x0000000000000212                PININT5_IRQHandler
+                0x0000000000000212                PININT4_IRQHandler
+                0x0000000000000212                ADC_THCMP_IRQHandler
+                0x0000000000000212                PININT0_IRQHandler
+                0x0000000000000212                BOD_IRQHandler
+                0x0000000000000212                I2C3_IRQHandler
+                0x0000000000000212                SCT_IRQHandler
+                0x0000000000000212                WDT_IRQHandler
+                0x0000000000000212                ADC_SEQA_IRQHandler
+                0x0000000000000212                FAIM_IRQHandler
+                0x0000000000000212                DAC0_IRQHandler
+                0x0000000000000212                PININT6_IRQHandler
+                0x0000000000000212                SPI0_IRQHandler
+                0x0000000000000212                DMA_IRQHandler
+                0x0000000000000212                FLASH_IRQHandler
+                0x0000000000000212                CTIMER0_IRQHandler
+                0x00000000000002fc                . = 0x2fc
+ *fill*         0x0000000000000218       0xe4 ff
+                0x00000000000002fc                PROVIDE (__CRP_WORD_START__ = .)
+ *(.crp)
+ .crp           0x00000000000002fc        0x4 ./Aplicacion/crp.o
+                0x00000000000002fc                CRP_WORD
+                0x0000000000000300                PROVIDE (__CRP_WORD_END__ = .)
+                0x0000000000000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.LED_OFF  0x0000000000000300       0x1c ./Primitivas/Leds.o
+                0x0000000000000300                LED_OFF
+ .text.LED_ON   0x000000000000031c       0x1c ./Primitivas/Leds.o
+                0x000000000000031c                LED_ON
+ .text.Display  0x0000000000000338       0x84 ./Primitivas/PR_7seg.o
+                0x0000000000000338                Display
+ .text.show     0x00000000000003bc       0x74 ./Primitivas/PR_Matriz.o
+                0x00000000000003bc                show
+ .text.start    0x0000000000000430       0x14 ./Primitivas/PR_Matriz.o
+                0x0000000000000430                start
+ .text.TimerStop
+                0x0000000000000444       0x34 ./Primitivas/TImer.o
+                0x0000000000000444                TimerStop
+ .text.TimerEvent
+                0x0000000000000478       0x5c ./Primitivas/TImer.o
+                0x0000000000000478                TimerEvent
+ .text.getKey   0x00000000000004d4       0x24 ./Primitivas/Tecla.o
+                0x00000000000004d4                getKey
+ .text.Init7seg
+                0x00000000000004f8       0xac ./Drivers/DR_7seg.o
+                0x00000000000004f8                Init7seg
+ .text.BarridoDisplay
+                0x00000000000005a4      0x138 ./Drivers/DR_7seg.o
+                0x00000000000005a4                BarridoDisplay
+ .text.InitHw   0x00000000000006dc       0x22 ./Drivers/DR_Init.o
+                0x00000000000006dc                InitHw
+ *fill*         0x00000000000006fe        0x2 ff
+ .text.InitGPIO
+                0x0000000000000700       0x68 ./Drivers/DR_Init.o
+                0x0000000000000700                InitGPIO
+ .text.InitPLL  0x0000000000000768       0x88 ./Drivers/DR_Init.o
+                0x0000000000000768                InitPLL
+ .text.pinsConfig
+                0x00000000000007f0       0x40 ./Drivers/DR_Matriz.o
+                0x00000000000007f0                pinsConfig
+ .text.CLK_Up   0x0000000000000830       0x14 ./Drivers/DR_Matriz.o
+                0x0000000000000830                CLK_Up
+ .text.CLK_Down
+                0x0000000000000844       0x14 ./Drivers/DR_Matriz.o
+                0x0000000000000844                CLK_Down
+ .text.LOAD_Up  0x0000000000000858       0x14 ./Drivers/DR_Matriz.o
+                0x0000000000000858                LOAD_Up
+ .text.LOAD_Down
+                0x000000000000086c       0x14 ./Drivers/DR_Matriz.o
+                0x000000000000086c                LOAD_Down
+ .text.matrixInit
+                0x0000000000000880       0xf4 ./Drivers/DR_Matriz.o
+                0x0000000000000880                matrixInit
+ .text.cleanAll
+                0x0000000000000974       0x5c ./Drivers/DR_Matriz.o
+                0x0000000000000974                cleanAll
+ .text.sendAddress
+                0x00000000000009d0       0xa2 ./Drivers/DR_Matriz.o
+                0x00000000000009d0                sendAddress
+ .text.sendData
+                0x0000000000000a72       0x74 ./Drivers/DR_Matriz.o
+                0x0000000000000a72                sendData
+ .text.InitTeclado
+                0x0000000000000ae6       0x76 ./Drivers/DR_teclado.o
+                0x0000000000000ae6                InitTeclado
+ .text.DriverTecladoSW
+                0x0000000000000b5c       0x70 ./Drivers/DR_teclado.o
+                0x0000000000000b5c                DriverTecladoSW
+ .text.DriverTecladoHW
+                0x0000000000000bcc       0x6c ./Drivers/DR_teclado.o
+                0x0000000000000bcc                DriverTecladoHW
+ .text.SetDIR   0x0000000000000c38       0x7e ./Drivers/GPIO.o
+                0x0000000000000c38                SetDIR
+ .text.SetPIN   0x0000000000000cb6       0x7e ./Drivers/GPIO.o
+                0x0000000000000cb6                SetPIN
+ .text.GetPIN   0x0000000000000d34       0x3a ./Drivers/GPIO.o
+                0x0000000000000d34                GetPIN
+ *fill*         0x0000000000000d6e        0x2 ff
+ .text.SetPINMODE_OUT
+                0x0000000000000d70       0x4c ./Drivers/GPIO.o
+                0x0000000000000d70                SetPINMODE_OUT
+ .text.SysTick_Handler
+                0x0000000000000dbc       0x28 ./Drivers/Systick.o
+                0x0000000000000dbc                SysTick_Handler
+ .text.AnalizarTimers
+                0x0000000000000de4       0x7c ./Drivers/Systick.o
+                0x0000000000000de4                AnalizarTimers
+ .text.InitSystick
+                0x0000000000000e60       0x28 ./Drivers/Systick.o
+                0x0000000000000e60                InitSystick
+ .text.clearMDE
+                0x0000000000000e88       0x74 ./Aplicacion/JustDanceMDE.o
+                0x0000000000000e88                clearMDE
+ .text.InitJustDanceMDE
+                0x0000000000000efc       0x1c ./Aplicacion/JustDanceMDE.o
+                0x0000000000000efc                InitJustDanceMDE
+ .text.InitArchivoMusica
+                0x0000000000000f18       0xa4 ./Aplicacion/MDE_funciones.o
+                0x0000000000000f18                InitArchivoMusica
+ .text.main     0x0000000000000fbc       0x56 ./Aplicacion/main.o
+                0x0000000000000fbc                main
+ .text.__weak_main
+                0x0000000000001012        0x8 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                0x0000000000001012                __main
+                0x0000000000001012                __weak_main
+ .text.__aeabi_division_idivmod
+                0x000000000000101a       0x78 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+                0x000000000000101a                __aeabi_idiv
+                0x000000000000101a                __aeabi_idivmod
+                0x0000000000001020                __aeabi_uidiv
+                0x0000000000001020                __aeabi_uidivmod
+ .text.__aeabi_division_idiv0
+                0x0000000000001092        0x2 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
+                0x0000000000001092                __aeabi_idiv0
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.BarridoDisplay.str1.4
+                0x0000000000001094        0xb ./Drivers/DR_7seg.o
+                0x00000000000010a0                . = ALIGN (0x4)
+ *fill*         0x000000000000109f        0x1 ff
+
+.glue_7         0x00000000000010a0        0x0
+ .glue_7        0x00000000000010a0        0x0 linker stubs
+
+.glue_7t        0x00000000000010a0        0x0
+ .glue_7t       0x00000000000010a0        0x0 linker stubs
+
+.vfp11_veneer   0x00000000000010a0        0x0
+ .vfp11_veneer  0x00000000000010a0        0x0 linker stubs
+
+.v4_bx          0x00000000000010a0        0x0
+ .v4_bx         0x00000000000010a0        0x0 linker stubs
+
+.iplt           0x00000000000010a0        0x0
+ .iplt          0x00000000000010a0        0x0 ./Primitivas/Leds.o
+
+.rel.dyn        0x00000000000010a0        0x0
+ .rel.iplt      0x00000000000010a0        0x0 ./Primitivas/Leds.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx      0x00000000000010a0        0x0
+                0x00000000000010a0                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000000000010a0                __exidx_end = .
+                0x00000000000010a0                _etext = .
+
+.mtb_buffer_default
+ *(.mtb*)
+
+.uninit_RESERVED
+                0x0000000010000000        0x0
+                0x0000000010000000                _start_uninit_RESERVED = .
+ *(.bss.$RESERVED*)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _end_uninit_RESERVED = .
+
+.data           0x0000000010000000        0xc load address 0x00000000000010a0
+ FILL mask 0xff
+                0x0000000010000000                _data = .
+                [!provide]                        PROVIDE (__start_data_RAM = .)
+                [!provide]                        PROVIDE (__start_data_RamLoc16 = .)
+ *(vtable)
+ *(.ramfunc*)
+ *(CodeQuickAccess)
+ *(DataQuickAccess)
+ *(RamFunction)
+ *(.data*)
+ .data.fila     0x0000000010000000        0x1 ./Primitivas/PR_Matriz.o
+                0x0000000010000000                fila
+ *fill*         0x0000000010000001        0x3 ff
+ .data.fro_set_frec
+                0x0000000010000004        0x4 ./Drivers/DR_Init.o
+                0x0000000010000004                fro_set_frec
+ .data.Tecla    0x0000000010000008        0x1 ./Drivers/DR_teclado.o
+                0x0000000010000008                Tecla
+ .data.lastKey.3804
+                0x0000000010000009        0x1 ./Drivers/DR_teclado.o
+                0x000000001000000c                . = ALIGN (0x4)
+ *fill*         0x000000001000000a        0x2 ff
+                0x000000001000000c                _edata = .
+                [!provide]                        PROVIDE (__end_data_RAM = .)
+                [!provide]                        PROVIDE (__end_data_RamLoc16 = .)
+
+.igot.plt       0x000000001000000c        0x0 load address 0x00000000000010ac
+ .igot.plt      0x000000001000000c        0x0 ./Primitivas/Leds.o
+
+.bss            0x000000001000000c      0x11c
+                0x000000001000000c                _bss = .
+                [!provide]                        PROVIDE (__start_bss_RAM = .)
+                [!provide]                        PROVIDE (__start_bss_RamLoc16 = .)
+ *(.bss*)
+ .bss.num_disp  0x000000001000000c        0x4 ./Primitivas/PR_7seg.o
+                0x000000001000000c                num_disp
+ .bss.rows      0x0000000010000010       0x20 ./Primitivas/PR_Matriz.o
+                0x0000000010000010                rows
+ .bss.startFlag
+                0x0000000010000030        0x1 ./Primitivas/PR_Matriz.o
+                0x0000000010000030                startFlag
+ .bss.flagT0    0x0000000010000031        0x1 ./Primitivas/TImer.o
+                0x0000000010000031                flagT0
+ .bss.flagT3    0x0000000010000032        0x1 ./Primitivas/TImer.o
+                0x0000000010000032                flagT3
+ *fill*         0x0000000010000033        0x1 
+ .bss.counter   0x0000000010000034        0x4 ./Primitivas/TImer.o
+                0x0000000010000034                counter
+ .bss.counter2  0x0000000010000038        0x4 ./Primitivas/TImer.o
+                0x0000000010000038                counter2
+ .bss.counter4  0x000000001000003c        0x4 ./Primitivas/TImer.o
+                0x000000001000003c                counter4
+ .bss.HandlersTimer
+                0x0000000010000040       0x40 ./Primitivas/TImer.o
+                0x0000000010000040                HandlersTimer
+ .bss.Digito_Display
+                0x0000000010000080        0x2 ./Drivers/DR_7seg.o
+                0x0000000010000080                Digito_Display
+ .bss.Indice_Display.3803
+                0x0000000010000082        0x1 ./Drivers/DR_7seg.o
+ .bss.cont.3805
+                0x0000000010000083        0x1 ./Drivers/DR_teclado.o
+ .bss.flagsT    0x0000000010000084       0x10 ./Drivers/Systick.o
+                0x0000000010000084                flagsT
+ .bss.timers    0x0000000010000094       0x40 ./Drivers/Systick.o
+                0x0000000010000094                timers
+ .bss.n_paso    0x00000000100000d4        0x1 ./Aplicacion/JustDanceMDE.o
+ *fill*         0x00000000100000d5        0x3 
+ .bss.points    0x00000000100000d8        0x4 ./Aplicacion/MDE_funciones.o
+                0x00000000100000d8                points
+ .bss.errores   0x00000000100000dc        0x1 ./Aplicacion/MDE_funciones.o
+                0x00000000100000dc                errores
+ *fill*         0x00000000100000dd        0x3 
+ .bss.pDivRom_idiv
+                0x00000000100000e0        0x4 ./Aplicacion/cr_startup_lpc84x.o
+                0x00000000100000e0                pDivRom_idiv
+ .bss.pDivRom_uidiv
+                0x00000000100000e4        0x4 ./Aplicacion/cr_startup_lpc84x.o
+                0x00000000100000e4                pDivRom_uidiv
+ .bss.cancion   0x00000000100000e8       0x40 ./Aplicacion/main.o
+                0x00000000100000e8                cancion
+ *(COMMON)
+                0x0000000010000128                . = ALIGN (0x4)
+                0x0000000010000128                _ebss = .
+                [!provide]                        PROVIDE (__end_bss_RAM = .)
+                [!provide]                        PROVIDE (__end_bss_RamLoc16 = .)
+                [!provide]                        PROVIDE (end = .)
+
+.noinit         0x0000000010000128        0x0
+                0x0000000010000128                _noinit = .
+                [!provide]                        PROVIDE (__start_noinit_RAM = .)
+                [!provide]                        PROVIDE (__start_noinit_RamLoc16 = .)
+ *(.noinit*)
+                0x0000000010000128                . = ALIGN (0x4)
+                0x0000000010000128                _end_noinit = .
+                [!provide]                        PROVIDE (__end_noinit_RAM = .)
+                [!provide]                        PROVIDE (__end_noinit_RamLoc16 = .)
+                [!provide]                        PROVIDE (_pvHeapStart = DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x0000000010004000                PROVIDE (_vStackTop = DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc16 - 0x0))
+                0xffffffffefffbac3                PROVIDE (__valid_user_code_checksum = (0x0 - (((_vStackTop + (ResetISR + 0x1)) + (DEFINED (NMI_Handler)?NMI_Handler:M0_NMI_Handler + 0x1)) + (DEFINED (HardFault_Handler)?HardFault_Handler:M0_HardFault_Handler + 0x1))))
+                0x0000000000000000                _image_start = LOADADDR (.text)
+                0x00000000000010ac                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x00000000000010ac                _image_size = (_image_end - _image_start)
+OUTPUT(TPOJustDance.axf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000     0x27b8
+ .debug_info    0x0000000000000000       0xce ./Primitivas/Leds.o
+ .debug_info    0x00000000000000ce      0x105 ./Primitivas/PR_7seg.o
+ .debug_info    0x00000000000001d3      0x421 ./Primitivas/PR_Matriz.o
+ .debug_info    0x00000000000005f4      0x3cd ./Primitivas/TImer.o
+ .debug_info    0x00000000000009c1       0x9e ./Primitivas/Tecla.o
+ .debug_info    0x0000000000000a5f       0xfd ./Drivers/DR_7seg.o
+ .debug_info    0x0000000000000b5c      0x72a ./Drivers/DR_Init.o
+ .debug_info    0x0000000000001286      0x257 ./Drivers/DR_Matriz.o
+ .debug_info    0x00000000000014dd       0xec ./Drivers/DR_teclado.o
+ .debug_info    0x00000000000015c9      0x3b4 ./Drivers/GPIO.o
+ .debug_info    0x000000000000197d      0x33f ./Drivers/Systick.o
+ .debug_info    0x0000000000001cbc      0x2ed ./Aplicacion/JustDanceMDE.o
+ .debug_info    0x0000000000001fa9      0x2f2 ./Aplicacion/MDE_funciones.o
+ .debug_info    0x000000000000229b      0x255 ./Aplicacion/cr_startup_lpc84x.o
+ .debug_info    0x00000000000024f0       0x40 ./Aplicacion/crp.o
+ .debug_info    0x0000000000002530      0x288 ./Aplicacion/main.o
+
+.debug_abbrev   0x0000000000000000      0xe6a
+ .debug_abbrev  0x0000000000000000       0x83 ./Primitivas/Leds.o
+ .debug_abbrev  0x0000000000000083       0xca ./Primitivas/PR_7seg.o
+ .debug_abbrev  0x000000000000014d      0x152 ./Primitivas/PR_Matriz.o
+ .debug_abbrev  0x000000000000029f      0x15b ./Primitivas/TImer.o
+ .debug_abbrev  0x00000000000003fa       0x7c ./Primitivas/Tecla.o
+ .debug_abbrev  0x0000000000000476       0xbe ./Drivers/DR_7seg.o
+ .debug_abbrev  0x0000000000000534      0x10f ./Drivers/DR_Init.o
+ .debug_abbrev  0x0000000000000643       0xca ./Drivers/DR_Matriz.o
+ .debug_abbrev  0x000000000000070d       0xd2 ./Drivers/DR_teclado.o
+ .debug_abbrev  0x00000000000007df      0x147 ./Drivers/GPIO.o
+ .debug_abbrev  0x0000000000000926      0x138 ./Drivers/Systick.o
+ .debug_abbrev  0x0000000000000a5e       0xf1 ./Aplicacion/JustDanceMDE.o
+ .debug_abbrev  0x0000000000000b4f       0xfc ./Aplicacion/MDE_funciones.o
+ .debug_abbrev  0x0000000000000c4b      0x12a ./Aplicacion/cr_startup_lpc84x.o
+ .debug_abbrev  0x0000000000000d75       0x38 ./Aplicacion/crp.o
+ .debug_abbrev  0x0000000000000dad       0xbd ./Aplicacion/main.o
+
+.debug_aranges  0x0000000000000000      0x398
+ .debug_aranges
+                0x0000000000000000       0x30 ./Primitivas/Leds.o
+ .debug_aranges
+                0x0000000000000030       0x30 ./Primitivas/PR_7seg.o
+ .debug_aranges
+                0x0000000000000060       0x58 ./Primitivas/PR_Matriz.o
+ .debug_aranges
+                0x00000000000000b8       0x58 ./Primitivas/TImer.o
+ .debug_aranges
+                0x0000000000000110       0x20 ./Primitivas/Tecla.o
+ .debug_aranges
+                0x0000000000000130       0x28 ./Drivers/DR_7seg.o
+ .debug_aranges
+                0x0000000000000158       0x30 ./Drivers/DR_Init.o
+ .debug_aranges
+                0x0000000000000188       0x78 ./Drivers/DR_Matriz.o
+ .debug_aranges
+                0x0000000000000200       0x30 ./Drivers/DR_teclado.o
+ .debug_aranges
+                0x0000000000000230       0x40 ./Drivers/GPIO.o
+ .debug_aranges
+                0x0000000000000270       0x30 ./Drivers/Systick.o
+ .debug_aranges
+                0x00000000000002a0       0x30 ./Aplicacion/JustDanceMDE.o
+ .debug_aranges
+                0x00000000000002d0       0x30 ./Aplicacion/MDE_funciones.o
+ .debug_aranges
+                0x0000000000000300       0x60 ./Aplicacion/cr_startup_lpc84x.o
+ .debug_aranges
+                0x0000000000000360       0x18 ./Aplicacion/crp.o
+ .debug_aranges
+                0x0000000000000378       0x20 ./Aplicacion/main.o
+
+.debug_ranges   0x0000000000000000      0x290
+ .debug_ranges  0x0000000000000000       0x20 ./Primitivas/Leds.o
+ .debug_ranges  0x0000000000000020       0x20 ./Primitivas/PR_7seg.o
+ .debug_ranges  0x0000000000000040       0x48 ./Primitivas/PR_Matriz.o
+ .debug_ranges  0x0000000000000088       0x48 ./Primitivas/TImer.o
+ .debug_ranges  0x00000000000000d0       0x10 ./Primitivas/Tecla.o
+ .debug_ranges  0x00000000000000e0       0x18 ./Drivers/DR_7seg.o
+ .debug_ranges  0x00000000000000f8       0x20 ./Drivers/DR_Init.o
+ .debug_ranges  0x0000000000000118       0x68 ./Drivers/DR_Matriz.o
+ .debug_ranges  0x0000000000000180       0x20 ./Drivers/DR_teclado.o
+ .debug_ranges  0x00000000000001a0       0x30 ./Drivers/GPIO.o
+ .debug_ranges  0x00000000000001d0       0x20 ./Drivers/Systick.o
+ .debug_ranges  0x00000000000001f0       0x20 ./Aplicacion/JustDanceMDE.o
+ .debug_ranges  0x0000000000000210       0x20 ./Aplicacion/MDE_funciones.o
+ .debug_ranges  0x0000000000000230       0x50 ./Aplicacion/cr_startup_lpc84x.o
+ .debug_ranges  0x0000000000000280       0x10 ./Aplicacion/main.o
+
+.debug_macro    0x0000000000000000     0x1798
+ .debug_macro   0x0000000000000000       0x37 ./Primitivas/Leds.o
+ .debug_macro   0x0000000000000037      0xa96 ./Primitivas/Leds.o
+ .debug_macro   0x0000000000000acd      0x25f ./Primitivas/Leds.o
+ .debug_macro   0x0000000000000d2c       0x34 ./Primitivas/Leds.o
+ .debug_macro   0x0000000000000d60       0x41 ./Primitivas/PR_7seg.o
+ .debug_macro   0x0000000000000da1       0x58 ./Primitivas/PR_7seg.o
+ .debug_macro   0x0000000000000df9       0xd6 ./Primitivas/PR_Matriz.o
+ .debug_macro   0x0000000000000ecf       0x16 ./Primitivas/PR_Matriz.o
+ .debug_macro   0x0000000000000ee5       0x6a ./Primitivas/PR_Matriz.o
+ .debug_macro   0x0000000000000f4f       0x5e ./Primitivas/PR_Matriz.o
+ .debug_macro   0x0000000000000fad       0x1c ./Primitivas/PR_Matriz.o
+ .debug_macro   0x0000000000000fc9       0x34 ./Primitivas/PR_Matriz.o
+ .debug_macro   0x0000000000000ffd       0xe4 ./Primitivas/TImer.o
+ .debug_macro   0x00000000000010e1       0x64 ./Primitivas/TImer.o
+ .debug_macro   0x0000000000001145       0x45 ./Primitivas/Tecla.o
+ .debug_macro   0x000000000000118a       0x33 ./Drivers/DR_7seg.o
+ .debug_macro   0x00000000000011bd       0xfd ./Drivers/DR_Init.o
+ .debug_macro   0x00000000000012ba       0x10 ./Drivers/DR_Init.o
+ .debug_macro   0x00000000000012ca       0x3d ./Drivers/DR_Matriz.o
+ .debug_macro   0x0000000000001307       0x33 ./Drivers/DR_teclado.o
+ .debug_macro   0x000000000000133a       0x24 ./Drivers/GPIO.o
+ .debug_macro   0x000000000000135e       0xe4 ./Drivers/Systick.o
+ .debug_macro   0x0000000000001442       0xee ./Aplicacion/JustDanceMDE.o
+ .debug_macro   0x0000000000001530       0xee ./Aplicacion/MDE_funciones.o
+ .debug_macro   0x000000000000161e       0x23 ./Aplicacion/cr_startup_lpc84x.o
+ .debug_macro   0x0000000000001641       0x1a ./Aplicacion/crp.o
+ .debug_macro   0x000000000000165b       0x34 ./Aplicacion/crp.o
+ .debug_macro   0x000000000000168f      0x109 ./Aplicacion/main.o
+
+.debug_line     0x0000000000000000     0x29ce
+ .debug_line    0x0000000000000000       0xbf ./Primitivas/Leds.o
+ .debug_line    0x00000000000000bf      0x129 ./Primitivas/PR_7seg.o
+ .debug_line    0x00000000000001e8      0x78f ./Primitivas/PR_Matriz.o
+ .debug_line    0x0000000000000977      0x450 ./Primitivas/TImer.o
+ .debug_line    0x0000000000000dc7       0x9d ./Primitivas/Tecla.o
+ .debug_line    0x0000000000000e64       0xd9 ./Drivers/DR_7seg.o
+ .debug_line    0x0000000000000f3d      0x376 ./Drivers/DR_Init.o
+ .debug_line    0x00000000000012b3      0x38e ./Drivers/DR_Matriz.o
+ .debug_line    0x0000000000001641      0x113 ./Drivers/DR_teclado.o
+ .debug_line    0x0000000000001754      0x119 ./Drivers/GPIO.o
+ .debug_line    0x000000000000186d      0x36e ./Drivers/Systick.o
+ .debug_line    0x0000000000001bdb      0x43a ./Aplicacion/JustDanceMDE.o
+ .debug_line    0x0000000000002015      0x41d ./Aplicacion/MDE_funciones.o
+ .debug_line    0x0000000000002432      0x154 ./Aplicacion/cr_startup_lpc84x.o
+ .debug_line    0x0000000000002586       0xbc ./Aplicacion/crp.o
+ .debug_line    0x0000000000002642      0x38c ./Aplicacion/main.o
+
+.debug_str      0x0000000000000000     0x4418
+ .debug_str     0x0000000000000000     0x363f ./Primitivas/Leds.o
+                                       0x3683 (size before relaxing)
+ .debug_str     0x000000000000363f       0xfd ./Primitivas/PR_7seg.o
+                                       0x370a (size before relaxing)
+ .debug_str     0x000000000000373c      0x319 ./Primitivas/PR_Matriz.o
+                                       0x3a34 (size before relaxing)
+ .debug_str     0x0000000000003a55       0x8a ./Primitivas/TImer.o
+                                       0x3a4c (size before relaxing)
+ .debug_str     0x0000000000003adf       0x1d ./Primitivas/Tecla.o
+                                       0x36fd (size before relaxing)
+ .debug_str     0x0000000000003afc       0x5c ./Drivers/DR_7seg.o
+                                       0x36f8 (size before relaxing)
+ .debug_str     0x0000000000003b58      0x35b ./Drivers/DR_Init.o
+                                       0x3d18 (size before relaxing)
+ .debug_str     0x0000000000003eb3       0x86 ./Drivers/DR_Matriz.o
+                                       0x36dc (size before relaxing)
+ .debug_str     0x0000000000003f39       0x51 ./Drivers/DR_teclado.o
+                                       0x371e (size before relaxing)
+ .debug_str     0x0000000000003f8a       0x9f ./Drivers/GPIO.o
+                                       0x3717 (size before relaxing)
+ .debug_str     0x0000000000004029       0x5d ./Drivers/Systick.o
+                                       0x3a1a (size before relaxing)
+ .debug_str     0x0000000000004086       0x62 ./Aplicacion/JustDanceMDE.o
+                                       0x3a2c (size before relaxing)
+ .debug_str     0x00000000000040e8       0x4d ./Aplicacion/MDE_funciones.o
+                                       0x3a27 (size before relaxing)
+ .debug_str     0x0000000000004135      0x1d9 ./Aplicacion/cr_startup_lpc84x.o
+                                       0x2f0b (size before relaxing)
+ .debug_str     0x000000000000430e       0xf0 ./Aplicacion/crp.o
+                                       0x2e0c (size before relaxing)
+ .debug_str     0x00000000000043fe       0x1a ./Aplicacion/main.o
+                                       0x3a09 (size before relaxing)
+
+.comment        0x0000000000000000       0x4c
+ .comment       0x0000000000000000       0x4c ./Primitivas/Leds.o
+                                         0x4d (size before relaxing)
+ .comment       0x000000000000004c       0x4d ./Primitivas/PR_7seg.o
+ .comment       0x000000000000004c       0x4d ./Primitivas/PR_Matriz.o
+ .comment       0x000000000000004c       0x4d ./Primitivas/TImer.o
+ .comment       0x000000000000004c       0x4d ./Primitivas/Tecla.o
+ .comment       0x000000000000004c       0x4d ./Drivers/DR_7seg.o
+ .comment       0x000000000000004c       0x4d ./Drivers/DR_Init.o
+ .comment       0x000000000000004c       0x4d ./Drivers/DR_Matriz.o
+ .comment       0x000000000000004c       0x4d ./Drivers/DR_teclado.o
+ .comment       0x000000000000004c       0x4d ./Drivers/GPIO.o
+ .comment       0x000000000000004c       0x4d ./Drivers/Systick.o
+ .comment       0x000000000000004c       0x4d ./Aplicacion/JustDanceMDE.o
+ .comment       0x000000000000004c       0x4d ./Aplicacion/MDE_funciones.o
+ .comment       0x000000000000004c       0x4d ./Aplicacion/cr_startup_lpc84x.o
+ .comment       0x000000000000004c       0x4d ./Aplicacion/crp.o
+ .comment       0x000000000000004c       0x4d ./Aplicacion/main.o
+ .comment       0x000000000000004c       0x4d /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x0000000000000000       0x2a
+ .ARM.attributes
+                0x0000000000000000       0x2c ./Primitivas/Leds.o
+ .ARM.attributes
+                0x000000000000002c       0x2c ./Primitivas/PR_7seg.o
+ .ARM.attributes
+                0x0000000000000058       0x2c ./Primitivas/PR_Matriz.o
+ .ARM.attributes
+                0x0000000000000084       0x2c ./Primitivas/TImer.o
+ .ARM.attributes
+                0x00000000000000b0       0x2c ./Primitivas/Tecla.o
+ .ARM.attributes
+                0x00000000000000dc       0x2c ./Drivers/DR_7seg.o
+ .ARM.attributes
+                0x0000000000000108       0x2c ./Drivers/DR_Init.o
+ .ARM.attributes
+                0x0000000000000134       0x2c ./Drivers/DR_Matriz.o
+ .ARM.attributes
+                0x0000000000000160       0x2c ./Drivers/DR_teclado.o
+ .ARM.attributes
+                0x000000000000018c       0x2c ./Drivers/GPIO.o
+ .ARM.attributes
+                0x00000000000001b8       0x2c ./Drivers/Systick.o
+ .ARM.attributes
+                0x00000000000001e4       0x2c ./Aplicacion/JustDanceMDE.o
+ .ARM.attributes
+                0x0000000000000210       0x2c ./Aplicacion/MDE_funciones.o
+ .ARM.attributes
+                0x000000000000023c       0x2c ./Aplicacion/cr_startup_lpc84x.o
+ .ARM.attributes
+                0x0000000000000268       0x31 ./Aplicacion/crp.o
+ .ARM.attributes
+                0x0000000000000299       0x2c ./Aplicacion/main.o
+ .ARM.attributes
+                0x00000000000002c5       0x2c /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x00000000000002f1       0x1c /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+ .ARM.attributes
+                0x000000000000030d       0x1c /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
+
+.debug_frame    0x0000000000000000      0x8d4
+ .debug_frame   0x0000000000000000       0x70 ./Primitivas/Leds.o
+ .debug_frame   0x0000000000000070       0x68 ./Primitivas/PR_7seg.o
+ .debug_frame   0x00000000000000d8      0x108 ./Primitivas/PR_Matriz.o
+ .debug_frame   0x00000000000001e0       0xfc ./Primitivas/TImer.o
+ .debug_frame   0x00000000000002dc       0x30 ./Primitivas/Tecla.o
+ .debug_frame   0x000000000000030c       0x4c ./Drivers/DR_7seg.o
+ .debug_frame   0x0000000000000358       0x64 ./Drivers/DR_Init.o
+ .debug_frame   0x00000000000003bc      0x17c ./Drivers/DR_Matriz.o
+ .debug_frame   0x0000000000000538       0x68 ./Drivers/DR_teclado.o
+ .debug_frame   0x00000000000005a0       0xb0 ./Drivers/GPIO.o
+ .debug_frame   0x0000000000000650       0x68 ./Drivers/Systick.o
+ .debug_frame   0x00000000000006b8       0x64 ./Aplicacion/JustDanceMDE.o
+ .debug_frame   0x000000000000071c       0x70 ./Aplicacion/MDE_funciones.o
+ .debug_frame   0x000000000000078c      0x118 ./Aplicacion/cr_startup_lpc84x.o
+ .debug_frame   0x00000000000008a4       0x30 ./Aplicacion/main.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_OVR_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+ADC_SEQA_IRQHandler                               ./Aplicacion/cr_startup_lpc84x.o
+ADC_SEQB_IRQHandler                               ./Aplicacion/cr_startup_lpc84x.o
+ADC_THCMP_IRQHandler                              ./Aplicacion/cr_startup_lpc84x.o
+AnalizarTimers                                    ./Drivers/Systick.o
+BOD_IRQHandler                                    ./Aplicacion/cr_startup_lpc84x.o
+BarridoDisplay                                    ./Drivers/DR_7seg.o
+                                                  ./Drivers/Systick.o
+CLEAR                                             ./Primitivas/PR_Matriz.o
+                                                  ./Aplicacion/JustDanceMDE.o
+CLK_Down                                          ./Drivers/DR_Matriz.o
+CLK_Up                                            ./Drivers/DR_Matriz.o
+CMP_IRQHandler                                    ./Aplicacion/cr_startup_lpc84x.o
+CRP_WORD                                          ./Aplicacion/crp.o
+CTIMER0_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+DAC0_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+DMA_IRQHandler                                    ./Aplicacion/cr_startup_lpc84x.o
+Digito_Display                                    ./Drivers/DR_7seg.o
+                                                  ./Primitivas/PR_7seg.o
+Display                                           ./Primitivas/PR_7seg.o
+                                                  ./Aplicacion/main.o
+                                                  ./Primitivas/TImer.o
+Display_mas                                       ./Primitivas/PR_7seg.o
+Display_menos                                     ./Primitivas/PR_7seg.o
+DriverTecladoHW                                   ./Drivers/DR_teclado.o
+DriverTecladoSW                                   ./Drivers/DR_teclado.o
+                                                  ./Drivers/Systick.o
+FAIM_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+FLASH_IRQHandler                                  ./Aplicacion/cr_startup_lpc84x.o
+GAME                                              ./Primitivas/PR_Matriz.o
+GetPIN                                            ./Drivers/GPIO.o
+                                                  ./Drivers/DR_teclado.o
+                                                  ./Primitivas/Leds.o
+HOLA                                              ./Primitivas/PR_Matriz.o
+HandlersTimer                                     ./Primitivas/TImer.o
+HardFault_Handler                                 ./Aplicacion/cr_startup_lpc84x.o
+I2C0_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+I2C1_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+I2C2_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+I2C3_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+Init7seg                                          ./Drivers/DR_7seg.o
+                                                  ./Drivers/DR_Init.o
+InitArchivoMusica                                 ./Aplicacion/MDE_funciones.o
+                                                  ./Aplicacion/JustDanceMDE.o
+InitGPIO                                          ./Drivers/DR_Init.o
+InitHw                                            ./Drivers/DR_Init.o
+                                                  ./Aplicacion/main.o
+InitJustDanceMDE                                  ./Aplicacion/JustDanceMDE.o
+                                                  ./Aplicacion/main.o
+InitPLL                                           ./Drivers/DR_Init.o
+InitSystick                                       ./Drivers/Systick.o
+                                                  ./Drivers/DR_Init.o
+InitTeclado                                       ./Drivers/DR_teclado.o
+                                                  ./Drivers/DR_Init.o
+IntDefaultHandler                                 ./Aplicacion/cr_startup_lpc84x.o
+JustDanceMDE                                      ./Aplicacion/JustDanceMDE.o
+LED_OFF                                           ./Primitivas/Leds.o
+                                                  ./Aplicacion/main.o
+LED_ON                                            ./Primitivas/Leds.o
+                                                  ./Aplicacion/main.o
+                                                  ./Aplicacion/JustDanceMDE.o
+LOAD_Down                                         ./Drivers/DR_Matriz.o
+                                                  ./Primitivas/PR_Matriz.o
+LOAD_Up                                           ./Drivers/DR_Matriz.o
+                                                  ./Primitivas/PR_Matriz.o
+MRT_IRQHandler                                    ./Aplicacion/cr_startup_lpc84x.o
+NMI_Handler                                       ./Aplicacion/cr_startup_lpc84x.o
+OVER                                              ./Primitivas/PR_Matriz.o
+PININT0_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+PININT1_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+PININT2_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+PININT3_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+PININT4_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+PININT5_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+PININT6_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+PININT7_IRQHandler                                ./Aplicacion/cr_startup_lpc84x.o
+PendSV_Handler                                    ./Aplicacion/cr_startup_lpc84x.o
+Puntaje                                           ./Aplicacion/MDE_funciones.o
+                                                  ./Aplicacion/JustDanceMDE.o
+Puntaje_restar                                    ./Aplicacion/MDE_funciones.o
+                                                  ./Aplicacion/JustDanceMDE.o
+ResetISR                                          ./Aplicacion/cr_startup_lpc84x.o
+SCT_IRQHandler                                    ./Aplicacion/cr_startup_lpc84x.o
+SPI0_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+SPI1_IRQHandler                                   ./Aplicacion/cr_startup_lpc84x.o
+SVC_Handler                                       ./Aplicacion/cr_startup_lpc84x.o
+SetDIR                                            ./Drivers/GPIO.o
+                                                  ./Drivers/DR_teclado.o
+                                                  ./Drivers/DR_Matriz.o
+                                                  ./Drivers/DR_Init.o
+                                                  ./Drivers/DR_7seg.o
+SetPIN                                            ./Drivers/GPIO.o
+                                                  ./Drivers/DR_Matriz.o
+                                                  ./Drivers/DR_7seg.o
+                                                  ./Primitivas/Leds.o
+SetPINMODE_IN                                     ./Drivers/GPIO.o
+SetPINMODE_OUT                                    ./Drivers/GPIO.o
+                                                  ./Drivers/DR_teclado.o
+                                                  ./Drivers/DR_Matriz.o
+                                                  ./Drivers/DR_Init.o
+                                                  ./Drivers/DR_7seg.o
+SwapEstadoLed                                     ./Primitivas/Leds.o
+SysTick_Handler                                   ./Drivers/Systick.o
+Tecla                                             ./Drivers/DR_teclado.o
+                                                  ./Primitivas/Tecla.o
+TimerEvent                                        ./Primitivas/TImer.o
+                                                  ./Aplicacion/main.o
+                                                  ./Primitivas/PR_Matriz.o
+TimerStart                                        ./Primitivas/TImer.o
+                                                  ./Aplicacion/JustDanceMDE.o
+                                                  ./Primitivas/PR_Matriz.o
+TimerStop                                         ./Primitivas/TImer.o
+                                                  ./Aplicacion/JustDanceMDE.o
+UART0_IRQHandler                                  ./Aplicacion/cr_startup_lpc84x.o
+UART1_IRQHandler                                  ./Aplicacion/cr_startup_lpc84x.o
+UART2_IRQHandler                                  ./Aplicacion/cr_startup_lpc84x.o
+WDT_IRQHandler                                    ./Aplicacion/cr_startup_lpc84x.o
+WKT_IRQHandler                                    ./Aplicacion/cr_startup_lpc84x.o
+__aeabi_cdcmpeq                                   /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_cdcmple                                   /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_cdrcmple                                  /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_d2f                                       /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_d2iz                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_d2lz                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_d2uiz                                     /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_d2ulz                                     /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_dadd                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+                                                  ./Aplicacion/MDE_funciones.o
+__aeabi_dcmpeq                                    /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_dcmpge                                    /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_dcmpgt                                    /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+                                                  ./Aplicacion/MDE_funciones.o
+__aeabi_dcmple                                    /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_dcmplt                                    /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+                                                  ./Aplicacion/MDE_funciones.o
+__aeabi_dcmpun                                    /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_ddiv                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_dmul                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+                                                  ./Aplicacion/MDE_funciones.o
+__aeabi_dneg                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_drsub                                     /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_dsub                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+                                                  ./Aplicacion/MDE_funciones.o
+__aeabi_i2d                                       /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_idiv                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+__aeabi_idiv0                                     /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
+                                                  /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+__aeabi_idivmod                                   /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+__aeabi_l2d                                       /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_lasr                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+__aeabi_lcmp                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+__aeabi_llsl                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+__aeabi_llsr                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+__aeabi_lmul                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+                                                  /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_ui2d                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+                                                  ./Aplicacion/MDE_funciones.o
+__aeabi_uidiv                                     /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+                                                  ./Primitivas/PR_Matriz.o
+                                                  ./Primitivas/PR_7seg.o
+__aeabi_uidivmod                                  /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
+                                                  ./Primitivas/PR_Matriz.o
+                                                  ./Primitivas/PR_7seg.o
+__aeabi_ul2d                                      /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__aeabi_ulcmp                                     /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(llong.o)
+__bhs_ui2d                                        /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__bhs_ul2d                                        /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a(double.o)
+__bss_section_table_end                           ./Aplicacion/cr_startup_lpc84x.o
+__data_section_table                              ./Aplicacion/cr_startup_lpc84x.o
+__data_section_table_end                          ./Aplicacion/cr_startup_lpc84x.o
+__main                                            /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                                                  ./Aplicacion/cr_startup_lpc84x.o
+__valid_user_code_checksum                        ./Aplicacion/cr_startup_lpc84x.o
+__weak_main                                       /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+_vStackTop                                        ./Aplicacion/cr_startup_lpc84x.o
+bss_init                                          ./Aplicacion/cr_startup_lpc84x.o
+cancion                                           ./Aplicacion/main.o
+                                                  ./Aplicacion/JustDanceMDE.o
+cifras                                            ./Primitivas/PR_Matriz.o
+cleanAll                                          ./Drivers/DR_Matriz.o
+                                                  ./Aplicacion/main.o
+clearMDE                                          ./Aplicacion/JustDanceMDE.o
+counter                                           ./Primitivas/TImer.o
+                                                  ./Aplicacion/JustDanceMDE.o
+counter2                                          ./Primitivas/TImer.o
+                                                  ./Aplicacion/JustDanceMDE.o
+                                                  ./Primitivas/PR_Matriz.o
+counter4                                          ./Primitivas/TImer.o
+                                                  ./Aplicacion/JustDanceMDE.o
+data_init                                         ./Aplicacion/cr_startup_lpc84x.o
+dificultad                                        ./Aplicacion/JustDanceMDE.o
+errores                                           ./Aplicacion/MDE_funciones.o
+                                                  ./Aplicacion/JustDanceMDE.o
+fila                                              ./Primitivas/PR_Matriz.o
+flagT0                                            ./Primitivas/TImer.o
+                                                  ./Aplicacion/JustDanceMDE.o
+                                                  ./Primitivas/PR_Matriz.o
+flagT3                                            ./Primitivas/TImer.o
+                                                  ./Aplicacion/JustDanceMDE.o
+                                                  ./Primitivas/PR_Matriz.o
+flagsT                                            ./Drivers/Systick.o
+                                                  ./Primitivas/TImer.o
+fro_set_frec                                      ./Drivers/DR_Init.o
+g_pfnVectors                                      ./Aplicacion/cr_startup_lpc84x.o
+gameOver1                                         ./Primitivas/PR_Matriz.o
+                                                  ./Aplicacion/JustDanceMDE.o
+gameOver2                                         ./Primitivas/PR_Matriz.o
+getKey                                            ./Primitivas/Tecla.o
+                                                  ./Aplicacion/main.o
+                                                  ./Aplicacion/JustDanceMDE.o
+handlerT0                                         ./Primitivas/TImer.o
+                                                  ./Aplicacion/JustDanceMDE.o
+                                                  ./Primitivas/PR_Matriz.o
+handlerT1                                         ./Primitivas/TImer.o
+                                                  ./Aplicacion/JustDanceMDE.o
+handlerT2                                         ./Primitivas/TImer.o
+                                                  ./Aplicacion/JustDanceMDE.o
+handlerT3                                         ./Primitivas/TImer.o
+                                                  ./Primitivas/PR_Matriz.o
+handlerT4                                         ./Primitivas/TImer.o
+                                                  ./Aplicacion/JustDanceMDE.o
+letters1                                          ./Drivers/numberIndex.o
+letters2                                          ./Drivers/numberIndex.o
+                                                  ./Primitivas/PR_Matriz.o
+main                                              ./Aplicacion/main.o
+                                                  /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+matrixInit                                        ./Drivers/DR_Matriz.o
+                                                  ./Aplicacion/main.o
+num_disp                                          ./Primitivas/PR_7seg.o
+numbers1                                          ./Drivers/numberIndex.o
+numbers2                                          ./Drivers/numberIndex.o
+                                                  ./Drivers/DR_Matriz.o
+                                                  ./Primitivas/PR_Matriz.o
+pDivRom_idiv                                      ./Aplicacion/cr_startup_lpc84x.o
+pDivRom_uidiv                                     ./Aplicacion/cr_startup_lpc84x.o
+pinsConfig                                        ./Drivers/DR_Matriz.o
+                                                  ./Drivers/DR_Init.o
+points                                            ./Aplicacion/MDE_funciones.o
+                                                  ./Aplicacion/JustDanceMDE.o
+                                                  ./Primitivas/PR_Matriz.o
+print                                             ./Primitivas/PR_Matriz.o
+                                                  ./Aplicacion/MDE_funciones.o
+                                                  ./Aplicacion/JustDanceMDE.o
+rows                                              ./Primitivas/PR_Matriz.o
+sendAddress                                       ./Drivers/DR_Matriz.o
+                                                  ./Primitivas/PR_Matriz.o
+sendData                                          ./Drivers/DR_Matriz.o
+                                                  ./Primitivas/PR_Matriz.o
+separarCifras                                     ./Primitivas/PR_Matriz.o
+show                                              ./Primitivas/PR_Matriz.o
+                                                  ./Drivers/Systick.o
+showAll                                           ./Drivers/DR_Matriz.o
+start                                             ./Primitivas/PR_Matriz.o
+                                                  ./Aplicacion/main.o
+startFlag                                         ./Primitivas/PR_Matriz.o
+                                                  ./Drivers/Systick.o
+stop                                              ./Primitivas/PR_Matriz.o
+test1                                             ./Drivers/DR_Matriz.o
+test2                                             ./Drivers/DR_Matriz.o
+timers                                            ./Drivers/Systick.o
+                                                  ./Primitivas/TImer.o
+write                                             ./Primitivas/PR_Matriz.o
+                                                  ./Aplicacion/JustDanceMDE.o

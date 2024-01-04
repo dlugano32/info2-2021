@@ -1,0 +1,3 @@
+Para incluir una librearia en el codigo de compilacion tengo que ir al .pro y poner
+
+LIBS+= -lm

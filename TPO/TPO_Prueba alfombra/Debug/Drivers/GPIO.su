@@ -1,0 +1,5 @@
+GPIO.c:5:6:SetDIR	24	static
+GPIO.c:13:6:SetPIN	24	static
+GPIO.c:21:10:GetPIN	24	static
+GPIO.c:37:6:SetPINMODE_IN	16	static
+GPIO.c:46:6:SetPINMODE_OUT	16	static

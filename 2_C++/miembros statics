@@ -1,0 +1,13 @@
+Uso miembros static en los siguientes tres casos:
+
+-funciones que las puedo llamar independientemente de si el objeto esta instanciado
+-constantes
+-como contador de cantidad de objetos que tengo instanciados
+
+en el caso de los contadores se declaran en la clase como
+
+static int cont;
+
+y despues se instacian donde sea que se tenga que usar como variable global de la siguiente manera
+
+int String::contador_String =0;

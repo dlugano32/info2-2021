@@ -1,0 +1,352 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc84x.o (__main)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc ./src/Inicializacion.o
+ .group         0x0000000000000000        0xc ./src/Inicializacion.o
+ .text          0x0000000000000000        0x0 ./src/Inicializacion.o
+ .data          0x0000000000000000        0x0 ./src/Inicializacion.o
+ .bss           0x0000000000000000        0x0 ./src/Inicializacion.o
+ .group         0x0000000000000000        0xc ./src/Prueba845_Systick.o
+ .group         0x0000000000000000        0xc ./src/Prueba845_Systick.o
+ .group         0x0000000000000000        0xc ./src/Prueba845_Systick.o
+ .text          0x0000000000000000        0x0 ./src/Prueba845_Systick.o
+ .data          0x0000000000000000        0x0 ./src/Prueba845_Systick.o
+ .bss           0x0000000000000000        0x0 ./src/Prueba845_Systick.o
+ .debug_macro   0x0000000000000000      0xa96 ./src/Prueba845_Systick.o
+ .debug_macro   0x0000000000000000      0x259 ./src/Prueba845_Systick.o
+ .group         0x0000000000000000        0xc ./src/cr_startup_lpc84x.o
+ .text          0x0000000000000000        0x0 ./src/cr_startup_lpc84x.o
+ .data          0x0000000000000000        0x0 ./src/cr_startup_lpc84x.o
+ .bss           0x0000000000000000        0x0 ./src/cr_startup_lpc84x.o
+ .debug_macro   0x0000000000000000      0xa96 ./src/cr_startup_lpc84x.o
+ .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash64         0x0000000000000000 0x0000000000010000 xr
+RamLoc16         0x0000000010000000 0x0000000000004000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./src/Inicializacion.o
+LOAD ./src/Prueba845_Systick.o
+LOAD ./src/cr_startup_lpc84x.o
+START GROUP
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a
+END GROUP
+                0x0000000000000000                __base_MFlash64 = 0x0
+                0x0000000000000000                __base_Flash = 0x0
+                0x0000000000010000                __top_MFlash64 = 0x10000
+                0x0000000000010000                __top_Flash = 0x10000
+                0x0000000010000000                __base_RamLoc16 = 0x10000000
+                0x0000000010000000                __base_RAM = 0x10000000
+                0x0000000010004000                __top_RamLoc16 = 0x10004000
+                0x0000000010004000                __top_RAM = 0x10004000
+
+.text           0x0000000000000000      0x3d8
+ FILL mask 0xff
+                0x0000000000000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0xc0 ./src/cr_startup_lpc84x.o
+                0x0000000000000000                g_pfnVectors
+                0x00000000000000c0                . = ALIGN (0x4)
+                0x00000000000000c0                __section_table_start = .
+                0x00000000000000c0                __data_section_table = .
+                0x00000000000000c0        0x4 LONG 0x3d8 LOADADDR (.data)
+                0x00000000000000c4        0x4 LONG 0x10000000 ADDR (.data)
+                0x00000000000000c8        0x4 LONG 0x4 SIZEOF (.data)
+                0x00000000000000cc                __data_section_table_end = .
+                0x00000000000000cc                __bss_section_table = .
+                0x00000000000000cc        0x4 LONG 0x10000004 ADDR (.bss)
+                0x00000000000000d0        0x4 LONG 0x8 SIZEOF (.bss)
+                0x00000000000000d4                __bss_section_table_end = .
+                0x00000000000000d4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x00000000000000d4      0x118 ./src/cr_startup_lpc84x.o
+                0x00000000000000d4                data_init
+                0x0000000000000116                bss_init
+                0x000000000000014c                ResetISR
+                0x00000000000001c8                NMI_Handler
+                0x00000000000001ce                HardFault_Handler
+                0x00000000000001d4                SVC_Handler
+                0x00000000000001da                PendSV_Handler
+                0x00000000000001e6                CMP_IRQHandler
+                0x00000000000001e6                PININT7_IRQHandler
+                0x00000000000001e6                I2C0_IRQHandler
+                0x00000000000001e6                WKT_IRQHandler
+                0x00000000000001e6                PININT2_IRQHandler
+                0x00000000000001e6                PININT1_IRQHandler
+                0x00000000000001e6                MRT_IRQHandler
+                0x00000000000001e6                I2C1_IRQHandler
+                0x00000000000001e6                UART1_IRQHandler
+                0x00000000000001e6                ADC_SEQB_IRQHandler
+                0x00000000000001e6                UART0_IRQHandler
+                0x00000000000001e6                SPI1_IRQHandler
+                0x00000000000001e6                IntDefaultHandler
+                0x00000000000001e6                ADC_OVR_IRQHandler
+                0x00000000000001e6                I2C2_IRQHandler
+                0x00000000000001e6                PININT3_IRQHandler
+                0x00000000000001e6                UART2_IRQHandler
+                0x00000000000001e6                PININT5_IRQHandler
+                0x00000000000001e6                PININT4_IRQHandler
+                0x00000000000001e6                ADC_THCMP_IRQHandler
+                0x00000000000001e6                PININT0_IRQHandler
+                0x00000000000001e6                BOD_IRQHandler
+                0x00000000000001e6                I2C3_IRQHandler
+                0x00000000000001e6                SCT_IRQHandler
+                0x00000000000001e6                WDT_IRQHandler
+                0x00000000000001e6                ADC_SEQA_IRQHandler
+                0x00000000000001e6                FAIM_IRQHandler
+                0x00000000000001e6                DAC0_IRQHandler
+                0x00000000000001e6                PININT6_IRQHandler
+                0x00000000000001e6                SPI0_IRQHandler
+                0x00000000000001e6                DMA_IRQHandler
+                0x00000000000001e6                FLASH_IRQHandler
+                0x00000000000001e6                CTIMER0_IRQHandler
+ *(.text*)
+ .text.InitHw   0x00000000000001ec      0x114 ./src/Inicializacion.o
+                0x00000000000001ec                InitHw
+ .text.main     0x0000000000000300       0x8c ./src/Prueba845_Systick.o
+                0x0000000000000300                main
+ .text.SysTick_Handler
+                0x000000000000038c       0x44 ./src/Prueba845_Systick.o
+                0x000000000000038c                SysTick_Handler
+ .text.__weak_main
+                0x00000000000003d0        0x8 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                0x00000000000003d0                __main
+                0x00000000000003d0                __weak_main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x00000000000003d8                . = ALIGN (0x4)
+
+.glue_7         0x00000000000003d8        0x0
+ .glue_7        0x00000000000003d8        0x0 linker stubs
+
+.glue_7t        0x00000000000003d8        0x0
+ .glue_7t       0x00000000000003d8        0x0 linker stubs
+
+.vfp11_veneer   0x00000000000003d8        0x0
+ .vfp11_veneer  0x00000000000003d8        0x0 linker stubs
+
+.v4_bx          0x00000000000003d8        0x0
+ .v4_bx         0x00000000000003d8        0x0 linker stubs
+
+.iplt           0x00000000000003d8        0x0
+ .iplt          0x00000000000003d8        0x0 ./src/Inicializacion.o
+
+.rel.dyn        0x00000000000003d8        0x0
+ .rel.iplt      0x00000000000003d8        0x0 ./src/Inicializacion.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx      0x00000000000003d8        0x0
+                0x00000000000003d8                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000000000003d8                __exidx_end = .
+                0x00000000000003d8                _etext = .
+
+.mtb_buffer_default
+ *(.mtb*)
+
+.uninit_RESERVED
+                0x0000000010000000        0x0
+                0x0000000010000000                _start_uninit_RESERVED = .
+ *(.bss.$RESERVED*)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _end_uninit_RESERVED = .
+
+.data           0x0000000010000000        0x4 load address 0x00000000000003d8
+ FILL mask 0xff
+                0x0000000010000000                _data = .
+                [!provide]                        PROVIDE (__start_data_RAM = .)
+                [!provide]                        PROVIDE (__start_data_RamLoc16 = .)
+ *(vtable)
+ *(.ramfunc*)
+ *(CodeQuickAccess)
+ *(DataQuickAccess)
+ *(RamFunction)
+ *(.data*)
+ .data.fro_set_frec
+                0x0000000010000000        0x4 ./src/Inicializacion.o
+                0x0000000010000000                fro_set_frec
+                0x0000000010000004                . = ALIGN (0x4)
+                0x0000000010000004                _edata = .
+                [!provide]                        PROVIDE (__end_data_RAM = .)
+                [!provide]                        PROVIDE (__end_data_RamLoc16 = .)
+
+.igot.plt       0x0000000010000004        0x0 load address 0x00000000000003dc
+ .igot.plt      0x0000000010000004        0x0 ./src/Inicializacion.o
+
+.bss            0x0000000010000004        0x8
+                0x0000000010000004                _bss = .
+                [!provide]                        PROVIDE (__start_bss_RAM = .)
+                [!provide]                        PROVIDE (__start_bss_RamLoc16 = .)
+ *(.bss*)
+ .bss.flag_systick
+                0x0000000010000004        0x1 ./src/Prueba845_Systick.o
+                0x0000000010000004                flag_systick
+ *fill*         0x0000000010000005        0x3 
+ .bss.contador.3783
+                0x0000000010000008        0x4 ./src/Prueba845_Systick.o
+ *(COMMON)
+                0x000000001000000c                . = ALIGN (0x4)
+                0x000000001000000c                _ebss = .
+                [!provide]                        PROVIDE (__end_bss_RAM = .)
+                [!provide]                        PROVIDE (__end_bss_RamLoc16 = .)
+                [!provide]                        PROVIDE (end = .)
+
+.noinit         0x000000001000000c        0x0
+                0x000000001000000c                _noinit = .
+                [!provide]                        PROVIDE (__start_noinit_RAM = .)
+                [!provide]                        PROVIDE (__start_noinit_RamLoc16 = .)
+ *(.noinit*)
+                0x000000001000000c                . = ALIGN (0x4)
+                0x000000001000000c                _end_noinit = .
+                [!provide]                        PROVIDE (__end_noinit_RAM = .)
+                [!provide]                        PROVIDE (__end_noinit_RamLoc16 = .)
+                [!provide]                        PROVIDE (_pvHeapStart = DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x0000000010004000                PROVIDE (_vStackTop = DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc16 - 0x0))
+                0xffffffffefffbb1b                PROVIDE (__valid_user_code_checksum = (0x0 - (((_vStackTop + (ResetISR + 0x1)) + (DEFINED (NMI_Handler)?NMI_Handler:M0_NMI_Handler + 0x1)) + (DEFINED (HardFault_Handler)?HardFault_Handler:M0_HardFault_Handler + 0x1))))
+                0x0000000000000000                _image_start = LOADADDR (.text)
+                0x00000000000003dc                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x00000000000003dc                _image_size = (_image_end - _image_start)
+OUTPUT(Prueba845_Systick.axf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000      0xc85
+ .debug_info    0x0000000000000000      0x74b ./src/Inicializacion.o
+ .debug_info    0x000000000000074b      0x319 ./src/Prueba845_Systick.o
+ .debug_info    0x0000000000000a64      0x221 ./src/cr_startup_lpc84x.o
+
+.debug_abbrev   0x0000000000000000      0x360
+ .debug_abbrev  0x0000000000000000      0x10d ./src/Inicializacion.o
+ .debug_abbrev  0x000000000000010d      0x14d ./src/Prueba845_Systick.o
+ .debug_abbrev  0x000000000000025a      0x106 ./src/cr_startup_lpc84x.o
+
+.debug_aranges  0x0000000000000000       0xa8
+ .debug_aranges
+                0x0000000000000000       0x20 ./src/Inicializacion.o
+ .debug_aranges
+                0x0000000000000020       0x28 ./src/Prueba845_Systick.o
+ .debug_aranges
+                0x0000000000000048       0x60 ./src/cr_startup_lpc84x.o
+
+.debug_ranges   0x0000000000000000       0x78
+ .debug_ranges  0x0000000000000000       0x10 ./src/Inicializacion.o
+ .debug_ranges  0x0000000000000010       0x18 ./src/Prueba845_Systick.o
+ .debug_ranges  0x0000000000000028       0x50 ./src/cr_startup_lpc84x.o
+
+.debug_macro    0x0000000000000000      0xdd1
+ .debug_macro   0x0000000000000000       0x20 ./src/Inicializacion.o
+ .debug_macro   0x0000000000000020      0xa96 ./src/Inicializacion.o
+ .debug_macro   0x0000000000000ab6      0x259 ./src/Inicializacion.o
+ .debug_macro   0x0000000000000d0f       0x23 ./src/Prueba845_Systick.o
+ .debug_macro   0x0000000000000d32       0x82 ./src/Prueba845_Systick.o
+ .debug_macro   0x0000000000000db4       0x1d ./src/cr_startup_lpc84x.o
+
+.debug_line     0x0000000000000000      0x2f6
+ .debug_line    0x0000000000000000       0x85 ./src/Inicializacion.o
+ .debug_line    0x0000000000000085      0x13e ./src/Prueba845_Systick.o
+ .debug_line    0x00000000000001c3      0x133 ./src/cr_startup_lpc84x.o
+
+.debug_str      0x0000000000000000     0x3f5e
+ .debug_str     0x0000000000000000     0x392e ./src/Inicializacion.o
+                                       0x3972 (size before relaxing)
+ .debug_str     0x000000000000392e      0x4b5 ./src/Prueba845_Systick.o
+                                       0x3b56 (size before relaxing)
+ .debug_str     0x0000000000003de3      0x17b ./src/cr_startup_lpc84x.o
+                                       0x2eb9 (size before relaxing)
+
+.comment        0x0000000000000000       0x4c
+ .comment       0x0000000000000000       0x4c ./src/Inicializacion.o
+                                         0x4d (size before relaxing)
+ .comment       0x000000000000004c       0x4d ./src/Prueba845_Systick.o
+ .comment       0x000000000000004c       0x4d ./src/cr_startup_lpc84x.o
+ .comment       0x000000000000004c       0x4d /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x0000000000000000       0x2c
+ .ARM.attributes
+                0x0000000000000000       0x2c ./src/Inicializacion.o
+ .ARM.attributes
+                0x000000000000002c       0x2c ./src/Prueba845_Systick.o
+ .ARM.attributes
+                0x0000000000000058       0x2c ./src/cr_startup_lpc84x.o
+ .ARM.attributes
+                0x0000000000000084       0x2c /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+
+.debug_frame    0x0000000000000000      0x190
+ .debug_frame   0x0000000000000000       0x2c ./src/Inicializacion.o
+ .debug_frame   0x000000000000002c       0x4c ./src/Prueba845_Systick.o
+ .debug_frame   0x0000000000000078      0x118 ./src/cr_startup_lpc84x.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_OVR_IRQHandler                                ./src/cr_startup_lpc84x.o
+ADC_SEQA_IRQHandler                               ./src/cr_startup_lpc84x.o
+ADC_SEQB_IRQHandler                               ./src/cr_startup_lpc84x.o
+ADC_THCMP_IRQHandler                              ./src/cr_startup_lpc84x.o
+BOD_IRQHandler                                    ./src/cr_startup_lpc84x.o
+CMP_IRQHandler                                    ./src/cr_startup_lpc84x.o
+CTIMER0_IRQHandler                                ./src/cr_startup_lpc84x.o
+DAC0_IRQHandler                                   ./src/cr_startup_lpc84x.o
+DMA_IRQHandler                                    ./src/cr_startup_lpc84x.o
+FAIM_IRQHandler                                   ./src/cr_startup_lpc84x.o
+FLASH_IRQHandler                                  ./src/cr_startup_lpc84x.o
+HardFault_Handler                                 ./src/cr_startup_lpc84x.o
+I2C0_IRQHandler                                   ./src/cr_startup_lpc84x.o
+I2C1_IRQHandler                                   ./src/cr_startup_lpc84x.o
+I2C2_IRQHandler                                   ./src/cr_startup_lpc84x.o
+I2C3_IRQHandler                                   ./src/cr_startup_lpc84x.o
+InitHw                                            ./src/Inicializacion.o
+                                                  ./src/Prueba845_Systick.o
+IntDefaultHandler                                 ./src/cr_startup_lpc84x.o
+MRT_IRQHandler                                    ./src/cr_startup_lpc84x.o
+NMI_Handler                                       ./src/cr_startup_lpc84x.o
+PININT0_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT1_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT2_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT3_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT4_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT5_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT6_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT7_IRQHandler                                ./src/cr_startup_lpc84x.o
+PendSV_Handler                                    ./src/cr_startup_lpc84x.o
+ResetISR                                          ./src/cr_startup_lpc84x.o
+SCT_IRQHandler                                    ./src/cr_startup_lpc84x.o
+SPI0_IRQHandler                                   ./src/cr_startup_lpc84x.o
+SPI1_IRQHandler                                   ./src/cr_startup_lpc84x.o
+SVC_Handler                                       ./src/cr_startup_lpc84x.o
+SysTick_Handler                                   ./src/Prueba845_Systick.o
+UART0_IRQHandler                                  ./src/cr_startup_lpc84x.o
+UART1_IRQHandler                                  ./src/cr_startup_lpc84x.o
+UART2_IRQHandler                                  ./src/cr_startup_lpc84x.o
+WDT_IRQHandler                                    ./src/cr_startup_lpc84x.o
+WKT_IRQHandler                                    ./src/cr_startup_lpc84x.o
+__bss_section_table_end                           ./src/cr_startup_lpc84x.o
+__data_section_table                              ./src/cr_startup_lpc84x.o
+__data_section_table_end                          ./src/cr_startup_lpc84x.o
+__main                                            /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                                                  ./src/cr_startup_lpc84x.o
+__valid_user_code_checksum                        ./src/cr_startup_lpc84x.o
+__weak_main                                       /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+_vStackTop                                        ./src/cr_startup_lpc84x.o
+bss_init                                          ./src/cr_startup_lpc84x.o
+data_init                                         ./src/cr_startup_lpc84x.o
+flag_systick                                      ./src/Prueba845_Systick.o
+fro_set_frec                                      ./src/Inicializacion.o
+g_pfnVectors                                      ./src/cr_startup_lpc84x.o
+main                                              ./src/Prueba845_Systick.o
+                                                  /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)

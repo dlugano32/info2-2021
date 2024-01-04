@@ -1,0 +1,28 @@
+Drivers/DR_Init.o Drivers/DR_Init.d: ../Drivers/DR_Init.c \
+ ../Drivers/DR_Init.h ../Drivers/Systick.h ../Drivers/LPC845.h \
+ /home/d_lugano/infoII/6_LPC845/Antirebote/Ej0/Primitivas/Tecla.h \
+ /home/d_lugano/infoII/6_LPC845/Antirebote/Ej0/Drivers/LPC845.h \
+ ../Drivers/gpio.h ../Drivers/IntExt.h \
+ /home/d_lugano/infoII/6_LPC845/Antirebote/Ej0/Primitivas/Leds.h \
+ /home/d_lugano/infoII/6_LPC845/Antirebote/Ej0/Primitivas/Timer.h \
+ /home/d_lugano/infoII/6_LPC845/Antirebote/Ej0/Drivers/Systick.h
+
+../Drivers/DR_Init.h:
+
+../Drivers/Systick.h:
+
+../Drivers/LPC845.h:
+
+/home/d_lugano/infoII/6_LPC845/Antirebote/Ej0/Primitivas/Tecla.h:
+
+/home/d_lugano/infoII/6_LPC845/Antirebote/Ej0/Drivers/LPC845.h:
+
+../Drivers/gpio.h:
+
+../Drivers/IntExt.h:
+
+/home/d_lugano/infoII/6_LPC845/Antirebote/Ej0/Primitivas/Leds.h:
+
+/home/d_lugano/infoII/6_LPC845/Antirebote/Ej0/Primitivas/Timer.h:
+
+/home/d_lugano/infoII/6_LPC845/Antirebote/Ej0/Drivers/Systick.h:

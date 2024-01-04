@@ -1,0 +1,2 @@
+Prueba845_Systick.c:16:5:main	8	static
+Prueba845_Systick.c:46:6:SysTick_Handler	16	static

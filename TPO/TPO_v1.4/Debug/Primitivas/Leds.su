@@ -1,0 +1,3 @@
+../Primitivas/Leds.c:11:6:LED_OFF	16	static
+../Primitivas/Leds.c:16:6:LED_ON	16	static
+../Primitivas/Leds.c:21:6:SwapEstadoLed	16	static

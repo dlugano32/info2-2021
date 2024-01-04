@@ -1,0 +1,3 @@
+DR_Init.c:10:6:InitHw	8	static
+DR_Init.c:16:6:InitGPIO	8	static
+DR_Init.c:37:6:InitPLL	8	static

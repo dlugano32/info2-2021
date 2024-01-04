@@ -1,0 +1,6 @@
+DR_GPIO.c:3:6:InitGPIO	8	static
+DR_GPIO.c:17:6:SetDIR	24	static
+DR_GPIO.c:25:6:SetPIN	24	static
+DR_GPIO.c:33:10:GetPIN	24	static
+DR_GPIO.c:49:6:SetPINMODE_IN	16	static
+DR_GPIO.c:58:6:SetPINMODE_OUT	16	static

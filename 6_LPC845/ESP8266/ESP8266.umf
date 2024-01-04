@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<proyecto>
+    <general>
+        <nombre>ESP8266</nombre>
+        <autores/>
+        <creacion>01-11-2021 23:01:07</creacion>
+        <modificacion>03-11-2021 00:03:18</modificacion>
+        <carpeta>/home/d_lugano/infoII/6_LPC845/ESP8266</carpeta>
+    </general>
+    <configuracion>
+        <hardware/>
+        <target/>
+    </configuracion>
+    <recursos>
+        <archivosC/>
+        <archivosH/>
+    </recursos>
+    <maquinas>
+        <maquina0>
+            <nombre>conf</nombre>
+            <estadoInicial>
+                <pos_x>-1008</pos_x>
+                <pos_y>-466.5</pos_y>
+                <idAcciones>OK_TX = 1</idAcciones>
+                <idProxEstado>estado0</idProxEstado>
+                <midPos>-981.4,-446.2</midPos>
+                <textPos>-1,-53</textPos>
+            </estadoInicial>
+            <estado0>
+                <diagrama>
+                    <nombre>EsperandoTX</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-913</pos_x>
+                    <pos_y>-394</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>OK_TX == 1</idEvento>
+                        <idAcciones>m_TXSerie0(),m_TXSerie1()</idAcciones>
+                        <idProxEstado>estado1</idProxEstado>
+                        <midPos>-694.5,-437.7</midPos>
+                        <textPos>-61.75,-75</textPos>
+                    </tr0>
+                </transiciones>
+            </estado0>
+            <estado1>
+                <diagrama>
+                    <nombre>CHECK_MSG</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-476</pos_x>
+                    <pos_y>-394</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>error == 1</idEvento>
+                        <idAcciones>stage = 0</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-677,-329</midPos>
+                        <textPos>-46,6</textPos>
+                    </tr0>
+                    <tr1>
+                        <idEvento>OK_RX == 1</idEvento>
+                        <idAcciones>OK_TX = 1</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-701,-126</midPos>
+                        <textPos>-43,5</textPos>
+                    </tr1>
+                </transiciones>
+            </estado1>
+        </maquina0>
+        <maquina1>
+            <nombre>Esperando_TX</nombre>
+            <estadoInicial/>
+        </maquina1>
+    </maquinas>
+    <eventos/>
+    <acciones>
+        <acc0>m_TXSerie1()</acc0>
+        <acc1>m_TXSerie0()</acc1>
+    </acciones>
+    <variables>
+        <var0>OK_TX</var0>
+        <var1>error</var1>
+        <var2>stage</var2>
+        <var3>OK_RX</var3>
+    </variables>
+    <constantes>
+        <cons0>TRUE,1</cons0>
+        <cons1>FALSE,0</cons1>
+        <cons2>ON,1</cons2>
+        <cons3>OFF,0</cons3>
+    </constantes>
+    <comentarios/>
+</proyecto>

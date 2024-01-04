@@ -1,0 +1,5 @@
+CtrlVelocidadMde_func.c:10:5:s_ArranqueParada	8	static
+CtrlVelocidadMde_func.c:15:5:s_VelUP	8	static
+CtrlVelocidadMde_func.c:20:5:s_VelDown	8	static
+CtrlVelocidadMde_func.c:26:6:m_MotorVel1	16	static
+CtrlVelocidadMde_func.c:31:6:m_MotorVel2	16	static

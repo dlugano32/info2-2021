@@ -1,0 +1,12 @@
+Mde del modo operacion:
+-Pongo el estado de reset en Automatico porque es el estado a desarrollar, y si se corta la luz por ejemplo, estaria bueno que el sistema empiece automatico, con las precauciones correspondientes tomadas en ese mismo modo.
+
+Mde del modo automatico:
+
+-En la Mde del uModel uso los sensores como me dice la consigna. Por ejemplo, Cuando aprietan el boton de cerrar la puerta, la entrada se pone en cero, por lo tanto en la Mde pongo if(!s_BotonCerrar) y eso seria que el botón fue apretado.
+
+-(flagTPA == 1 || !s_BotonCerrar) && (!s_Barrera && s_BotonAbrir) // toda esta sentencia es para darle prioridad a la barrera y al boton de abrir, esto quiere decir que la puerta se va a cerrar si y solo si no hay nadie obstruyendo la barrera y no hay nadie presionando el boton de abrir y ademas, deberia estar activandose el flag del timer0 o alguien deberia estar tocando el boton de cerrar
+
+-En el estado falla no salgo ya que, segun la consigna, tengo que esperar a que se reinicie el sistema, al no haber boton de reinicio y no poder hacer esa transcision, asumo que el boton de reset va a estar aparte y no me encargo de programarlo. Sin embargo tengo en cuenta que al momento de reinicio, todas las variables estan como corresponden
+
+-Se considera que el TPA es siempre menor a 10 segundos, ya que sino siempre se activaria antes el flag de obstruccion de puerta

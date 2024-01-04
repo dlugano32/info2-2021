@@ -1,0 +1,68 @@
+Threads
+-------
+-Se ejecuta en paralelo al proceso principal, pero se considera como el mismo proceso
+-Son tareas en paralelo al programa principal
+-El thread tiene el mismo id que el proceso principal
+-Es mas liviano que un proceso hijo ya que no duplica las variables del proceso, es mas eficiente.
+
+pthread_create( thread1, Funcion(), ...); //creo un hilo de ejecucion que va a llamar a Funcion() y hacer esa tarea en paralelo (cuando termina de la funcion tengo que usal pthread_exit() )
+
+pthread_join(thread, Funcion(), ...);  //funcion bloqueante que espera a que termine el hilo y sincronizarlo con el programa principal
+
+Los threads NO DUPLICAN la memoria del proceso que los invoca, como hace fork. Al estar cada hilo “encapsulado” en una función, cada uno tiene
+sus variables locales, y pueden acceder a las variables compartidas (globales) del procesoc
+
+--int pthread_create(pthread_t *thread, const pthread_attr_t *attr, void *(*start_routine) (void *), void *arg);
+
+pthread_t *thread: es el numero con el que se identifica cada proceso (LWP)
+
+const pthread_attr_t *attr: atributos (NULL)
+
+void *(*start_routine) (void *): puntero a funcion, en este caso tiene que recibir un void y devolver un void
+
+void *arg: son los argumento que recibe la funcion
+
+
+--int pthread_join(pthread_t thread, void **retval);
+
+pthread_t thread: es el numero con el que se identifica cada proceso (LWP)
+
+void **retval: es el valor que ponemos en pthread exit
+
+--void pthread_exit(void *retval);
+
+
+
+#################### --INFO I-- ####################################
+-----------------
+-FORK vs THREAD
+*Fork: Nos da un nuevo proceso hijo, que es una copia exacta del actual. Tiene una copia de la memoria original en el momento de ser creado.
+Al no compartir memoria actuan como procesos diferentes. 
+Los procesos se identifican con PID.
+
+*Threads: Son diferentes lineas de ejecución dentro de un mismo proceso, los cuales ejecutan tareas en paralelo dentro del mismo contexto (memoria).
+Los threads comparten memoria, pero no comparten el stack(pila). La cantidad de threads simultaneos depende del procesador.
+LWP ligth weight process -->Identificador de cada thread
+
+Caracteristicas y diferencias con los procesos:
+- Los threads son mas livianos---> comparten memoria a diferencia de los .
+procesos. Por lo tanto la conmutacion entre threads es mas rapida
+- Los procesos corren independientemente unos de otros y la sincronizacion
+la hace el kernel. Los threads corren en paralelo y la sincronización la hace
+el usuario
+- La conmutación entre threads es mas rapida--> xq son mas livianos
+- Los procesos se comunican con IPCs. Los threads se comunican con la memoria
+compartida
+--------------------------------------------------------------------------------
+
+-MUTEX
+Los threads mutex (mutual exlcusion locks) se usan para serializar la
+ejecucion de threads. Es decir, nos permite asegurar que en un momento
+especifico solo un thread se va a estar ejecutando y no varios en paralelo.
+
+Su funcion principal es evitar el acceso a recursos compartidos que puedan
+llevar a un mal funcionamiento del programa
+
+
+
+

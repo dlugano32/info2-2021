@@ -1,0 +1,3 @@
+ESP8266.c:23:6:InitESP8266_conf	8	static
+ESP8266.c:30:9:Esp8266_conf	16	static
+ESP8266.c:73:9:ESP8266_check	24	static

@@ -1,0 +1,89 @@
+Tres tipos de IPCs (Intern process communications)
+(System V)
+-message queues
+-Shared memory
+-Semaforos
+
+Requieren una key para poder acceder al mismo IPC (mas que nada para identificarlo)
+
+key_t ftok(const char *pathname, int proj_id);
+
+Utilizacion:
+key_t clave=ftok(".", 2);
+
+Conectarse a un IPC
+msgid=msgget(llave, IPC_CREAT | 0666); //Para conectarme a una message queue, el 0666 son los permisos de linux
+
+El flag IPC_CREAT crea un nuevo IPC si el mismo no existe, y si se lo combina con IPC_EXCL intenta crearlo y si ya existe devuelve error
+
+Liberando el ipc
+int msgctl( int msgid, int cmd, struct
+
+
+
+MESSAGE QUEUE
+-------------
+
+Todos los mensajes que se envian a traves de la cola de mensajes van con un numero asociado.
+Si tengo un mensaje escrito en la msg queue entonces cuando lo lea se va a borrar.
+
+struct msgbuf
+{
+	long mtype;	//nro de mensaje
+	void* data;	//Puntero al mensaje
+}
+
+Para mandar mensaje:
+
+int msgsnd(int msqid, const void *msgp, size_t msgsz, int msgflg);	//error=-1, success=1
+
+msqid=id de la msg queue a la que me conecto
+msgp=direccion del mensaje
+msgsz=tamaño del mensaje
+msgflag= 0 si es bloqueante o IPC_NOWAIT si quiero que no sea bloqueante
+
+Para recibir mensajes:
+
+ssize_t msgrcv(int msqid, void *msgp, size_t msgsz, long msgtyp, int msgflg);	//devuelve el tamaño del buffer recibido
+
+msgtyp: que mensajes va a querer leer
+
+si es 0: lee el primer mensaje en la cola
+>0: lee el mensaje de igual valor a msgtype (El numero de mensaje va a estar dado por mtype en la struct)
+<0: Lee el primer mensaje de valor menor o igual al valor absoluto
+
+
+Shared Memory
+-------------
+
+Es un bloque de memoria en donde los procesos podran leer o escribir informacion. Trabajo con grandes volumenes de memoria, la diferencia respecto de msg queue es que en este caso el recurso guardado puede ser leido repetidas veces y puede ser borrado anytime.
+
+En este caso, varios procesos pueden acceder al mismo bloque de memoria y modificarlo.
+
+1.Creo la llave con ftok
+2.Me conecto al ipc  con shmget
+3. Hago un attach a la memoria a manejar
+void * shmat (int shmid, char* shmaddr, int flags);
+
+int shmdt ( char* shmaddr ); //Hago un desatach
+
+De la misma manera que shmat no RESERVA la memoria, sino que solo vincula la memoria reservada a un puntero, la función shmdt DESvincula este puntero a esa posición de memoria, pero no la libera. Para liberar la memoria se utiliza la función shmctl().
+
+Semaforos
+--------
+Para trabajar con recursos compartidos hay que utilizar semaforos para poder sincronizar la lectura y escritura de los procesos 
+
+Un semáforo es una estructura que puede utilizarse para saber cuando otros procesos
+están accediendo a un recurso compartido entre todos ellos.
+Esta indicación la haremos mediante un número. Típicamente, el número inicialmente
+indica cuántos procesos pueden conectarse a dicho recurso al mismo tiempo, y al
+llegar a 0, indica que no pueden seguir conectándose nuevos procesos.
+En el caso de un bloque de memoria (al que puede conectarse sólo un proceso por vez,
+para no leer información que puede estar modificándose en otro lado) el semáforo
+puede valer:
+
+-1 si está libre (indica que un proceso más puede conectarse)
+-0 si está ocupado (indica que ningún proceso más puede conectarse)
+
+
+Solo uso el semaforo cuando voy a leer o escribir la shared memory

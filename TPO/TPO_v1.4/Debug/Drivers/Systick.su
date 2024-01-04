@@ -1,0 +1,3 @@
+../Drivers/Systick.c:10:6:SysTick_Handler	8	static
+../Drivers/Systick.c:37:6:AnalizarTimers	16	static
+../Drivers/Systick.c:58:6:InitSystick	8	static

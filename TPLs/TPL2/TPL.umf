@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<proyecto>
+    <general>
+        <nombre>TPL</nombre>
+        <autores/>
+        <creacion>15-07-2021 10:23:03</creacion>
+        <modificacion>20-07-2021 20:48:58</modificacion>
+        <carpeta>/home/d_lugano/infoII/5_Mde/TPL2</carpeta>
+    </general>
+    <configuracion>
+        <hardware/>
+        <target/>
+    </configuracion>
+    <recursos>
+        <archivosC/>
+        <archivosH/>
+    </recursos>
+    <maquinas>
+        <maquina0>
+            <nombre>Tunel</nombre>
+            <estadoInicial>
+                <pos_x>-483</pos_x>
+                <pos_y>-71.5</pos_y>
+                <idAcciones>m_Luz_roja_on(),m_Luz_verde_off(),m_Stop_T0()</idAcciones>
+                <idProxEstado>estado2</idProxEstado>
+                <midPos>-427,-101</midPos>
+                <textPos>-3,22</textPos>
+            </estadoInicial>
+            <estado0>
+                <diagrama>
+                    <nombre>Vacio</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-819.5</pos_x>
+                    <pos_y>-430.25</pos_y>
+                    <ancho>181</ancho>
+                    <alto>92</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>s_Sensor_entrada</idEvento>
+                        <idAcciones>m_Luz_verde_off(),m_Luz_roja_on(),m_Iniciar_T0_10s()</idAcciones>
+                        <idProxEstado>estado1</idProxEstado>
+                        <midPos>-601,-546</midPos>
+                        <textPos>-60,-100</textPos>
+                    </tr0>
+                </transiciones>
+            </estado0>
+            <estado1>
+                <diagrama>
+                    <nombre>Circulando</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-388.5</pos_x>
+                    <pos_y>-443.25</pos_y>
+                    <ancho>167</ancho>
+                    <alto>85</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>s_Sensor_salida</idEvento>
+                        <idAcciones>m_Luz_verde_on(),m_Luz_roja_off(),m_Stop_T0()</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-601,-392</midPos>
+                        <textPos>-62.8125,10</textPos>
+                    </tr0>
+                    <tr1>
+                        <idEvento>flag_T0 == 1</idEvento>
+                        <idAcciones>m_Luz_roja_on(),m_Luz_verde_off(),flag_T0 = 0</idAcciones>
+                        <idProxEstado>estado2</idProxEstado>
+                        <midPos>-307,-347</midPos>
+                        <textPos>54,-51</textPos>
+                    </tr1>
+                </transiciones>
+            </estado1>
+            <estado2>
+                <diagrama>
+                    <nombre>Emergencia</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-384.5</pos_x>
+                    <pos_y>-193.25</pos_y>
+                    <ancho>155</ancho>
+                    <alto>86</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>s_Boton_emergencia || s_Sensor_salida || flag_uart == 1</idEvento>
+                        <idAcciones>m_Luz_verde_on(),m_Luz_roja_off(),m_Sirena_off(),m_Stop_T1(),flag_uart = 0</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-718,-270</midPos>
+                        <textPos>-374.25,16</textPos>
+                    </tr0>
+                    <tr1>
+                        <idEvento>flag_alarma == 1</idEvento>
+                        <idAcciones>m_AlarmaMde(),m_UARTMde()</idAcciones>
+                        <idProxEstado>estado2</idProxEstado>
+                        <midPos>-203,-243</midPos>
+                        <textPos>-73.3125,61</textPos>
+                    </tr1>
+                </transiciones>
+            </estado2>
+        </maquina0>
+        <maquina1>
+            <nombre>Alarma</nombre>
+            <estadoInicial>
+                <pos_x>-854</pos_x>
+                <pos_y>-669.5</pos_y>
+                <idAcciones>m_Sirena_off(),flag_T1 = 0,m_Iniciar_T1_0_5seg()</idAcciones>
+                <idProxEstado>estado0</idProxEstado>
+                <midPos>-816.52,-632.53</midPos>
+                <textPos>1,-84</textPos>
+            </estadoInicial>
+            <estado0>
+                <diagrama>
+                    <nombre>Sirena_Off</nombre>
+                    <color>#ff0000</color>
+                    <pos_x>-732</pos_x>
+                    <pos_y>-527.25</pos_y>
+                    <ancho>154</ancho>
+                    <alto>77</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>flag_T1 == 1</idEvento>
+                        <idAcciones>m_Sirena_on(),flag_T1 = 0,m_Iniciar_T1_0_5seg()</idAcciones>
+                        <idProxEstado>estado1</idProxEstado>
+                        <midPos>-685,-409</midPos>
+                        <textPos>38,-52</textPos>
+                    </tr0>
+                </transiciones>
+            </estado0>
+            <estado1>
+                <diagrama>
+                    <nombre>Sirena_On</nombre>
+                    <color>#9acd32</color>
+                    <pos_x>-731.5</pos_x>
+                    <pos_y>-226.75</pos_y>
+                    <ancho>177</ancho>
+                    <alto>79</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>flag_T1 == 1</idEvento>
+                        <idAcciones>m_Sirena_off(),flag_T1 = 0,m_Iniciar_T1_0_5seg()</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-800,-418</midPos>
+                        <textPos>-175.063,-53</textPos>
+                    </tr0>
+                </transiciones>
+            </estado1>
+        </maquina1>
+        <maquina2>
+            <nombre>Puerto_serie</nombre>
+            <estadoInicial>
+                <pos_x>-1019</pos_x>
+                <pos_y>-447.75</pos_y>
+                <idAcciones>m_LimpiarBuf(),cantBytes = 0,flag_uart = 0</idAcciones>
+                <idProxEstado>estado0</idProxEstado>
+                <midPos>-983.44,-421.85</midPos>
+                <textPos>-1,-113</textPos>
+            </estadoInicial>
+            <estado0>
+                <diagrama>
+                    <nombre>wait_0xAA</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-892</pos_x>
+                    <pos_y>-355.25</pos_y>
+                    <ancho>174</ancho>
+                    <alto>105</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>dato == 170</idEvento>
+                        <idAcciones>cantBytes = 0,flag_uart = 0</idAcciones>
+                        <idProxEstado>estado2</idProxEstado>
+                        <midPos>-713.55,-410.5</midPos>
+                        <textPos>-53,-81</textPos>
+                    </tr0>
+                </transiciones>
+            </estado0>
+            <estado1>
+                <diagrama>
+                    <nombre>Wait_0xEE</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-170.5</pos_x>
+                    <pos_y>-339.75</pos_y>
+                    <ancho>171</ancho>
+                    <alto>123</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>dato == 238</idEvento>
+                        <idAcciones>m_ValidarDato()</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-535,-110</midPos>
+                        <textPos>-46.188,-9</textPos>
+                    </tr0>
+                    <tr1>
+                        <idEvento>dato == 170</idEvento>
+                        <idAcciones>cantBytes = 0,m_LimpiarBuf()</idAcciones>
+                        <idProxEstado>estado2</idProxEstado>
+                        <midPos>-341.05,-315</midPos>
+                        <textPos>-51.375,12</textPos>
+                    </tr1>
+                    <tr2>
+                        <idEvento>dato != 170 &amp;&amp; dato != 238</idEvento>
+                        <idAcciones>m_LimpiarBuf(),cantBytes = 0</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-537,32</midPos>
+                        <textPos>-226.75,0</textPos>
+                    </tr2>
+                </transiciones>
+            </estado1>
+            <estado2>
+                <diagrama>
+                    <nombre>wait_dato</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-508</pos_x>
+                    <pos_y>-357.75</pos_y>
+                    <ancho>188</ancho>
+                    <alto>98</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>dato != 170 &amp;&amp; dato != 238</idEvento>
+                        <idAcciones>cantBytes += 1,buf = 3</idAcciones>
+                        <idProxEstado>estado2</idProxEstado>
+                        <midPos>-495,-230</midPos>
+                        <textPos>-129.094,-4</textPos>
+                    </tr0>
+                    <tr1>
+                        <idEvento>cantBytes == 3</idEvento>
+                        <idAcciones></idAcciones>
+                        <idProxEstado>estado1</idProxEstado>
+                        <midPos>-353,-439</midPos>
+                        <textPos>-51,-39</textPos>
+                    </tr1>
+                    <tr2>
+                        <idEvento>dato == 238</idEvento>
+                        <idAcciones>cantBytes = 0,m_LimpiarBuf()</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-712.95,-340</midPos>
+                        <textPos>-74,12</textPos>
+                    </tr2>
+                    <tr3>
+                        <idEvento>dato == 170</idEvento>
+                        <idAcciones>cantBytes = 0,m_LimpiarBuf()</idAcciones>
+                        <idProxEstado>estado2</idProxEstado>
+                        <midPos>-519,-481</midPos>
+                        <textPos>-39.6875,-56</textPos>
+                    </tr3>
+                </transiciones>
+            </estado2>
+        </maquina2>
+    </maquinas>
+    <eventos>
+        <ev0>s_Sensor_entrada</ev0>
+        <ev1>s_Sensor_salida</ev1>
+        <ev2>s_Boton_emergencia</ev2>
+        <ev3>s_UARTok</ev3>
+    </eventos>
+    <acciones>
+        <acc0>m_Luz_verde_off()</acc0>
+        <acc1>m_Luz_roja_on()</acc1>
+        <acc2>m_Luz_verde_on()</acc2>
+        <acc3>m_Luz_roja_off()</acc3>
+        <acc4>m_Iniciar_T0_10s()</acc4>
+        <acc5>m_Sirena_on()</acc5>
+        <acc6>m_Sirena_off()</acc6>
+        <acc7>m_Stop_T0()</acc7>
+        <acc8>m_Alarma()</acc8>
+        <acc9>m_Iniciar_T1_0_5seg()</acc9>
+        <acc10>m_Stop_T1()</acc10>
+        <acc11>t_Timeruno_010_S()</acc11>
+        <acc12>m_ValidarDato()</acc12>
+        <acc13>m_LimpiarBuf()</acc13>
+        <acc14>m_AlarmaMde()</acc14>
+        <acc15>m_UARTMde()</acc15>
+    </acciones>
+    <variables>
+        <var0>flag_T0</var0>
+        <var1>flag_alarma</var1>
+        <var2>flag_T1</var2>
+        <var3>dato</var3>
+        <var4>cantBytes</var4>
+        <var5>buf</var5>
+        <var6>flag_uart</var6>
+    </variables>
+    <constantes>
+        <cons0>TRUE,1</cons0>
+        <cons1>FALSE,0</cons1>
+        <cons2>ON,1</cons2>
+        <cons3>OFF,0</cons3>
+    </constantes>
+    <comentarios/>
+</proyecto>

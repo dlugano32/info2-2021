@@ -1,0 +1,482 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc84x.o (__main)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc ./src/ParcialMdE.o
+ .text          0x0000000000000000        0x0 ./src/ParcialMdE.o
+ .data          0x0000000000000000        0x0 ./src/ParcialMdE.o
+ .bss           0x0000000000000000        0x0 ./src/ParcialMdE.o
+ .text          0x0000000000000000        0x0 ./src/aeabi_romdiv_patch.o
+ .data          0x0000000000000000        0x0 ./src/aeabi_romdiv_patch.o
+ .bss           0x0000000000000000        0x0 ./src/aeabi_romdiv_patch.o
+ .text.__aeabi_idiv
+                0x0000000000000000       0x10 ./src/aeabi_romdiv_patch.o
+ .text.__aeabi_uidiv
+                0x0000000000000000       0x10 ./src/aeabi_romdiv_patch.o
+ .debug_line    0x0000000000000000       0x65 ./src/aeabi_romdiv_patch.o
+ .debug_info    0x0000000000000000       0x22 ./src/aeabi_romdiv_patch.o
+ .debug_abbrev  0x0000000000000000       0x12 ./src/aeabi_romdiv_patch.o
+ .debug_aranges
+                0x0000000000000000       0x28 ./src/aeabi_romdiv_patch.o
+ .debug_str     0x0000000000000000       0x57 ./src/aeabi_romdiv_patch.o
+ .debug_ranges  0x0000000000000000       0x20 ./src/aeabi_romdiv_patch.o
+ .ARM.attributes
+                0x0000000000000000       0x1c ./src/aeabi_romdiv_patch.o
+ .group         0x0000000000000000        0xc ./src/cr_startup_lpc84x.o
+ .text          0x0000000000000000        0x0 ./src/cr_startup_lpc84x.o
+ .data          0x0000000000000000        0x0 ./src/cr_startup_lpc84x.o
+ .bss           0x0000000000000000        0x0 ./src/cr_startup_lpc84x.o
+ .debug_macro   0x0000000000000000      0xa96 ./src/cr_startup_lpc84x.o
+ .group         0x0000000000000000        0xc ./src/crp.o
+ .group         0x0000000000000000        0xc ./src/crp.o
+ .text          0x0000000000000000        0x0 ./src/crp.o
+ .data          0x0000000000000000        0x0 ./src/crp.o
+ .bss           0x0000000000000000        0x0 ./src/crp.o
+ .debug_macro   0x0000000000000000      0xa96 ./src/crp.o
+ .group         0x0000000000000000        0xc ./src/mtb.o
+ .group         0x0000000000000000        0xc ./src/mtb.o
+ .group         0x0000000000000000        0xc ./src/mtb.o
+ .text          0x0000000000000000        0x0 ./src/mtb.o
+ .data          0x0000000000000000        0x0 ./src/mtb.o
+ .bss           0x0000000000000000        0x0 ./src/mtb.o
+ .debug_macro   0x0000000000000000      0xa96 ./src/mtb.o
+ .group         0x0000000000000000        0xc ./ModoOperacion/OperacionMde.o
+ .group         0x0000000000000000        0xc ./ModoOperacion/OperacionMde.o
+ .text          0x0000000000000000        0x0 ./ModoOperacion/OperacionMde.o
+ .data          0x0000000000000000        0x0 ./ModoOperacion/OperacionMde.o
+ .bss           0x0000000000000000        0x0 ./ModoOperacion/OperacionMde.o
+ .bss.flagAut   0x0000000000000000        0x1 ./ModoOperacion/OperacionMde.o
+ .bss.flagIncendio
+                0x0000000000000000        0x1 ./ModoOperacion/OperacionMde.o
+ .bss.flagAsc   0x0000000000000000        0x1 ./ModoOperacion/OperacionMde.o
+ .text.OperacionMde
+                0x0000000000000000      0x174 ./ModoOperacion/OperacionMde.o
+ .text.init_OperacionMde
+                0x0000000000000000       0x2c ./ModoOperacion/OperacionMde.o
+ .bss.estado.3650
+                0x0000000000000000        0x1 ./ModoOperacion/OperacionMde.o
+ .debug_info    0x0000000000000000      0x2b8 ./ModoOperacion/OperacionMde.o
+ .debug_abbrev  0x0000000000000000       0xbc ./ModoOperacion/OperacionMde.o
+ .debug_aranges
+                0x0000000000000000       0x28 ./ModoOperacion/OperacionMde.o
+ .debug_ranges  0x0000000000000000       0x30 ./ModoOperacion/OperacionMde.o
+ .debug_macro   0x0000000000000000       0x24 ./ModoOperacion/OperacionMde.o
+ .debug_macro   0x0000000000000000      0xa96 ./ModoOperacion/OperacionMde.o
+ .debug_macro   0x0000000000000000       0x1c ./ModoOperacion/OperacionMde.o
+ .debug_line    0x0000000000000000      0x18d ./ModoOperacion/OperacionMde.o
+ .debug_str     0x0000000000000000     0x2e43 ./ModoOperacion/OperacionMde.o
+ .comment       0x0000000000000000       0x4d ./ModoOperacion/OperacionMde.o
+ .debug_frame   0x0000000000000000       0x48 ./ModoOperacion/OperacionMde.o
+ .ARM.attributes
+                0x0000000000000000       0x2c ./ModoOperacion/OperacionMde.o
+ .group         0x0000000000000000        0xc ./ModoOperacion/OperacionMde_func.o
+ .text          0x0000000000000000        0x0 ./ModoOperacion/OperacionMde_func.o
+ .data          0x0000000000000000        0x0 ./ModoOperacion/OperacionMde_func.o
+ .bss           0x0000000000000000        0x0 ./ModoOperacion/OperacionMde_func.o
+ .debug_info    0x0000000000000000       0x21 ./ModoOperacion/OperacionMde_func.o
+ .debug_abbrev  0x0000000000000000       0x13 ./ModoOperacion/OperacionMde_func.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./ModoOperacion/OperacionMde_func.o
+ .debug_macro   0x0000000000000000       0x11 ./ModoOperacion/OperacionMde_func.o
+ .debug_macro   0x0000000000000000      0xa96 ./ModoOperacion/OperacionMde_func.o
+ .debug_line    0x0000000000000000       0x45 ./ModoOperacion/OperacionMde_func.o
+ .debug_str     0x0000000000000000     0x2d38 ./ModoOperacion/OperacionMde_func.o
+ .comment       0x0000000000000000       0x4d ./ModoOperacion/OperacionMde_func.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./ModoOperacion/OperacionMde_func.o
+ .group         0x0000000000000000        0xc ./ModoAutomatico/ModoAutomatico.o
+ .text          0x0000000000000000        0x0 ./ModoAutomatico/ModoAutomatico.o
+ .data          0x0000000000000000        0x0 ./ModoAutomatico/ModoAutomatico.o
+ .bss           0x0000000000000000        0x0 ./ModoAutomatico/ModoAutomatico.o
+ .debug_info    0x0000000000000000       0x21 ./ModoAutomatico/ModoAutomatico.o
+ .debug_abbrev  0x0000000000000000       0x13 ./ModoAutomatico/ModoAutomatico.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./ModoAutomatico/ModoAutomatico.o
+ .debug_macro   0x0000000000000000       0x11 ./ModoAutomatico/ModoAutomatico.o
+ .debug_macro   0x0000000000000000      0xa96 ./ModoAutomatico/ModoAutomatico.o
+ .debug_line    0x0000000000000000       0x43 ./ModoAutomatico/ModoAutomatico.o
+ .debug_str     0x0000000000000000     0x2d36 ./ModoAutomatico/ModoAutomatico.o
+ .comment       0x0000000000000000       0x4d ./ModoAutomatico/ModoAutomatico.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./ModoAutomatico/ModoAutomatico.o
+ .group         0x0000000000000000        0xc ./ModoAutomatico/ModoAutomatico_func.o
+ .text          0x0000000000000000        0x0 ./ModoAutomatico/ModoAutomatico_func.o
+ .data          0x0000000000000000        0x0 ./ModoAutomatico/ModoAutomatico_func.o
+ .bss           0x0000000000000000        0x0 ./ModoAutomatico/ModoAutomatico_func.o
+ .debug_info    0x0000000000000000       0x21 ./ModoAutomatico/ModoAutomatico_func.o
+ .debug_abbrev  0x0000000000000000       0x13 ./ModoAutomatico/ModoAutomatico_func.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./ModoAutomatico/ModoAutomatico_func.o
+ .debug_macro   0x0000000000000000       0x11 ./ModoAutomatico/ModoAutomatico_func.o
+ .debug_macro   0x0000000000000000      0xa96 ./ModoAutomatico/ModoAutomatico_func.o
+ .debug_line    0x0000000000000000       0x48 ./ModoAutomatico/ModoAutomatico_func.o
+ .debug_str     0x0000000000000000     0x2d3b ./ModoAutomatico/ModoAutomatico_func.o
+ .comment       0x0000000000000000       0x4d ./ModoAutomatico/ModoAutomatico_func.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./ModoAutomatico/ModoAutomatico_func.o
+ .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash64         0x0000000000000000 0x0000000000010000 xr
+RamLoc16         0x0000000010000000 0x0000000000004000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./src/ParcialMdE.o
+LOAD ./src/aeabi_romdiv_patch.o
+LOAD ./src/cr_startup_lpc84x.o
+LOAD ./src/crp.o
+LOAD ./src/mtb.o
+LOAD ./ModoOperacion/OperacionMde.o
+LOAD ./ModoOperacion/OperacionMde_func.o
+LOAD ./ModoAutomatico/ModoAutomatico.o
+LOAD ./ModoAutomatico/ModoAutomatico_func.o
+START GROUP
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a
+END GROUP
+                0x0000000000000000                __base_MFlash64 = 0x0
+                0x0000000000000000                __base_Flash = 0x0
+                0x0000000000010000                __top_MFlash64 = 0x10000
+                0x0000000000010000                __top_Flash = 0x10000
+                0x0000000010000000                __base_RamLoc16 = 0x10000000
+                0x0000000010000000                __base_RAM = 0x10000000
+                0x0000000010004000                __top_RamLoc16 = 0x10004000
+                0x0000000010004000                __top_RAM = 0x10004000
+
+.text           0x0000000000000000      0x310
+ FILL mask 0xff
+                0x0000000000000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0xc0 ./src/cr_startup_lpc84x.o
+                0x0000000000000000                g_pfnVectors
+                0x00000000000000c0                . = ALIGN (0x4)
+                0x00000000000000c0                __section_table_start = .
+                0x00000000000000c0                __data_section_table = .
+                0x00000000000000c0        0x4 LONG 0x310 LOADADDR (.data)
+                0x00000000000000c4        0x4 LONG 0x10000100 ADDR (.data)
+                0x00000000000000c8        0x4 LONG 0x0 SIZEOF (.data)
+                0x00000000000000cc                __data_section_table_end = .
+                0x00000000000000cc                __bss_section_table = .
+                0x00000000000000cc        0x4 LONG 0x10000100 ADDR (.bss)
+                0x00000000000000d0        0x4 LONG 0x8 SIZEOF (.bss)
+                0x00000000000000d4                __bss_section_table_end = .
+                0x00000000000000d4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x00000000000000d4      0x144 ./src/cr_startup_lpc84x.o
+                0x00000000000000d4                data_init
+                0x0000000000000116                bss_init
+                0x000000000000014c                ResetISR
+                0x00000000000001f4                NMI_Handler
+                0x00000000000001fa                HardFault_Handler
+                0x0000000000000200                SVC_Handler
+                0x0000000000000206                PendSV_Handler
+                0x000000000000020c                SysTick_Handler
+                0x0000000000000212                CMP_IRQHandler
+                0x0000000000000212                PININT7_IRQHandler
+                0x0000000000000212                I2C0_IRQHandler
+                0x0000000000000212                WKT_IRQHandler
+                0x0000000000000212                PININT2_IRQHandler
+                0x0000000000000212                PININT1_IRQHandler
+                0x0000000000000212                MRT_IRQHandler
+                0x0000000000000212                I2C1_IRQHandler
+                0x0000000000000212                UART1_IRQHandler
+                0x0000000000000212                ADC_SEQB_IRQHandler
+                0x0000000000000212                UART0_IRQHandler
+                0x0000000000000212                SPI1_IRQHandler
+                0x0000000000000212                IntDefaultHandler
+                0x0000000000000212                ADC_OVR_IRQHandler
+                0x0000000000000212                I2C2_IRQHandler
+                0x0000000000000212                PININT3_IRQHandler
+                0x0000000000000212                UART2_IRQHandler
+                0x0000000000000212                PININT5_IRQHandler
+                0x0000000000000212                PININT4_IRQHandler
+                0x0000000000000212                ADC_THCMP_IRQHandler
+                0x0000000000000212                PININT0_IRQHandler
+                0x0000000000000212                BOD_IRQHandler
+                0x0000000000000212                I2C3_IRQHandler
+                0x0000000000000212                SCT_IRQHandler
+                0x0000000000000212                WDT_IRQHandler
+                0x0000000000000212                ADC_SEQA_IRQHandler
+                0x0000000000000212                FAIM_IRQHandler
+                0x0000000000000212                DAC0_IRQHandler
+                0x0000000000000212                PININT6_IRQHandler
+                0x0000000000000212                SPI0_IRQHandler
+                0x0000000000000212                DMA_IRQHandler
+                0x0000000000000212                FLASH_IRQHandler
+                0x0000000000000212                CTIMER0_IRQHandler
+                0x00000000000002fc                . = 0x2fc
+ *fill*         0x0000000000000218       0xe4 ff
+                0x00000000000002fc                PROVIDE (__CRP_WORD_START__ = .)
+ *(.crp)
+ .crp           0x00000000000002fc        0x4 ./src/crp.o
+                0x00000000000002fc                CRP_WORD
+                0x0000000000000300                PROVIDE (__CRP_WORD_END__ = .)
+                0x0000000000000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.main     0x0000000000000300        0x6 ./src/ParcialMdE.o
+                0x0000000000000300                main
+ .text.__weak_main
+                0x0000000000000306        0x8 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                0x0000000000000306                __main
+                0x0000000000000306                __weak_main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x0000000000000310                . = ALIGN (0x4)
+ *fill*         0x000000000000030e        0x2 ff
+
+.glue_7         0x0000000000000310        0x0
+ .glue_7        0x0000000000000310        0x0 linker stubs
+
+.glue_7t        0x0000000000000310        0x0
+ .glue_7t       0x0000000000000310        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000310        0x0
+ .vfp11_veneer  0x0000000000000310        0x0 linker stubs
+
+.v4_bx          0x0000000000000310        0x0
+ .v4_bx         0x0000000000000310        0x0 linker stubs
+
+.iplt           0x0000000000000310        0x0
+ .iplt          0x0000000000000310        0x0 ./src/ParcialMdE.o
+
+.rel.dyn        0x0000000000000310        0x0
+ .rel.iplt      0x0000000000000310        0x0 ./src/ParcialMdE.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx      0x0000000000000310        0x0
+                0x0000000000000310                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000000000310                __exidx_end = .
+                0x0000000000000310                _etext = .
+
+.mtb_buffer_default
+                0x0000000010000000      0x100
+ *(.mtb*)
+ .mtb.$RAM1     0x0000000010000000      0x100 ./src/mtb.o
+                0x0000000010000000                __mtb_buffer__
+
+.uninit_RESERVED
+                0x0000000010000100        0x0
+                0x0000000010000100                _start_uninit_RESERVED = .
+ *(.bss.$RESERVED*)
+                0x0000000010000100                . = ALIGN (0x4)
+                0x0000000010000100                _end_uninit_RESERVED = .
+
+.data           0x0000000010000100        0x0 load address 0x0000000000000310
+ FILL mask 0xff
+                0x0000000010000100                _data = .
+                [!provide]                        PROVIDE (__start_data_RAM = .)
+                [!provide]                        PROVIDE (__start_data_RamLoc16 = .)
+ *(vtable)
+ *(.ramfunc*)
+ *(CodeQuickAccess)
+ *(DataQuickAccess)
+ *(RamFunction)
+ *(.data*)
+                0x0000000010000100                . = ALIGN (0x4)
+                0x0000000010000100                _edata = .
+                [!provide]                        PROVIDE (__end_data_RAM = .)
+                [!provide]                        PROVIDE (__end_data_RamLoc16 = .)
+
+.igot.plt       0x0000000010000100        0x0 load address 0x0000000000000310
+ .igot.plt      0x0000000010000100        0x0 ./src/ParcialMdE.o
+
+.bss            0x0000000010000100        0x8
+                0x0000000010000100                _bss = .
+                [!provide]                        PROVIDE (__start_bss_RAM = .)
+                [!provide]                        PROVIDE (__start_bss_RamLoc16 = .)
+ *(.bss*)
+ .bss.pDivRom_idiv
+                0x0000000010000100        0x4 ./src/cr_startup_lpc84x.o
+                0x0000000010000100                pDivRom_idiv
+ .bss.pDivRom_uidiv
+                0x0000000010000104        0x4 ./src/cr_startup_lpc84x.o
+                0x0000000010000104                pDivRom_uidiv
+ *(COMMON)
+                0x0000000010000108                . = ALIGN (0x4)
+                0x0000000010000108                _ebss = .
+                [!provide]                        PROVIDE (__end_bss_RAM = .)
+                [!provide]                        PROVIDE (__end_bss_RamLoc16 = .)
+                [!provide]                        PROVIDE (end = .)
+
+.noinit         0x0000000010000108        0x0
+                0x0000000010000108                _noinit = .
+                [!provide]                        PROVIDE (__start_noinit_RAM = .)
+                [!provide]                        PROVIDE (__start_noinit_RamLoc16 = .)
+ *(.noinit*)
+                0x0000000010000108                . = ALIGN (0x4)
+                0x0000000010000108                _end_noinit = .
+                [!provide]                        PROVIDE (__end_noinit_RAM = .)
+                [!provide]                        PROVIDE (__end_noinit_RamLoc16 = .)
+                [!provide]                        PROVIDE (_pvHeapStart = DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x0000000010004000                PROVIDE (_vStackTop = DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc16 - 0x0))
+                0xffffffffefffbac3                PROVIDE (__valid_user_code_checksum = (0x0 - (((_vStackTop + (ResetISR + 0x1)) + (DEFINED (NMI_Handler)?NMI_Handler:M0_NMI_Handler + 0x1)) + (DEFINED (HardFault_Handler)?HardFault_Handler:M0_HardFault_Handler + 0x1))))
+                0x0000000000000000                _image_start = LOADADDR (.text)
+                0x0000000000000310                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x0000000000000310                _image_size = (_image_end - _image_start)
+OUTPUT(ParcialMdE.axf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000      0x330
+ .debug_info    0x0000000000000000       0x47 ./src/ParcialMdE.o
+ .debug_info    0x0000000000000047      0x255 ./src/cr_startup_lpc84x.o
+ .debug_info    0x000000000000029c       0x40 ./src/crp.o
+ .debug_info    0x00000000000002dc       0x54 ./src/mtb.o
+
+.debug_abbrev   0x0000000000000000      0x1e6
+ .debug_abbrev  0x0000000000000000       0x3e ./src/ParcialMdE.o
+ .debug_abbrev  0x000000000000003e      0x12a ./src/cr_startup_lpc84x.o
+ .debug_abbrev  0x0000000000000168       0x38 ./src/crp.o
+ .debug_abbrev  0x00000000000001a0       0x46 ./src/mtb.o
+
+.debug_aranges  0x0000000000000000       0xb0
+ .debug_aranges
+                0x0000000000000000       0x20 ./src/ParcialMdE.o
+ .debug_aranges
+                0x0000000000000020       0x60 ./src/cr_startup_lpc84x.o
+ .debug_aranges
+                0x0000000000000080       0x18 ./src/crp.o
+ .debug_aranges
+                0x0000000000000098       0x18 ./src/mtb.o
+
+.debug_ranges   0x0000000000000000       0x60
+ .debug_ranges  0x0000000000000000       0x10 ./src/ParcialMdE.o
+ .debug_ranges  0x0000000000000010       0x50 ./src/cr_startup_lpc84x.o
+
+.debug_macro    0x0000000000000000      0xbd3
+ .debug_macro   0x0000000000000000       0x11 ./src/ParcialMdE.o
+ .debug_macro   0x0000000000000011      0xa96 ./src/ParcialMdE.o
+ .debug_macro   0x0000000000000aa7       0x23 ./src/cr_startup_lpc84x.o
+ .debug_macro   0x0000000000000aca       0x1a ./src/crp.o
+ .debug_macro   0x0000000000000ae4       0x34 ./src/crp.o
+ .debug_macro   0x0000000000000b18       0x29 ./src/mtb.o
+ .debug_macro   0x0000000000000b41       0x82 ./src/mtb.o
+ .debug_macro   0x0000000000000bc3       0x10 ./src/mtb.o
+
+.debug_line     0x0000000000000000      0x320
+ .debug_line    0x0000000000000000       0x4c ./src/ParcialMdE.o
+ .debug_line    0x000000000000004c      0x14d ./src/cr_startup_lpc84x.o
+ .debug_line    0x0000000000000199       0xb5 ./src/crp.o
+ .debug_line    0x000000000000024e       0xd2 ./src/mtb.o
+
+.debug_str      0x0000000000000000     0x3510
+ .debug_str     0x0000000000000000     0x2d2c ./src/ParcialMdE.o
+ .debug_str     0x0000000000002d2c      0x1e2 ./src/cr_startup_lpc84x.o
+                                       0x2f08 (size before relaxing)
+ .debug_str     0x0000000000002f0e       0xe9 ./src/crp.o
+                                       0x2e09 (size before relaxing)
+ .debug_str     0x0000000000002ff7      0x519 ./src/mtb.o
+                                       0x323e (size before relaxing)
+
+.comment        0x0000000000000000       0x4c
+ .comment       0x0000000000000000       0x4c ./src/ParcialMdE.o
+                                         0x4d (size before relaxing)
+ .comment       0x000000000000004c       0x4d ./src/cr_startup_lpc84x.o
+ .comment       0x000000000000004c       0x4d ./src/crp.o
+ .comment       0x000000000000004c       0x4d ./src/mtb.o
+ .comment       0x000000000000004c       0x4d /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x0000000000000000       0x2a
+ .ARM.attributes
+                0x0000000000000000       0x2c ./src/ParcialMdE.o
+ .ARM.attributes
+                0x000000000000002c       0x2c ./src/cr_startup_lpc84x.o
+ .ARM.attributes
+                0x0000000000000058       0x31 ./src/crp.o
+ .ARM.attributes
+                0x0000000000000089       0x31 ./src/mtb.o
+ .ARM.attributes
+                0x00000000000000ba       0x2c /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+
+.debug_frame    0x0000000000000000      0x144
+ .debug_frame   0x0000000000000000       0x2c ./src/ParcialMdE.o
+ .debug_frame   0x000000000000002c      0x118 ./src/cr_startup_lpc84x.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_OVR_IRQHandler                                ./src/cr_startup_lpc84x.o
+ADC_SEQA_IRQHandler                               ./src/cr_startup_lpc84x.o
+ADC_SEQB_IRQHandler                               ./src/cr_startup_lpc84x.o
+ADC_THCMP_IRQHandler                              ./src/cr_startup_lpc84x.o
+BOD_IRQHandler                                    ./src/cr_startup_lpc84x.o
+CMP_IRQHandler                                    ./src/cr_startup_lpc84x.o
+CRP_WORD                                          ./src/crp.o
+CTIMER0_IRQHandler                                ./src/cr_startup_lpc84x.o
+DAC0_IRQHandler                                   ./src/cr_startup_lpc84x.o
+DMA_IRQHandler                                    ./src/cr_startup_lpc84x.o
+FAIM_IRQHandler                                   ./src/cr_startup_lpc84x.o
+FLASH_IRQHandler                                  ./src/cr_startup_lpc84x.o
+HardFault_Handler                                 ./src/cr_startup_lpc84x.o
+I2C0_IRQHandler                                   ./src/cr_startup_lpc84x.o
+I2C1_IRQHandler                                   ./src/cr_startup_lpc84x.o
+I2C2_IRQHandler                                   ./src/cr_startup_lpc84x.o
+I2C3_IRQHandler                                   ./src/cr_startup_lpc84x.o
+IntDefaultHandler                                 ./src/cr_startup_lpc84x.o
+MRT_IRQHandler                                    ./src/cr_startup_lpc84x.o
+ModAscMde                                         ./ModoOperacion/OperacionMde.o
+ModAutMde                                         ./ModoOperacion/OperacionMde.o
+ModIncendioMde                                    ./ModoOperacion/OperacionMde.o
+NMI_Handler                                       ./src/cr_startup_lpc84x.o
+OperacionMde                                      ./ModoOperacion/OperacionMde.o
+PININT0_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT1_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT2_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT3_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT4_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT5_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT6_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT7_IRQHandler                                ./src/cr_startup_lpc84x.o
+PendSV_Handler                                    ./src/cr_startup_lpc84x.o
+ResetISR                                          ./src/cr_startup_lpc84x.o
+SCT_IRQHandler                                    ./src/cr_startup_lpc84x.o
+SPI0_IRQHandler                                   ./src/cr_startup_lpc84x.o
+SPI1_IRQHandler                                   ./src/cr_startup_lpc84x.o
+SVC_Handler                                       ./src/cr_startup_lpc84x.o
+SysTick_Handler                                   ./src/cr_startup_lpc84x.o
+UART0_IRQHandler                                  ./src/cr_startup_lpc84x.o
+UART1_IRQHandler                                  ./src/cr_startup_lpc84x.o
+UART2_IRQHandler                                  ./src/cr_startup_lpc84x.o
+WDT_IRQHandler                                    ./src/cr_startup_lpc84x.o
+WKT_IRQHandler                                    ./src/cr_startup_lpc84x.o
+__aeabi_idiv                                      ./src/aeabi_romdiv_patch.o
+__aeabi_idivmod                                   ./src/aeabi_romdiv_patch.o
+__aeabi_uidiv                                     ./src/aeabi_romdiv_patch.o
+__aeabi_uidivmod                                  ./src/aeabi_romdiv_patch.o
+__bss_section_table_end                           ./src/cr_startup_lpc84x.o
+__data_section_table                              ./src/cr_startup_lpc84x.o
+__data_section_table_end                          ./src/cr_startup_lpc84x.o
+__main                                            /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                                                  ./src/cr_startup_lpc84x.o
+__mtb_buffer__                                    ./src/mtb.o
+__valid_user_code_checksum                        ./src/cr_startup_lpc84x.o
+__weak_main                                       /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+_vStackTop                                        ./src/cr_startup_lpc84x.o
+bss_init                                          ./src/cr_startup_lpc84x.o
+data_init                                         ./src/cr_startup_lpc84x.o
+g_pfnVectors                                      ./src/cr_startup_lpc84x.o
+init_ModAscMde                                    ./ModoOperacion/OperacionMde.o
+init_ModAutMde                                    ./ModoOperacion/OperacionMde.o
+init_ModIncendioMde                               ./ModoOperacion/OperacionMde.o
+init_OperacionMde                                 ./ModoOperacion/OperacionMde.o
+main                                              ./src/ParcialMdE.o
+                                                  /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+pDivRom_idiv                                      ./src/cr_startup_lpc84x.o
+                                                  ./src/aeabi_romdiv_patch.o
+pDivRom_uidiv                                     ./src/cr_startup_lpc84x.o
+                                                  ./src/aeabi_romdiv_patch.o
+s_LlaveIncendio                                   ./ModoOperacion/OperacionMde.o
+s_LlaveModo                                       ./ModoOperacion/OperacionMde.o

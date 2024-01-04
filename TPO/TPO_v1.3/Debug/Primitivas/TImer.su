@@ -1,0 +1,9 @@
+TImer.c:20:6:TimerStart	24	static
+TImer.c:27:6:TimerStop	16	static
+TImer.c:33:6:TimerEvent	16	static
+TImer.c:47:6:handlerT0	8	static
+TImer.c:67:6:handlerT1	8	static
+TImer.c:73:6:handlerT2	8	static
+TImer.c:79:6:handlerT3	8	static
+TImer.c:84:6:handlerT4	8	static
+TImer.c:92:6:handlerT5	8	static

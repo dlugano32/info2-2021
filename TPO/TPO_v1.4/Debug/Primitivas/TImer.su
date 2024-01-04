@@ -1,0 +1,9 @@
+../Primitivas/TImer.c:20:6:TimerStart	24	static
+../Primitivas/TImer.c:27:6:TimerStop	16	static
+../Primitivas/TImer.c:33:6:TimerEvent	16	static
+../Primitivas/TImer.c:47:6:handlerT0	8	static
+../Primitivas/TImer.c:66:6:handlerT1	8	static
+../Primitivas/TImer.c:72:6:handlerT2	8	static
+../Primitivas/TImer.c:78:6:handlerT3	8	static
+../Primitivas/TImer.c:83:6:handlerT4	8	static
+../Primitivas/TImer.c:91:6:handlerT5	8	static

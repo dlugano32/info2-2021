@@ -1,0 +1,8 @@
+../Primitivas/PR_Matriz.c:66:6:show	8	static
+../Primitivas/PR_Matriz.c:95:6:separarCifras	32	static
+../Primitivas/PR_Matriz.c:117:6:print	32	static
+../Primitivas/PR_Matriz.c:199:6:gameOver1	8	static
+../Primitivas/PR_Matriz.c:222:6:gameOver2	24	static
+../Primitivas/PR_Matriz.c:264:6:stop	8	static
+../Primitivas/PR_Matriz.c:281:6:write	32	static
+../Primitivas/PR_Matriz.c:296:6:start	8	static

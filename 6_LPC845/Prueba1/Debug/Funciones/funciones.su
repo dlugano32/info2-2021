@@ -1,0 +1,9 @@
+funciones.c:10:6:SetDIR	24	static
+funciones.c:18:6:SetPIN	24	static
+funciones.c:26:10:GetPIN	24	static
+funciones.c:36:6:SetPINMODE_IN	16	static
+funciones.c:44:6:SetPINMODE_OUT	16	static
+funciones.c:52:6:SetearBit	16	static
+funciones.c:57:6:BajarBit	16	static
+funciones.c:62:6:ToggleBit	16	static
+funciones.c:67:6:SetBit	16	static

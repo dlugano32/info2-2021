@@ -1,0 +1,50 @@
+Destructor : Puede servir para liberar memoria que utilize en los constructores o en las funciones
+
+-Destructor			 ~Punto()		  (se invoca al momento en que deja de existir el objeto)
+
+Constructores:
+Siempre tienen que estar los 3
+-Constructor por defecto        Punto()                 (Declaro las variables en 0)
+-Constructor parametrizado      Punto(int,int)          (Declaro las variables con un valor que paso por parametro)
+-Constructor de copia           Punto(const Clase&)     (Declaro una clase como copia de otra, lo que entra de argumento se copia en la clase con la que la llame)
+
+
+
+Esto se ubica en el file Punto.h
+
+class Punto
+{
+    private:
+                int x;
+                int y;
+
+    public:
+
+    Punto();                   //Constructor por defecto
+    Punto(int a, int b);      //Constructor por argumento
+    Punto(const Punto & P);     //Constructor copia
+    ~Punto();
+
+};
+
+Prototipos de funciones en el file Punto.cpp
+
+
+En lugar de poner 
+
+Punto();                  
+Punto(int a, int b);                
+
+Puedo poner
+
+Punto( int a =0, int b=0): x(a), y(b) {}
+
+
+Esto "Punto( int a =0, int b=0)" lo que hace es que yo pueda llamar a la funcion cuando cree una variable como
+
+Punto (3); --> Guardo un 3 en a y un 0 en b
+Punto(,4); --> Guardo un 4 en b y un 0 en a
+
+y la parte de "x(a), y(b) {}" se llama lista inicializadora y cumple la funcion de que lo que se recibe en la variable a se carga en x y lo que se recibe en la variable b se carga en y
+
+Estas funciones se invocan como

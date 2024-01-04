@@ -1,0 +1,28 @@
+Sobrecarga de operadores
+<tipo_retornado> operator <OPERADOR> ( <argumentos>)
+Operadores unarios: son operadores que trabajan con solo una variable como ++, --
+
+Para sobrecargar el preincremento ++a y el post incremento a++
+
+/Post incremento c1=c2++;
+
+Punto Punto::operator ++ (int)	//El argumento int es solo para diferenciarlo del preincremento
+{
+	Punto aux(*this);
+	
+	x++;
+	y++;
+	
+	return aux;
+}
+
+//Pre incremento
+
+Punto & Punto::operator ++(void)
+{
+	x++;
+	y++;
+	
+	return(*this);
+}
+

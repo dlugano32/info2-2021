@@ -1,0 +1,6 @@
+PR_TImers.c:17:6:TimerStart	24	static
+PR_TImers.c:24:6:TimerStop	16	static
+PR_TImers.c:30:6:TimerEvent	16	static
+PR_TImers.c:44:6:HandlerT0	8	static
+PR_TImers.c:49:6:HandlerT1	8	static
+PR_TImers.c:54:6:HandlerT2	8	static

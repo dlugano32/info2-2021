@@ -1,0 +1,15 @@
+Threads
+-------
+
+Son diferentes lineas de ejecución dentro de un mismo proceso, los cuales ejecutan tareas en paralelo.
+En general, los threads son mas livianos ya que comparten memoria a diferencia de los procesos que duplican todas las variables. Esto permite una conmutacion entre threads mucho mas rapida y eficiente.
+Sin embargo, cada thread tiene su propia pila(stack).
+Además los threads hacen más rápida la comunicación entre ellos ya que al compartir memoria y recursos, se pueden comunicar entre sí sin invocar al kernel del SO.
+
+-MUTEX
+Los threads mutex (mutual exlcusion locks) se usan para serializar la
+ejecucion de threads. Es decir, nos permite asegurar que en un momento
+especifico solo un thread se va a estar ejecutando y no varios en paralelo.
+
+Su funcion principal es evitar el acceso a recursos compartidos que puedan
+llevar a un mal funcionamiento del programa.

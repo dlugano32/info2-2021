@@ -1,0 +1,7 @@
+TanqueMde_func.c:10:5:s_SensorMin	8	static
+TanqueMde_func.c:15:5:s_SensorVacio	8	static
+TanqueMde_func.c:20:5:s_SensorLleno	8	static
+TanqueMde_func.c:26:6:m_BombaON	8	static
+TanqueMde_func.c:31:6:m_BombaOff	8	static
+TanqueMde_func.c:36:6:m_LedAlarmaON	8	static
+TanqueMde_func.c:41:6:m_LedAlarmaOff	8	static

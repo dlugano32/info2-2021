@@ -1,0 +1,12 @@
+../Drivers/DR_Matriz.c:9:6:pinsConfig	8	static
+../Drivers/DR_Matriz.c:21:6:CLK_Up	8	static
+../Drivers/DR_Matriz.c:25:6:CLK_Down	8	static
+../Drivers/DR_Matriz.c:29:6:LOAD_Up	8	static
+../Drivers/DR_Matriz.c:33:6:LOAD_Down	8	static
+../Drivers/DR_Matriz.c:38:6:matrixInit	16	static
+../Drivers/DR_Matriz.c:85:6:test1	16	static
+../Drivers/DR_Matriz.c:98:6:test2	16	static
+../Drivers/DR_Matriz.c:116:6:cleanAll	16	static
+../Drivers/DR_Matriz.c:132:6:showAll	16	static
+../Drivers/DR_Matriz.c:149:6:sendAddress	24	static
+../Drivers/DR_Matriz.c:180:6:sendData	24	static

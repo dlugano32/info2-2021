@@ -1,0 +1,2 @@
+../Drivers/DR_7seg.c:12:6:Init7seg	8	static
+../Drivers/DR_7seg.c:40:6:BarridoDisplay	32	static

@@ -1,0 +1,2 @@
+../Drivers/ESP8266.c:27:6:InitESP8266_conf	8	static
+../Drivers/ESP8266.c:34:9:Esp8266_conf	16	static

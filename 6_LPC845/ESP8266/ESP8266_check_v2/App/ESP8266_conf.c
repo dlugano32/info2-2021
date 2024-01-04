@@ -1,0 +1,167 @@
+#include "DR_Init.h"
+#include "PR_UART.h"
+#include "ESP8266App.h"
+#include "Timer.h"
+
+#define CANT_COMANDOS 4
+
+#define TRANSMISION 0
+#define	CHECKING 1
+#define RECIBIR_LENGTH 2
+#define RECIBIR_MSG 3
+#define FIN 4
+#define LED_VERDE 5
+
+char * comando[CANT_COMANDOS]=
+{	 	 //"AT\r\n"
+		//,"AT+CWMODE=1\r\n"
+		//,"AT+CWJAP=\"Fibertel WiFi982 2.4GHz\",\"0141832376\"\r\n"
+		//,"AT+CWJAP=\"DAMI\",\"zonaportatil\"\r\n"
+		"AT+CIPMUX=1\r\n"
+		//,"AT+CIPSTART=1,\"TCP\",\"192.168.43.180\",4000\r\n"
+		,"AT+CIPSTART=1,\"TCP\",\"192.168.0.72\",4000\r\n"
+		,"AT+CIPSEND=1,10\r\n"
+		,"hola mundo"
+};
+
+
+int main(void)
+{
+	static uint8_t estado = TRANSMISION;
+	static uint8_t stage=0;
+	static uint8_t buffer[20];
+	//static uint8_t msg=0;
+	static uint8_t pos=0;
+	static uint8_t flag=0;
+	static uint8_t checked=0;
+	static uint8_t length=0;
+	static uint8_t cont=0;
+	int16_t aux=0;
+	//TimerStart(0, 1000, HandlerT0, MILI);
+
+	InitHw();
+
+	LED_ON(ROJO);
+	LED_OFF(VERDE);
+	LED_OFF(AZUL);
+
+    while(1)
+    {
+    	TimerEvent();
+
+    	switch(estado)
+    	{
+    		case TRANSMISION:
+
+    			/*
+    			if(flagT0==1)
+    			{
+					TxSerie1((uint8_t *)comando[stage]);
+					TxSerie0((uint8_t *)comando[stage]);
+					flagT0=0;
+					stage++;
+					estado=CHECKING;
+    			}
+    			*/
+
+    			if(getKey()==PUSH)
+				{
+					TxSerie1((uint8_t *)comando[stage]);
+					TxSerie0((uint8_t *)comando[stage]);
+					stage++;
+					estado=CHECKING;
+				}
+
+				break;
+
+    		case CHECKING:
+				checked=ESP8266_check();
+
+				if(checked==0)
+					estado=CHECKING;
+
+				if(checked==1)
+				{
+					if(stage==CANT_COMANDOS)
+					{
+						estado=RECIBIR_LENGTH;
+						cont=0;
+					}
+					else
+					{
+						estado=TRANSMISION;
+						//TimerStart(0, 500, HandlerT0, MILI);
+					}
+				}
+
+				break;
+
+    		case RECIBIR_LENGTH:
+
+    			aux=RxSerie1();
+
+    			LED_ON(AZUL);
+    			LED_OFF(ROJO);
+
+    			if(aux!=-1)
+    			{
+        			if(flag)
+        			{
+        				length=aux-48;	//Porque esta en ascii
+        				flag=0;
+        				estado=RECIBIR_MSG;
+        			}
+
+    				if(aux==',')
+    					cont++;
+
+        			if(cont==2)	//Lo proximo que reciba va a ser el largo
+        			{
+        				cont=0;
+        				flag=1;
+        			}
+       			}
+
+    			break;
+
+    		case RECIBIR_MSG:
+
+    			aux=RxSerie1();
+
+    			if(aux!=-1)
+    			{
+    				if(flag)
+					{
+						buffer[pos]=aux;
+						pos++;
+						pos%=20;
+					}
+
+    				if(aux==':')
+    					flag=1;
+
+    			}
+
+    			if(pos==length)
+    			{
+    				buffer[length]='\0';
+    				estado=FIN;
+    			}
+
+    			break;
+
+    		case FIN:
+
+    			TxSerie0(buffer);
+    			estado=LED_VERDE;
+    			break;
+
+    		case LED_VERDE:
+
+    			LED_ON(VERDE);
+    			LED_OFF(AZUL);
+    			break;
+    	}
+    }
+    return 0 ;
+}

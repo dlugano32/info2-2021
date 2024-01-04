@@ -1,0 +1,4 @@
+GarageMde.c:15:6:GarageMde	8	static
+GarageMde.c:95:6:init_GarageMde	8	static
+GarageMde.c:101:5:HayObstruccion	8	static
+GarageMde.c:106:5:Libre	8	static

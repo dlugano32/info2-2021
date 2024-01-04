@@ -1,0 +1,4 @@
+funciones.c:10:6:SetearBit	16	static
+funciones.c:15:6:BajarBit	16	static
+funciones.c:20:6:ToggleBit	16	static
+funciones.c:25:6:SetBit	16	static

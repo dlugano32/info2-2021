@@ -1,0 +1,2 @@
+DR_ADC.c:9:6:InitADC	8	static
+DR_ADC.c:14:6:ADC_SEQA_IRQHandler	8	static
